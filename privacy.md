@@ -10,7 +10,7 @@ title: Privacy Policy / Política de Privacidade — CueMirror
 
 ## Português
 
-Última atualização: 28 de setembro de 2026
+Última atualização: 5 de outubro de 2026
 
 O CueMirror é um aplicativo de teleprompter. Não exige conta, não sincroniza dados em nuvem e não exibe publicidade.
 
@@ -38,11 +38,15 @@ Usamos esses dados apenas para corrigir erros e melhorar o app. Não os vendemos
 
 ### Compras e assinaturas
 
-Se o app oferecer compras ou assinaturas no futuro, elas serão processadas inteiramente pela Google Play Store ou pela Apple App Store. O CueMirror não tem acesso a dados de pagamento e não opera servidores próprios. Nesse caso, o Google Analytics for Firebase registra automaticamente eventos de compra (produto, preço e moeda), sem nenhum dado de pagamento.
+O CueMirror oferece um plano Premium por assinatura (mensal ou anual). O pagamento é processado inteiramente pela Google Play Store ou pela Apple App Store: o CueMirror não tem acesso a dados de pagamento, não exige conta e não opera servidores próprios.
+
+Para saber se você tem uma assinatura ativa, o app consulta a loja no seu dispositivo (por exemplo, ao abrir o app e em Configurações → Restaurar compra). O resultado fica guardado apenas no armazenamento local do dispositivo, para que o app funcione sem internet. Não recebemos seu nome, e-mail nem identificador de conta da loja.
+
+O Google Analytics for Firebase registra automaticamente eventos de compra (produto, preço e moeda), sem nenhum dado de pagamento. Cancelamento, troca de plano e reembolso são feitos na loja. Veja também os [Termos de Uso](terms.html).
 
 ### Permissões
 
-O CueMirror não solicita acesso a câmera, microfone, localização, contatos ou arquivos do dispositivo.
+O CueMirror não solicita permissão de câmera, microfone, localização ou contatos. Para importar um roteiro, o app abre o seletor de arquivos do sistema e lê apenas o arquivo que você escolher. O ditado por voz usa o teclado do seu dispositivo; o app não grava nem recebe áudio.
 
 ### Seus direitos
 
@@ -64,7 +68,7 @@ Dúvidas sobre esta política: murillommaciel@gmail.com
 
 ## English
 
-Last updated: September 28, 2026
+Last updated: October 5, 2026
 
 CueMirror is a teleprompter app. It requires no account, does not sync data to the cloud, and shows no ads.
 
@@ -92,11 +96,15 @@ We use this data only to fix bugs and improve the app. We do not sell it and do 
 
 ### Purchases and subscriptions
 
-If the app offers purchases or subscriptions in the future, they will be processed entirely by the Google Play Store or the Apple App Store. CueMirror has no access to payment data and does not operate its own servers. In that case, Google Analytics for Firebase automatically records purchase events (product, price, and currency), without any payment data.
+CueMirror offers an optional Premium plan as a subscription (monthly or yearly). Payment is processed entirely by the Google Play Store or the Apple App Store: CueMirror has no access to payment data, requires no account, and does not operate its own servers.
+
+To know whether you have an active subscription, the app queries the store on your device (for example, when the app opens and under Settings → Restore purchase). The result is stored only in your device's local storage so the app works offline. We do not receive your name, email, or store account identifier.
+
+Google Analytics for Firebase automatically records purchase events (product, price, and currency), without any payment data. Cancellation, plan changes, and refunds are handled in the store. See also the [Terms of Use](terms.html).
 
 ### Permissions
 
-CueMirror does not request access to your camera, microphone, location, contacts, or device files.
+CueMirror does not request camera, microphone, location, or contacts permission. To import a script, the app opens the system file picker and reads only the file you choose. Voice dictation uses your device's keyboard; the app does not record or receive audio.
 
 ### Your rights
 
@@ -118,7 +126,7 @@ Questions about this policy: murillommaciel@gmail.com
 
 ## Español
 
-Última actualización: 28 de septiembre de 2026
+Última actualización: 5 de octubre de 2026
 
 CueMirror es una aplicación de teleprompter. No requiere cuenta, no sincroniza datos en la nube y no muestra publicidad.
 
@@ -146,11 +154,15 @@ Usamos estos datos solo para corregir errores y mejorar la aplicación. No los v
 
 ### Compras y suscripciones
 
-Si la aplicación ofrece compras o suscripciones en el futuro, serán procesadas íntegramente por Google Play Store o Apple App Store. CueMirror no tiene acceso a datos de pago y no opera servidores propios. En ese caso, Google Analytics for Firebase registra automáticamente eventos de compra (producto, precio y moneda), sin ningún dato de pago.
+CueMirror ofrece un plan Premium opcional por suscripción (mensual o anual). El pago es procesado íntegramente por Google Play Store o Apple App Store: CueMirror no tiene acceso a datos de pago, no requiere cuenta y no opera servidores propios.
+
+Para saber si tienes una suscripción activa, la aplicación consulta la tienda en tu dispositivo (por ejemplo, al abrir la aplicación y en Ajustes → Restaurar compra). El resultado se guarda únicamente en el almacenamiento local del dispositivo, para que la aplicación funcione sin conexión. No recibimos tu nombre, correo electrónico ni identificador de cuenta de la tienda.
+
+Google Analytics for Firebase registra automáticamente eventos de compra (producto, precio y moneda), sin ningún dato de pago. La cancelación, el cambio de plan y los reembolsos se gestionan en la tienda. Consulta también los [Términos de Uso](terms.html).
 
 ### Permisos
 
-CueMirror no solicita acceso a la cámara, el micrófono, la ubicación, los contactos ni los archivos del dispositivo.
+CueMirror no solicita permiso de cámara, micrófono, ubicación ni contactos. Para importar un guion, la aplicación abre el selector de archivos del sistema y lee únicamente el archivo que elijas. El dictado por voz usa el teclado de tu dispositivo; la aplicación no graba ni recibe audio.
 
 ### Tus derechos
 
