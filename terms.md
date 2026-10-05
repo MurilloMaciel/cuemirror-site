@@ -57,7 +57,7 @@ Se você instalou o app pela Apple App Store:
 - Você declara que não está em um país sujeito a embargo do governo dos EUA ou classificado como país de apoio ao terrorismo, e que não consta em listas de partes proibidas ou restritas do governo dos EUA.
 - Você deve cumprir os termos de terceiros aplicáveis ao usar o app (por exemplo, os da sua operadora de dados).
 - A Apple e suas subsidiárias são beneficiárias terceiras destes termos e, ao aceitá-los, podem exigir o seu cumprimento contra você.
-- Desenvolvedor: Murillo Maciel, São Leopoldo, RS, Brasil, murillommaciel@gmail.com.
+- Desenvolvedor: Murillo Maciel, São Leopoldo, RS, Brazil, murillommaciel@gmail.com.
 
 ### 11. Contato
 Dúvidas sobre estes termos: murillommaciel@gmail.com
@@ -113,7 +113,7 @@ If you installed the app from the Apple App Store:
 - You represent that you are not located in a country subject to a U.S. government embargo or designated as a "terrorist supporting" country, and that you are not on any U.S. government list of prohibited or restricted parties.
 - You must comply with applicable third-party terms when using the app (for example, your wireless data provider's terms).
 - Apple and its subsidiaries are third-party beneficiaries of these terms and, once you accept them, may enforce them against you.
-- Developer: Murillo Maciel, São Leopoldo, RS, Brasil, murillommaciel@gmail.com.
+- Developer: Murillo Maciel, São Leopoldo, RS, Brazil, murillommaciel@gmail.com.
 
 ### 11. Contact
 Questions about these terms: murillommaciel@gmail.com
