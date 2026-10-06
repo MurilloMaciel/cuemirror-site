@@ -4,11 +4,11 @@ title: Privacy Policy / Política de Privacidade — CueMirror
 
 # Privacy Policy / Política de Privacidade — CueMirror
 
-[Português](#português) · [English](#english) · [Español](#español)
+[Português](#portugues) · [English](#english) · [Español](#espanol)
 
 ---
 
-## Português
+## Português {#portugues}
 
 Última atualização: 5 de outubro de 2026
 
@@ -66,7 +66,7 @@ Dúvidas sobre esta política: murillommaciel@gmail.com
 
 ---
 
-## English
+## English {#english}
 
 Last updated: October 5, 2026
 
@@ -124,7 +124,7 @@ Questions about this policy: murillommaciel@gmail.com
 
 ---
 
-## Español
+## Español {#espanol}
 
 Última actualización: 5 de octubre de 2026
 
