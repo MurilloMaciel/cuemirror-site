@@ -4,11 +4,11 @@ title: Terms of Use / Termos de Uso — CueMirror
 
 # Terms of Use / Termos de Uso — CueMirror
 
-[Português](#português) · [English](#english) · [Español](#español)
+[Português](#portugues) · [English](#english) · [Español](#espanol)
 
 ---
 
-## Português
+## Português {#portugues}
 
 **Última atualização:** 5 de outubro de 2026
 
@@ -64,7 +64,7 @@ Dúvidas sobre estes termos: murillommaciel@gmail.com
 
 ---
 
-## English
+## English {#english}
 
 **Last updated:** October 5, 2026
 
@@ -120,7 +120,7 @@ Questions about these terms: murillommaciel@gmail.com
 
 ---
 
-## Español
+## Español {#espanol}
 
 **Última actualización:** 5 de octubre de 2026
 
@@ -143,7 +143,7 @@ La app tiene un plan gratuito y un plan Premium opcional, por suscripción. Las 
 - **Cambio de plan:** se hace en la tienda.
 - **Reembolsos:** se rigen por las políticas de la tienda y la ley aplicable, y deben solicitarse a la tienda. Tus derechos como consumidor no se ven afectados por estos términos.
 - **Cambios de precio:** la tienda te avisa y, cuando se exige, solicita tu consentimiento antes de cobrar el nuevo precio.
-- **Restaurar compra:** la suscripción está vinculada a tu cuenta de Google o Apple, no a una cuenta de la app (la app no tiene cuentas). En Configuración → Restaurar compra, la app consulta a la tienda si existe una suscripción activa. La suscripción no se comparte entre Android e iOS: cada tienda cobra por separado.
+- **Restaurar compra:** la suscripción está vinculada a tu cuenta de Google o Apple, no a una cuenta de la app (la app no tiene cuentas). En Ajustes → Restaurar compra, la app consulta a la tienda si existe una suscripción activa. La suscripción no se comparte entre Android e iOS: cada tienda cobra por separado.
 
 ### 5. Uso aceptable
 Aceptas no usar la app de forma ilegal, no intentar eludir la verificación de la suscripción y no interferir en el funcionamiento de la app.
