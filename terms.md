@@ -10,7 +10,7 @@ title: Terms of Use / Termos de Uso — CueMirror
 
 ## Português {#portugues}
 
-**Última atualização:** 5 de outubro de 2026
+**Última atualização:** 6 de outubro de 2026
 
 Estes termos regem o uso do CueMirror ("o app"), um aplicativo de teleprompter desenvolvido por Murillo Maciel ("nós"). Ao instalar ou usar o app, você concorda com eles. Se não concordar, não use o app.
 
@@ -18,7 +18,7 @@ Estes termos regem o uso do CueMirror ("o app"), um aplicativo de teleprompter d
 Concedemos a você uma licença pessoal, não exclusiva, intransferível e revogável para usar o app nos seus dispositivos. Você não pode copiar, modificar, fazer engenharia reversa, revender ou redistribuir o app, exceto quando a lei permitir expressamente.
 
 ### 2. Seus scripts
-Os scripts que você cria ficam apenas no armazenamento local do seu dispositivo (veja a [Política de Privacidade](privacy.html)). Você é o único responsável pelo conteúdo que cria e pelas suas cópias de segurança. Se você desinstalar o app ou apagar os dados dele, os scripts são perdidos e nós não temos como recuperá-los.
+Os scripts que você cria ficam no armazenamento local do seu dispositivo (veja a [Política de Privacidade](privacy.html)). Você é o único responsável pelo conteúdo que cria e pelas suas cópias de segurança. Se você desinstalar o app ou apagar os dados dele, os scripts são perdidos, a menos que o backup do sistema da sua conta Google ou Apple os restaure. Nós não temos acesso a esse backup nem como recuperar os scripts.
 
 ### 3. Plano gratuito e Premium
 O app tem um plano gratuito e um plano Premium opcional, por assinatura. Os recursos de cada plano são descritos no app e na página da loja e podem mudar ao longo do tempo.
@@ -40,7 +40,7 @@ Você concorda em não usar o app de forma ilegal, não tentar burlar a verifica
 O app é fornecido "como está". Fazemos esforço razoável para que funcione bem, mas não garantimos funcionamento ininterrupto nem livre de erros. Como o app pode ser usado em gravações importantes, recomendamos testar o script e as configurações antes de gravar. Na medida em que a lei permitir, não respondemos por danos indiretos, como perda de gravações, de lucros ou de dados. Nada nestes termos limita responsabilidades que a lei não permite limitar.
 
 ### 7. Privacidade
-O tratamento de dados está descrito na [Política de Privacidade](privacy.html).
+O tratamento de dados, inclusive como desativar o envio de dados de uso e falhas, está descrito na [Política de Privacidade](privacy.html).
 
 ### 8. Alterações
 Podemos atualizar estes termos. A versão em vigor é a publicada nesta página, com a data da última atualização. Se você continuar usando o app depois de uma alteração, entendemos que concorda com a nova versão.
@@ -66,7 +66,7 @@ Dúvidas sobre estes termos: murillommaciel@gmail.com
 
 ## English {#english}
 
-**Last updated:** October 5, 2026
+**Last updated:** October 6, 2026
 
 These terms govern your use of CueMirror ("the app"), a teleprompter application developed by Murillo Maciel ("we"). By installing or using the app you agree to them. If you do not agree, do not use the app.
 
@@ -74,7 +74,7 @@ These terms govern your use of CueMirror ("the app"), a teleprompter application
 We grant you a personal, non-exclusive, non-transferable, revocable license to use the app on your devices. You may not copy, modify, reverse engineer, resell or redistribute the app, except where the law expressly allows it.
 
 ### 2. Your scripts
-The scripts you create are stored only on your device's local storage (see the [Privacy Policy](privacy.html)). You are solely responsible for the content you create and for your own backups. If you uninstall the app or clear its data, your scripts are lost and we cannot recover them.
+The scripts you create are stored on your device's local storage (see the [Privacy Policy](privacy.html)). You are solely responsible for the content you create and for your own backups. If you uninstall the app or clear its data, your scripts are lost unless your Google or Apple account's system backup restores them. We have no access to that backup and cannot recover your scripts.
 
 ### 3. Free plan and Premium
 The app has a free plan and an optional Premium plan, sold as a subscription. The features of each plan are described in the app and on the store page, and may change over time.
@@ -96,7 +96,7 @@ You agree not to use the app unlawfully, not to try to bypass subscription verif
 The app is provided "as is". We make reasonable efforts for it to work well, but we do not guarantee uninterrupted or error-free operation. Because the app may be used for important recordings, we recommend testing your script and settings before recording. To the extent permitted by law, we are not liable for indirect damages such as lost recordings, profits or data. Nothing in these terms limits liability that the law does not allow to be limited.
 
 ### 7. Privacy
-How data is handled is described in the [Privacy Policy](privacy.html).
+How data is handled, including how to turn off usage and crash data, is described in the [Privacy Policy](privacy.html).
 
 ### 8. Changes
 We may update these terms. The version in force is the one published on this page, with its last-updated date. If you keep using the app after a change, we understand that you accept the new version.
@@ -122,7 +122,7 @@ Questions about these terms: murillommaciel@gmail.com
 
 ## Español {#espanol}
 
-**Última actualización:** 5 de octubre de 2026
+**Última actualización:** 6 de octubre de 2026
 
 Estos términos rigen el uso de CueMirror ("la app"), una aplicación de teleprompter desarrollada por Murillo Maciel ("nosotros"). Al instalar o usar la app, aceptas estos términos. Si no estás de acuerdo, no uses la app.
 
@@ -130,7 +130,7 @@ Estos términos rigen el uso de CueMirror ("la app"), una aplicación de telepro
 Te concedemos una licencia personal, no exclusiva, intransferible y revocable para usar la app en tus dispositivos. No puedes copiar, modificar, aplicar ingeniería inversa, revender ni redistribuir la app, salvo cuando la ley lo permita expresamente.
 
 ### 2. Tus scripts
-Los scripts que creas se guardan únicamente en el almacenamiento local de tu dispositivo (consulta la [Política de Privacidad](privacy.html)). Eres el único responsable del contenido que creas y de tus copias de seguridad. Si desinstalas la app o borras sus datos, los scripts se pierden y no podemos recuperarlos.
+Los scripts que creas se guardan en el almacenamiento local de tu dispositivo (consulta la [Política de Privacidad](privacy.html)). Eres el único responsable del contenido que creas y de tus copias de seguridad. Si desinstalas la app o borras sus datos, los scripts se pierden, salvo que la copia de seguridad del sistema de tu cuenta de Google o Apple los restaure. No tenemos acceso a esa copia ni forma de recuperar los scripts.
 
 ### 3. Plan gratuito y Premium
 La app tiene un plan gratuito y un plan Premium opcional, por suscripción. Las funciones de cada plan se describen en la app y en la página de la tienda, y pueden cambiar con el tiempo.
@@ -152,7 +152,7 @@ Aceptas no usar la app de forma ilegal, no intentar eludir la verificación de l
 La app se ofrece "tal cual". Hacemos un esfuerzo razonable para que funcione bien, pero no garantizamos un funcionamiento ininterrumpido ni libre de errores. Como la app puede usarse en grabaciones importantes, recomendamos probar el script y los ajustes antes de grabar. En la medida que permita la ley, no respondemos por daños indirectos, como la pérdida de grabaciones, de ingresos o de datos. Nada en estos términos limita responsabilidades que la ley no permite limitar.
 
 ### 7. Privacidad
-El tratamiento de los datos se describe en la [Política de Privacidad](privacy.html).
+El tratamiento de los datos, incluido cómo desactivar el envío de datos de uso y fallos, se describe en la [Política de Privacidad](privacy.html).
 
 ### 8. Cambios
 Podemos actualizar estos términos. La versión vigente es la publicada en esta página, con la fecha de la última actualización. Si sigues usando la app después de un cambio, entendemos que aceptas la nueva versión.
