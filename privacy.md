@@ -1,7 +1,3 @@
----
-title: Privacy Policy / Política de Privacidade — CueMirror
----
-
 # Privacy Policy / Política de Privacidade — CueMirror
 
 [Português](#portugues) · [English](#english) · [Español](#espanol)
@@ -10,13 +6,15 @@ title: Privacy Policy / Política de Privacidade — CueMirror
 
 ## Português {#portugues}
 
-Última atualização: 6 de outubro de 2026
+Última atualização: 7 de outubro de 2026
 
 O CueMirror é um aplicativo de teleprompter. Não exige conta, não sincroniza dados em nuvem e não exibe publicidade.
 
+Responsável pelo tratamento dos dados: Murillo Maciel, São Leopoldo, RS, Brasil (murillommaciel@gmail.com).
+
 ### Seus scripts e configurações
 
-Os scripts que você cria e as configurações do app (tema, cores, velocidade de leitura, entre outras) ficam salvos no armazenamento local do seu dispositivo. O CueMirror não tem servidores e nunca envia esses dados para nós nem para terceiros.
+Os scripts que você cria e as configurações do app (tema, cores, velocidade de leitura, entre outras) ficam salvos no armazenamento local do seu dispositivo. O CueMirror não tem servidores e nunca envia o conteúdo dos seus scripts para nós nem para terceiros. Algumas configurações são incluídas, de forma resumida, nos dados de uso descritos em "Dados coletados automaticamente", e somente se o compartilhamento estiver ativado.
 
 Se o backup do sistema estiver ativado no seu dispositivo (Backup do Google no Android, iCloud no iOS), o próprio sistema pode incluir esses dados na cópia de segurança da sua conta. Esse backup é feito e gerenciado pelo Google ou pela Apple, e nós não temos acesso a ele. Ao desinstalar o app, os dados locais são apagados; ao reinstalar, o sistema pode restaurá-los a partir desse backup.
 
@@ -25,13 +23,21 @@ Se o backup do sistema estiver ativado no seu dispositivo (Backup do Google no A
 Para identificar falhas e entender como o app é usado, o CueMirror utiliza serviços do Google Firebase:
 
 - **Firebase Crashlytics**: quando o app falha, envia um relatório técnico com informações como o ponto do código onde ocorreu o erro, modelo do dispositivo, versão do sistema operacional e versão do app.
-- **Google Analytics for Firebase**: registra eventos de uso, como telas abertas e funções utilizadas (por exemplo, iniciar uma leitura ou alterar uma configuração), além de dados técnicos do dispositivo.
+- **Google Analytics for Firebase**: registra eventos de uso, como telas abertas e funções utilizadas (por exemplo, iniciar, concluir ou interromper uma leitura, criar ou importar um script, ou alterar uma configuração), além de dados técnicos do dispositivo, como modelo, versão do sistema operacional, idioma e versão do app.
+
+Os eventos de uso podem incluir:
+
+- as configurações de leitura e do app, como velocidade, tamanho do texto, margem, modo de espelho, tema e se o salvamento automático está ativado;
+- o tamanho aproximado de um script e da sua biblioteca, sempre em faixas (por exemplo, "100 a 499 palavras" ou "5 a 19 scripts"), nunca o texto;
+- o formato de um arquivo importado (.txt ou .docx) e se a importação deu certo;
+- se uma busca encontrou resultados, nunca o termo buscado;
+- o andamento de uma compra ou de uma restauração de compra (plano escolhido e resultado).
 
 Esses serviços associam os dados a identificadores gerados pelo próprio Firebase para cada instalação do app. Eles não identificam você pelo nome, e-mail ou conta. O CueMirror não usa o ID de publicidade do dispositivo. O Google usa o endereço IP do envio para estimar a localização aproximada (país, região e cidade) e descarta o IP completo em seguida. O app não acessa o GPS nem pede permissão de localização.
 
-**O conteúdo dos seus scripts nunca é incluído nesses dados.** Isso vale para textos, títulos e nomes de arquivos importados.
+**O conteúdo dos seus scripts nunca é incluído nesses dados.** Isso vale para textos, títulos, nomes de arquivos importados e termos de busca.
 
-Os dados são transmitidos de forma criptografada e tratados pelo Google conforme a política dele:
+Os dados são transmitidos de forma criptografada e tratados pelo Google conforme a política dele, podendo ser processados em servidores fora do seu país, inclusive nos Estados Unidos:
 
 - [Privacidade do Firebase](https://firebase.google.com/support/privacy)
 - [Política de Privacidade do Google](https://policies.google.com/privacy)
@@ -48,7 +54,7 @@ O CueMirror oferece um plano Premium por assinatura (mensal ou anual). O pagamen
 
 Para saber se você tem uma assinatura ativa, o app consulta a loja no seu dispositivo (por exemplo, ao abrir o app e em Configurações → Restaurar compra). O resultado fica guardado apenas no armazenamento local do dispositivo, para que o app funcione sem internet. Não recebemos seu nome, e-mail nem identificador de conta da loja.
 
-O Google Analytics for Firebase registra eventos de compra (produto, preço e moeda), sem nenhum dado de pagamento. Cancelamento, troca de plano e reembolso são feitos na loja. Veja também os [Termos de Uso](terms.html).
+O Google Analytics for Firebase registra eventos de compra (produto, preço e moeda) e o andamento da compra no app (plano escolhido e se a compra ficou pendente, foi cancelada ou falhou), sem nenhum dado de pagamento. Cancelamento, troca de plano e reembolso são feitos na loja. Veja também os [Termos de Uso](terms.html).
 
 ### Permissões
 
@@ -56,7 +62,7 @@ O CueMirror não solicita permissão de câmera, microfone, localização ou con
 
 ### Seus direitos
 
-Os dados técnicos coletados não estão ligados a nenhuma conta, nome ou e-mail, então não conseguimos identificar quais pertencem a você. Eles são excluídos automaticamente em até 90 dias. Você pode se opor à coleta a qualquer momento desligando a opção descrita em "Como desativar a coleta", ou interrompê-la por completo desinstalando o app. Para dúvidas ou para exercer outros direitos previstos na LGPD, entre em contato pelo e-mail abaixo.
+Os dados técnicos coletados não estão ligados a nenhuma conta, nome ou e-mail, então não conseguimos identificar quais pertencem a você. Os relatórios de falha são excluídos automaticamente em até 90 dias, e os eventos de uso individuais, em até 2 meses. O Google pode manter relatórios agregados, que não identificam instalações. Você pode se opor à coleta a qualquer momento desligando a opção descrita em "Como desativar a coleta", ou interrompê-la por completo desinstalando o app. Para dúvidas ou para exercer outros direitos previstos na LGPD, entre em contato pelo e-mail abaixo.
 
 ### Crianças
 
@@ -74,13 +80,15 @@ Dúvidas sobre esta política: murillommaciel@gmail.com
 
 ## English {#english}
 
-Last updated: October 6, 2026
+Last updated: October 7, 2026
 
 CueMirror is a teleprompter app. It requires no account, does not sync data to the cloud, and shows no ads.
 
+Data controller: Murillo Maciel, São Leopoldo, RS, Brazil (murillommaciel@gmail.com).
+
 ### Your scripts and settings
 
-The scripts you create and the app settings (theme, colors, reading speed, and others) are stored in your device's local storage. CueMirror has no servers and never sends this data to us or to any third party.
+The scripts you create and the app settings (theme, colors, reading speed, and others) are stored in your device's local storage. CueMirror has no servers and never sends the content of your scripts to us or to any third party. Some settings are included, in summarized form, in the usage data described under "Automatically collected data", and only if sharing is turned on.
 
 If system backup is turned on for your device (Google Backup on Android, iCloud on iOS), the operating system may include this data in your account's backup. That backup is made and managed by Google or Apple, and we have no access to it. Uninstalling the app deletes the local data; when you reinstall, the system may restore it from that backup.
 
@@ -89,13 +97,21 @@ If system backup is turned on for your device (Google Backup on Android, iCloud 
 To identify crashes and understand how the app is used, CueMirror uses Google Firebase services:
 
 - **Firebase Crashlytics**: when the app crashes, it sends a technical report with information such as where in the code the error occurred, device model, operating system version, and app version.
-- **Google Analytics for Firebase**: records usage events, such as screens opened and features used (for example, starting a reading session or changing a setting), along with technical device data.
+- **Google Analytics for Firebase**: records usage events, such as screens opened and features used (for example, starting, finishing, or leaving a reading session, creating or importing a script, or changing a setting), along with technical device data such as device model, operating system version, language, and app version.
+
+Usage events may include:
+
+- reading and app settings, such as speed, text size, margin, mirror mode, theme, and whether auto-save is on;
+- the approximate size of a script and of your library, always in ranges (for example, "100 to 499 words" or "5 to 19 scripts"), never the text;
+- the format of an imported file (.txt or .docx) and whether the import succeeded;
+- whether a search found results, never the search term;
+- the progress of a purchase or a purchase restore (the plan chosen and the outcome).
 
 These services associate the data with identifiers generated by Firebase for each app installation. They do not identify you by name, email, or account. CueMirror does not use the device's advertising ID. Google uses the IP address of the request to estimate approximate location (country, region, and city) and then discards the full IP address. The app does not access GPS or request location permission.
 
-**The content of your scripts is never included in this data.** This applies to text, titles, and the names of imported files.
+**The content of your scripts is never included in this data.** This applies to text, titles, the names of imported files, and search terms.
 
-The data is transmitted encrypted and handled by Google according to its own policy:
+The data is transmitted encrypted and handled by Google according to its own policy, and may be processed on servers outside your country, including in the United States:
 
 - [Firebase Privacy](https://firebase.google.com/support/privacy)
 - [Google Privacy Policy](https://policies.google.com/privacy)
@@ -112,7 +128,7 @@ CueMirror offers an optional Premium plan as a subscription (monthly or yearly).
 
 To know whether you have an active subscription, the app queries the store on your device (for example, when the app opens and under Settings → Restore purchase). The result is stored only in your device's local storage so the app works offline. We do not receive your name, email, or store account identifier.
 
-Google Analytics for Firebase records purchase events (product, price, and currency), without any payment data. Cancellation, plan changes, and refunds are handled in the store. See also the [Terms of Use](terms.html).
+Google Analytics for Firebase records purchase events (product, price, and currency) and the progress of a purchase in the app (the plan chosen and whether the purchase was left pending, canceled, or failed), without any payment data. Cancellation, plan changes, and refunds are handled in the store. See also the [Terms of Use](terms.html).
 
 ### Permissions
 
@@ -120,7 +136,7 @@ CueMirror does not request camera, microphone, location, or contacts permission.
 
 ### Your rights
 
-The technical data collected is not linked to any account, name, or email, so we cannot identify which data belongs to you. It is automatically deleted within 90 days. You can object to this collection at any time by turning off the option described in "How to turn off data collection", or stop it entirely by uninstalling the app. For questions or to exercise other rights under applicable data protection laws (such as the LGPD or GDPR), contact us at the email below.
+The technical data collected is not linked to any account, name, or email, so we cannot identify which data belongs to you. Crash reports are automatically deleted within 90 days, and individual usage events within 2 months. Google may keep aggregated reports that do not identify installations. You can object to this collection at any time by turning off the option described in "How to turn off data collection", or stop it entirely by uninstalling the app. For questions or to exercise other rights under applicable data protection laws (such as the LGPD or GDPR), contact us at the email below.
 
 ### Children
 
@@ -138,13 +154,15 @@ Questions about this policy: murillommaciel@gmail.com
 
 ## Español {#espanol}
 
-Última actualización: 6 de octubre de 2026
+Última actualización: 7 de octubre de 2026
 
 CueMirror es una aplicación de teleprompter. No requiere cuenta, no sincroniza datos en la nube y no muestra publicidad.
 
+Responsable del tratamiento de los datos: Murillo Maciel, São Leopoldo, RS, Brasil (murillommaciel@gmail.com).
+
 ### Tus guiones y ajustes
 
-Los guiones que creas y los ajustes de la aplicación (tema, colores, velocidad de lectura, entre otros) se guardan en el almacenamiento local de tu dispositivo. CueMirror no tiene servidores y nunca envía estos datos a nosotros ni a terceros.
+Los guiones que creas y los ajustes de la aplicación (tema, colores, velocidad de lectura, entre otros) se guardan en el almacenamiento local de tu dispositivo. CueMirror no tiene servidores y nunca envía el contenido de tus guiones a nosotros ni a terceros. Algunos ajustes se incluyen, de forma resumida, en los datos de uso descritos en "Datos recopilados automáticamente", y solo si el envío está activado.
 
 Si la copia de seguridad del sistema está activada en tu dispositivo (Copia de seguridad de Google en Android, iCloud en iOS), el propio sistema puede incluir estos datos en la copia de seguridad de tu cuenta. Esa copia la realiza y gestiona Google o Apple, y nosotros no tenemos acceso a ella. Al desinstalar la aplicación, los datos locales se eliminan; al reinstalarla, el sistema puede restaurarlos desde esa copia.
 
@@ -153,13 +171,21 @@ Si la copia de seguridad del sistema está activada en tu dispositivo (Copia de 
 Para identificar fallos y entender cómo se usa la aplicación, CueMirror utiliza servicios de Google Firebase:
 
 - **Firebase Crashlytics**: cuando la aplicación falla, envía un informe técnico con información como el punto del código donde ocurrió el error, el modelo del dispositivo, la versión del sistema operativo y la versión de la aplicación.
-- **Google Analytics for Firebase**: registra eventos de uso, como las pantallas abiertas y las funciones utilizadas (por ejemplo, iniciar una lectura o cambiar un ajuste), además de datos técnicos del dispositivo.
+- **Google Analytics for Firebase**: registra eventos de uso, como las pantallas abiertas y las funciones utilizadas (por ejemplo, iniciar, terminar o interrumpir una lectura, crear o importar un guion, o cambiar un ajuste), además de datos técnicos del dispositivo, como el modelo, la versión del sistema operativo, el idioma y la versión de la aplicación.
+
+Los eventos de uso pueden incluir:
+
+- los ajustes de lectura y de la aplicación, como la velocidad, el tamaño del texto, el margen, el modo espejo, el tema y si el guardado automático está activado;
+- el tamaño aproximado de un guion y de tu biblioteca, siempre en rangos (por ejemplo, "100 a 499 palabras" o "5 a 19 guiones"), nunca el texto;
+- el formato de un archivo importado (.txt o .docx) y si la importación funcionó;
+- si una búsqueda encontró resultados, nunca el término buscado;
+- el avance de una compra o de una restauración de compra (plan elegido y resultado).
 
 Estos servicios asocian los datos a identificadores generados por Firebase para cada instalación de la aplicación. No te identifican por nombre, correo electrónico ni cuenta. CueMirror no usa el ID de publicidad del dispositivo. Google usa la dirección IP del envío para estimar la ubicación aproximada (país, región y ciudad) y luego descarta la dirección IP completa. La aplicación no accede al GPS ni solicita permiso de ubicación.
 
-**El contenido de tus guiones nunca se incluye en estos datos.** Esto vale para los textos, los títulos y los nombres de los archivos importados.
+**El contenido de tus guiones nunca se incluye en estos datos.** Esto vale para los textos, los títulos, los nombres de los archivos importados y los términos de búsqueda.
 
-Los datos se transmiten cifrados y Google los trata según su propia política:
+Los datos se transmiten cifrados y Google los trata según su propia política, y pueden procesarse en servidores fuera de tu país, incluso en los Estados Unidos:
 
 - [Privacidad de Firebase](https://firebase.google.com/support/privacy)
 - [Política de Privacidad de Google](https://policies.google.com/privacy)
@@ -176,7 +202,7 @@ CueMirror ofrece un plan Premium opcional por suscripción (mensual o anual). El
 
 Para saber si tienes una suscripción activa, la aplicación consulta la tienda en tu dispositivo (por ejemplo, al abrir la aplicación y en Ajustes → Restaurar compra). El resultado se guarda únicamente en el almacenamiento local del dispositivo, para que la aplicación funcione sin conexión. No recibimos tu nombre, correo electrónico ni identificador de cuenta de la tienda.
 
-Google Analytics for Firebase registra eventos de compra (producto, precio y moneda), sin ningún dato de pago. La cancelación, el cambio de plan y los reembolsos se gestionan en la tienda. Consulta también los [Términos de Uso](terms.html).
+Google Analytics for Firebase registra eventos de compra (producto, precio y moneda) y el avance de la compra en la aplicación (plan elegido y si la compra quedó pendiente, se canceló o falló), sin ningún dato de pago. La cancelación, el cambio de plan y los reembolsos se gestionan en la tienda. Consulta también los [Términos de Uso](terms.html).
 
 ### Permisos
 
@@ -184,7 +210,7 @@ CueMirror no solicita permiso de cámara, micrófono, ubicación ni contactos. P
 
 ### Tus derechos
 
-Los datos técnicos recopilados no están vinculados a ninguna cuenta, nombre ni correo electrónico, por lo que no podemos identificar cuáles te pertenecen. Se eliminan automáticamente en un plazo de 90 días. Puedes oponerte a esta recopilación en cualquier momento desactivando la opción descrita en "Cómo desactivar la recopilación", o detenerla por completo desinstalando la aplicación. Para dudas o para ejercer otros derechos previstos en la legislación de protección de datos aplicable (como la LGPD o el RGPD), escríbenos al correo indicado abajo.
+Los datos técnicos recopilados no están vinculados a ninguna cuenta, nombre ni correo electrónico, por lo que no podemos identificar cuáles te pertenecen. Los informes de fallos se eliminan automáticamente en un plazo de 90 días, y los eventos de uso individuales, en un plazo de 2 meses. Google puede conservar informes agregados, que no identifican instalaciones. Puedes oponerte a esta recopilación en cualquier momento desactivando la opción descrita en "Cómo desactivar la recopilación", o detenerla por completo desinstalando la aplicación. Para dudas o para ejercer otros derechos previstos en la legislación de protección de datos aplicable (como la LGPD o el RGPD), escríbenos al correo indicado abajo.
 
 ### Niños
 
