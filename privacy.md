@@ -6,7 +6,7 @@
 
 ## Português {#portugues}
 
-Última atualização: 7 de outubro de 2026
+Última atualização: 8 de outubro de 2026
 
 O CueMirror é um aplicativo de teleprompter. Não exige conta, não sincroniza dados em nuvem e não exibe publicidade.
 
@@ -20,10 +20,11 @@ Se o backup do sistema estiver ativado no seu dispositivo (Backup do Google no A
 
 ### Dados coletados automaticamente
 
-Para identificar falhas e entender como o app é usado, o CueMirror utiliza serviços do Google Firebase:
+Para identificar falhas, entender como o app é usado e poder desligar remotamente um recurso que apresente problema, o CueMirror utiliza serviços do Google Firebase:
 
 - **Firebase Crashlytics**: quando o app falha, envia um relatório técnico com informações como o ponto do código onde ocorreu o erro, modelo do dispositivo, versão do sistema operacional e versão do app.
 - **Google Analytics for Firebase**: registra eventos de uso, como telas abertas e funções utilizadas (por exemplo, iniciar, concluir ou interromper uma leitura, criar ou importar um script, ou alterar uma configuração), além de dados técnicos do dispositivo, como modelo, versão do sistema operacional, idioma e versão do app.
+- **Firebase Remote Config**: permite desligar remotamente um recurso do app que esteja com defeito, sem publicar uma versão nova. Ao abrir o app e ao voltar para ele, o CueMirror consulta as configurações vigentes, enviando a plataforma, a versão do app e um identificador da instalação. Não envia eventos de uso nem nenhum conteúdo seu.
 
 Os eventos de uso podem incluir:
 
@@ -46,7 +47,7 @@ Usamos esses dados apenas para corrigir erros e melhorar o app, com base no noss
 
 ### Como desativar a coleta
 
-O envio desses dados vem ativado. Você pode desativá-lo a qualquer momento em **Configurações → Privacidade → Compartilhar dados de uso e falhas**. Com a opção desligada, o app deixa de enviar eventos de uso e relatórios de falha. A escolha fica salva no seu dispositivo e vale até você mudá-la.
+O envio desses dados vem ativado. Você pode desativá-lo a qualquer momento em **Configurações → Privacidade → Compartilhar dados de uso e falhas**. Com a opção desligada, o app deixa de enviar eventos de uso e relatórios de falha. A escolha fica salva no seu dispositivo e vale até você mudá-la. A consulta ao Firebase Remote Config continua mesmo com a opção desligada, porque serve para manter o app funcionando com segurança e não envia dados de uso.
 
 ### Compras e assinaturas
 
@@ -80,7 +81,7 @@ Dúvidas sobre esta política: murillommaciel@gmail.com
 
 ## English {#english}
 
-Last updated: October 7, 2026
+Last updated: October 8, 2026
 
 CueMirror is a teleprompter app. It requires no account, does not sync data to the cloud, and shows no ads.
 
@@ -94,10 +95,11 @@ If system backup is turned on for your device (Google Backup on Android, iCloud 
 
 ### Automatically collected data
 
-To identify crashes and understand how the app is used, CueMirror uses Google Firebase services:
+To identify crashes, understand how the app is used, and be able to remotely turn off a feature that malfunctions, CueMirror uses Google Firebase services:
 
 - **Firebase Crashlytics**: when the app crashes, it sends a technical report with information such as where in the code the error occurred, device model, operating system version, and app version.
 - **Google Analytics for Firebase**: records usage events, such as screens opened and features used (for example, starting, finishing, or leaving a reading session, creating or importing a script, or changing a setting), along with technical device data such as device model, operating system version, language, and app version.
+- **Firebase Remote Config**: lets us remotely turn off an app feature that is malfunctioning, without publishing a new version. When the app opens and when you return to it, CueMirror fetches the current settings, sending the platform, the app version, and an installation identifier. It sends no usage events and none of your content.
 
 Usage events may include:
 
@@ -120,7 +122,7 @@ We use this data only to fix bugs and improve the app, based on our legitimate i
 
 ### How to turn off data collection
 
-Sending this data is on by default. You can turn it off at any time under **Settings → Privacy → Share usage and crash data**. With the option off, the app stops sending usage events and crash reports. Your choice is saved on your device and stays in effect until you change it.
+Sending this data is on by default. You can turn it off at any time under **Settings → Privacy → Share usage and crash data**. With the option off, the app stops sending usage events and crash reports. Your choice is saved on your device and stays in effect until you change it. The Firebase Remote Config check continues even with the option off, because it keeps the app working safely and sends no usage data.
 
 ### Purchases and subscriptions
 
@@ -154,7 +156,7 @@ Questions about this policy: murillommaciel@gmail.com
 
 ## Español {#espanol}
 
-Última actualización: 7 de octubre de 2026
+Última actualización: 8 de octubre de 2026
 
 CueMirror es una aplicación de teleprompter. No requiere cuenta, no sincroniza datos en la nube y no muestra publicidad.
 
@@ -168,10 +170,11 @@ Si la copia de seguridad del sistema está activada en tu dispositivo (Copia de 
 
 ### Datos recopilados automáticamente
 
-Para identificar fallos y entender cómo se usa la aplicación, CueMirror utiliza servicios de Google Firebase:
+Para identificar fallos, entender cómo se usa la aplicación y poder desactivar a distancia una función que presente problemas, CueMirror utiliza servicios de Google Firebase:
 
 - **Firebase Crashlytics**: cuando la aplicación falla, envía un informe técnico con información como el punto del código donde ocurrió el error, el modelo del dispositivo, la versión del sistema operativo y la versión de la aplicación.
 - **Google Analytics for Firebase**: registra eventos de uso, como las pantallas abiertas y las funciones utilizadas (por ejemplo, iniciar, terminar o interrumpir una lectura, crear o importar un guion, o cambiar un ajuste), además de datos técnicos del dispositivo, como el modelo, la versión del sistema operativo, el idioma y la versión de la aplicación.
+- **Firebase Remote Config**: permite desactivar a distancia una función de la aplicación que esté fallando, sin publicar una nueva versión. Al abrir la aplicación y al volver a ella, CueMirror consulta los ajustes vigentes, enviando la plataforma, la versión de la aplicación y un identificador de la instalación. No envía eventos de uso ni ningún contenido tuyo.
 
 Los eventos de uso pueden incluir:
 
@@ -194,7 +197,7 @@ Usamos estos datos solo para corregir errores y mejorar la aplicación, sobre la
 
 ### Cómo desactivar la recopilación
 
-El envío de estos datos viene activado. Puedes desactivarlo en cualquier momento en **Ajustes → Privacidad → Compartir datos de uso y fallos**. Con la opción desactivada, la aplicación deja de enviar eventos de uso e informes de fallos. Tu elección se guarda en tu dispositivo y se mantiene hasta que la cambies.
+El envío de estos datos viene activado. Puedes desactivarlo en cualquier momento en **Ajustes → Privacidad → Compartir datos de uso y fallos**. Con la opción desactivada, la aplicación deja de enviar eventos de uso e informes de fallos. Tu elección se guarda en tu dispositivo y se mantiene hasta que la cambies. La consulta a Firebase Remote Config continúa aunque la opción esté desactivada, porque sirve para mantener la aplicación funcionando de forma segura y no envía datos de uso.
 
 ### Compras y suscripciones
 
