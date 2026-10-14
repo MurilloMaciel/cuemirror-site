@@ -1,0 +1,16 @@
+{% if page.language_redirect %}
+{% assign base = page.name | remove: ".md" %}
+<link rel="alternate" hreflang="en" href="{{ base | append: '.html' | absolute_url }}">
+<link rel="alternate" hreflang="pt" href="{{ base | append: '-pt.html' | absolute_url }}">
+<link rel="alternate" hreflang="es" href="{{ base | append: '-es.html' | absolute_url }}">
+<script>
+  // The app and the store listings link to the English URL; send Portuguese and Spanish
+  // browsers to their translation unless the reader picked English explicitly (?lang=en).
+  (function () {
+    if (/[?&]lang=/.test(window.location.search)) return;
+    var language = ((navigator.languages && navigator.languages[0]) || navigator.language || "").toLowerCase();
+    var suffix = language.indexOf("pt") === 0 ? "-pt" : language.indexOf("es") === 0 ? "-es" : "";
+    if (suffix) window.location.replace("{{ base }}" + suffix + ".html");
+  })();
+</script>
+{% endif %}

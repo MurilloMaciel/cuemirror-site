@@ -1,87 +1,15 @@
-# Privacy Policy / Política de Privacidade — CueMirror
-
-[Português](#portugues) · [English](#english) · [Español](#espanol)
-
+---
+title: Privacy Policy — CueMirror
+lang: en
+locale: en_US
+language_redirect: true
 ---
 
-## Português {#portugues}
+# Privacy Policy — CueMirror
 
-Última atualização: 8 de outubro de 2026
+**English** · [Português](privacy-pt.html) · [Español](privacy-es.html)
 
-O CueMirror é um aplicativo de teleprompter. Não exige conta, não sincroniza dados em nuvem e não exibe publicidade.
-
-Responsável pelo tratamento dos dados: Murillo Maciel, São Leopoldo, RS, Brasil (murillommaciel@gmail.com).
-
-### Seus scripts e configurações
-
-Os scripts que você cria e as configurações do app (tema, cores, velocidade de leitura, entre outras) ficam salvos no armazenamento local do seu dispositivo. O CueMirror não tem servidores e nunca envia o conteúdo dos seus scripts para nós nem para terceiros. Algumas configurações são incluídas, de forma resumida, nos dados de uso descritos em "Dados coletados automaticamente", e somente se o compartilhamento estiver ativado.
-
-Se o backup do sistema estiver ativado no seu dispositivo (Backup do Google no Android, iCloud no iOS), o próprio sistema pode incluir esses dados na cópia de segurança da sua conta. Esse backup é feito e gerenciado pelo Google ou pela Apple, e nós não temos acesso a ele. Ao desinstalar o app, os dados locais são apagados; ao reinstalar, o sistema pode restaurá-los a partir desse backup.
-
-### Dados coletados automaticamente
-
-Para identificar falhas, entender como o app é usado e poder desligar remotamente um recurso que apresente problema, o CueMirror utiliza serviços do Google Firebase:
-
-- **Firebase Crashlytics**: quando o app falha, envia um relatório técnico com informações como o ponto do código onde ocorreu o erro, modelo do dispositivo, versão do sistema operacional e versão do app.
-- **Google Analytics for Firebase**: registra eventos de uso, como telas abertas e funções utilizadas (por exemplo, iniciar, concluir ou interromper uma leitura, criar ou importar um script, ou alterar uma configuração), além de dados técnicos do dispositivo, como modelo, versão do sistema operacional, idioma e versão do app.
-- **Firebase Remote Config**: permite desligar remotamente um recurso do app que esteja com defeito, sem publicar uma versão nova. Ao abrir o app e ao voltar para ele, o CueMirror consulta as configurações vigentes, enviando a plataforma, a versão do app e um identificador da instalação. Não envia eventos de uso nem nenhum conteúdo seu.
-
-Os eventos de uso podem incluir:
-
-- as configurações de leitura e do app, como velocidade, tamanho do texto, margem, modo de espelho, tema e se o salvamento automático está ativado;
-- o tamanho aproximado de um script e da sua biblioteca, sempre em faixas (por exemplo, "100 a 499 palavras" ou "5 a 19 scripts"), nunca o texto;
-- o formato de um arquivo importado (.txt ou .docx) e se a importação deu certo;
-- se uma busca encontrou resultados, nunca o termo buscado;
-- o andamento de uma compra ou de uma restauração de compra (plano escolhido e resultado).
-
-Esses serviços associam os dados a identificadores gerados pelo próprio Firebase para cada instalação do app. Eles não identificam você pelo nome, e-mail ou conta. O CueMirror não usa o ID de publicidade do dispositivo. O Google usa o endereço IP do envio para estimar a localização aproximada (país, região e cidade) e descarta o IP completo em seguida. O app não acessa o GPS nem pede permissão de localização.
-
-**O conteúdo dos seus scripts nunca é incluído nesses dados.** Isso vale para textos, títulos, nomes de arquivos importados e termos de busca.
-
-Os dados são transmitidos de forma criptografada e tratados pelo Google conforme a política dele, podendo ser processados em servidores fora do seu país, inclusive nos Estados Unidos:
-
-- [Privacidade do Firebase](https://firebase.google.com/support/privacy)
-- [Política de Privacidade do Google](https://policies.google.com/privacy)
-
-Usamos esses dados apenas para corrigir erros e melhorar o app, com base no nosso legítimo interesse em manter o app funcionando e evoluir seus recursos (LGPD, art. 7º, IX; RGPD, art. 6º, 1, f). Não os vendemos e não os utilizamos para publicidade.
-
-### Como desativar a coleta
-
-O envio desses dados vem ativado. Você pode desativá-lo a qualquer momento em **Configurações → Privacidade → Compartilhar dados de uso e falhas**. Com a opção desligada, o app deixa de enviar eventos de uso e relatórios de falha. A escolha fica salva no seu dispositivo e vale até você mudá-la. A consulta ao Firebase Remote Config continua mesmo com a opção desligada, porque serve para manter o app funcionando com segurança e não envia dados de uso.
-
-### Compras e assinaturas
-
-O CueMirror oferece um plano Premium por assinatura (mensal ou anual). O pagamento é processado inteiramente pela Google Play Store ou pela Apple App Store: o CueMirror não tem acesso a dados de pagamento, não exige conta e não opera servidores próprios.
-
-Para saber se você tem uma assinatura ativa, o app consulta a loja no seu dispositivo (por exemplo, ao abrir o app e em Configurações → Restaurar compra). O resultado fica guardado apenas no armazenamento local do dispositivo, para que o app funcione sem internet. Não recebemos seu nome, e-mail nem identificador de conta da loja.
-
-O Google Analytics for Firebase registra eventos de compra (produto, preço e moeda) e o andamento da compra no app (plano escolhido e se a compra ficou pendente, foi cancelada ou falhou), sem nenhum dado de pagamento. Cancelamento, troca de plano e reembolso são feitos na loja. Veja também os [Termos de Uso](terms.html).
-
-### Permissões
-
-O CueMirror não solicita permissão de câmera, microfone, localização ou contatos. Para importar um roteiro, o app abre o seletor de arquivos do sistema e lê apenas o arquivo que você escolher. O ditado por voz usa o teclado do seu dispositivo; o app não grava nem recebe áudio.
-
-### Seus direitos
-
-Os dados técnicos coletados não estão ligados a nenhuma conta, nome ou e-mail, então não conseguimos identificar quais pertencem a você. Os relatórios de falha são excluídos automaticamente em até 90 dias, e os eventos de uso individuais, em até 2 meses. O Google pode manter relatórios agregados, que não identificam instalações. Você pode se opor à coleta a qualquer momento desligando a opção descrita em "Como desativar a coleta", ou interrompê-la por completo desinstalando o app. Para dúvidas ou para exercer outros direitos previstos na LGPD, entre em contato pelo e-mail abaixo.
-
-### Crianças
-
-O CueMirror não é direcionado a crianças menores de 13 anos e não coleta intencionalmente dados pessoais delas.
-
-### Alterações
-
-Esta política pode ser atualizada quando o app ganhar novos recursos. A versão vigente estará sempre nesta página.
-
-### Contato
-
-Dúvidas sobre esta política: murillommaciel@gmail.com
-
----
-
-## English {#english}
-
-Last updated: October 8, 2026
+Last updated: October 14, 2026
 
 CueMirror is a teleprompter app. It requires no account, does not sync data to the cloud, and shows no ads.
 
@@ -98,7 +26,7 @@ If system backup is turned on for your device (Google Backup on Android, iCloud 
 To identify crashes, understand how the app is used, and be able to remotely turn off a feature that malfunctions, CueMirror uses Google Firebase services:
 
 - **Firebase Crashlytics**: when the app crashes, it sends a technical report with information such as where in the code the error occurred, device model, operating system version, and app version.
-- **Google Analytics for Firebase**: records usage events, such as screens opened and features used (for example, starting, finishing, or leaving a reading session, creating or importing a script, or changing a setting), along with technical device data such as device model, operating system version, language, and app version.
+- **Google Analytics for Firebase**: records usage events, such as screens opened and features used (for example, starting, finishing, or leaving a reading session, creating or importing a script, or changing a setting), events that Firebase records automatically, such as first open, sessions, time spent in the app, and app updates, and technical device data such as device model, operating system version, language, and app version. On Android, it also records the install source reported by Google Play (for example, whether the app was installed from a link or a campaign).
 - **Firebase Remote Config**: lets us remotely turn off an app feature that is malfunctioning, without publishing a new version. When the app opens and when you return to it, CueMirror fetches the current settings, sending the platform, the app version, and an installation identifier. It sends no usage events and none of your content.
 
 Usage events may include:
@@ -109,7 +37,7 @@ Usage events may include:
 - whether a search found results, never the search term;
 - the progress of a purchase or a purchase restore (the plan chosen and the outcome).
 
-These services associate the data with identifiers generated by Firebase for each app installation. They do not identify you by name, email, or account. CueMirror does not use the device's advertising ID. Google uses the IP address of the request to estimate approximate location (country, region, and city) and then discards the full IP address. The app does not access GPS or request location permission.
+These services associate the data with identifiers generated by Firebase for each app installation and, on iOS, with the identifier the system assigns to apps from the same developer (IDFV). They do not identify you by name, email, or account. CueMirror does not use the device's advertising ID. Google uses the IP address of the request to estimate approximate location (country, region, and city) and then discards the full IP address. The app does not access GPS or request location permission.
 
 **The content of your scripts is never included in this data.** This applies to text, titles, the names of imported files, and search terms.
 
@@ -128,13 +56,13 @@ Sending this data is on by default. You can turn it off at any time under **Sett
 
 CueMirror offers an optional Premium plan as a subscription (monthly or yearly). Payment is processed entirely by the Google Play Store or the Apple App Store: CueMirror has no access to payment data, requires no account, and does not operate its own servers.
 
-To know whether you have an active subscription, the app queries the store on your device (for example, when the app opens and under Settings → Restore purchase). The result is stored only in your device's local storage so the app works offline. We do not receive your name, email, or store account identifier.
+To know whether you have an active subscription, the app queries the store on your device (for example, when the app opens and under Settings → Purchase → Restore purchase). The result is stored only in your device's local storage so the app works offline. We do not receive your name, email, or store account identifier.
 
-Google Analytics for Firebase records purchase events (product, price, and currency) and the progress of a purchase in the app (the plan chosen and whether the purchase was left pending, canceled, or failed), without any payment data. Cancellation, plan changes, and refunds are handled in the store. See also the [Terms of Use](terms.html).
+Google Analytics for Firebase records purchase events (product, price, and currency) and the progress of a purchase in the app (the plan chosen and whether the purchase was left pending, canceled, or failed), without any payment data. Cancellation, plan changes, and refunds are handled in the store. See also the [Terms of Use](terms.html?lang=en).
 
 ### Permissions
 
-CueMirror does not request camera, microphone, location, or contacts permission. To import a script, the app opens the system file picker and reads only the file you choose. Voice dictation uses your device's keyboard; the app does not record or receive audio.
+CueMirror does not request camera, microphone, location, or contacts permission. To import a script, the app opens the system file picker and reads only the file you choose. Voice dictation uses your device's keyboard; the app does not record or receive audio. Dictation audio is handled by your keyboard's provider (for example, Google or Apple) under its own policy.
 
 ### Your rights
 
@@ -151,78 +79,3 @@ This policy may be updated as the app gains new features. The current version wi
 ### Contact
 
 Questions about this policy: murillommaciel@gmail.com
-
----
-
-## Español {#espanol}
-
-Última actualización: 8 de octubre de 2026
-
-CueMirror es una aplicación de teleprompter. No requiere cuenta, no sincroniza datos en la nube y no muestra publicidad.
-
-Responsable del tratamiento de los datos: Murillo Maciel, São Leopoldo, RS, Brasil (murillommaciel@gmail.com).
-
-### Tus guiones y ajustes
-
-Los guiones que creas y los ajustes de la aplicación (tema, colores, velocidad de lectura, entre otros) se guardan en el almacenamiento local de tu dispositivo. CueMirror no tiene servidores y nunca envía el contenido de tus guiones a nosotros ni a terceros. Algunos ajustes se incluyen, de forma resumida, en los datos de uso descritos en "Datos recopilados automáticamente", y solo si el envío está activado.
-
-Si la copia de seguridad del sistema está activada en tu dispositivo (Copia de seguridad de Google en Android, iCloud en iOS), el propio sistema puede incluir estos datos en la copia de seguridad de tu cuenta. Esa copia la realiza y gestiona Google o Apple, y nosotros no tenemos acceso a ella. Al desinstalar la aplicación, los datos locales se eliminan; al reinstalarla, el sistema puede restaurarlos desde esa copia.
-
-### Datos recopilados automáticamente
-
-Para identificar fallos, entender cómo se usa la aplicación y poder desactivar a distancia una función que presente problemas, CueMirror utiliza servicios de Google Firebase:
-
-- **Firebase Crashlytics**: cuando la aplicación falla, envía un informe técnico con información como el punto del código donde ocurrió el error, el modelo del dispositivo, la versión del sistema operativo y la versión de la aplicación.
-- **Google Analytics for Firebase**: registra eventos de uso, como las pantallas abiertas y las funciones utilizadas (por ejemplo, iniciar, terminar o interrumpir una lectura, crear o importar un guion, o cambiar un ajuste), además de datos técnicos del dispositivo, como el modelo, la versión del sistema operativo, el idioma y la versión de la aplicación.
-- **Firebase Remote Config**: permite desactivar a distancia una función de la aplicación que esté fallando, sin publicar una nueva versión. Al abrir la aplicación y al volver a ella, CueMirror consulta los ajustes vigentes, enviando la plataforma, la versión de la aplicación y un identificador de la instalación. No envía eventos de uso ni ningún contenido tuyo.
-
-Los eventos de uso pueden incluir:
-
-- los ajustes de lectura y de la aplicación, como la velocidad, el tamaño del texto, el margen, el modo espejo, el tema y si el guardado automático está activado;
-- el tamaño aproximado de un guion y de tu biblioteca, siempre en rangos (por ejemplo, "100 a 499 palabras" o "5 a 19 guiones"), nunca el texto;
-- el formato de un archivo importado (.txt o .docx) y si la importación funcionó;
-- si una búsqueda encontró resultados, nunca el término buscado;
-- el avance de una compra o de una restauración de compra (plan elegido y resultado).
-
-Estos servicios asocian los datos a identificadores generados por Firebase para cada instalación de la aplicación. No te identifican por nombre, correo electrónico ni cuenta. CueMirror no usa el ID de publicidad del dispositivo. Google usa la dirección IP del envío para estimar la ubicación aproximada (país, región y ciudad) y luego descarta la dirección IP completa. La aplicación no accede al GPS ni solicita permiso de ubicación.
-
-**El contenido de tus guiones nunca se incluye en estos datos.** Esto vale para los textos, los títulos, los nombres de los archivos importados y los términos de búsqueda.
-
-Los datos se transmiten cifrados y Google los trata según su propia política, y pueden procesarse en servidores fuera de tu país, incluso en los Estados Unidos:
-
-- [Privacidad de Firebase](https://firebase.google.com/support/privacy)
-- [Política de Privacidad de Google](https://policies.google.com/privacy)
-
-Usamos estos datos solo para corregir errores y mejorar la aplicación, sobre la base de nuestro interés legítimo en mantenerla funcionando y mejorar sus funciones (RGPD, art. 6.1.f; LGPD de Brasil, art. 7, IX). No los vendemos ni los utilizamos para publicidad.
-
-### Cómo desactivar la recopilación
-
-El envío de estos datos viene activado. Puedes desactivarlo en cualquier momento en **Ajustes → Privacidad → Compartir datos de uso y fallos**. Con la opción desactivada, la aplicación deja de enviar eventos de uso e informes de fallos. Tu elección se guarda en tu dispositivo y se mantiene hasta que la cambies. La consulta a Firebase Remote Config continúa aunque la opción esté desactivada, porque sirve para mantener la aplicación funcionando de forma segura y no envía datos de uso.
-
-### Compras y suscripciones
-
-CueMirror ofrece un plan Premium opcional por suscripción (mensual o anual). El pago es procesado íntegramente por Google Play Store o Apple App Store: CueMirror no tiene acceso a datos de pago, no requiere cuenta y no opera servidores propios.
-
-Para saber si tienes una suscripción activa, la aplicación consulta la tienda en tu dispositivo (por ejemplo, al abrir la aplicación y en Ajustes → Restaurar compra). El resultado se guarda únicamente en el almacenamiento local del dispositivo, para que la aplicación funcione sin conexión. No recibimos tu nombre, correo electrónico ni identificador de cuenta de la tienda.
-
-Google Analytics for Firebase registra eventos de compra (producto, precio y moneda) y el avance de la compra en la aplicación (plan elegido y si la compra quedó pendiente, se canceló o falló), sin ningún dato de pago. La cancelación, el cambio de plan y los reembolsos se gestionan en la tienda. Consulta también los [Términos de Uso](terms.html).
-
-### Permisos
-
-CueMirror no solicita permiso de cámara, micrófono, ubicación ni contactos. Para importar un guion, la aplicación abre el selector de archivos del sistema y lee únicamente el archivo que elijas. El dictado por voz usa el teclado de tu dispositivo; la aplicación no graba ni recibe audio.
-
-### Tus derechos
-
-Los datos técnicos recopilados no están vinculados a ninguna cuenta, nombre ni correo electrónico, por lo que no podemos identificar cuáles te pertenecen. Los informes de fallos se eliminan automáticamente en un plazo de 90 días, y los eventos de uso individuales, en un plazo de 2 meses. Google puede conservar informes agregados, que no identifican instalaciones. Puedes oponerte a esta recopilación en cualquier momento desactivando la opción descrita en "Cómo desactivar la recopilación", o detenerla por completo desinstalando la aplicación. Para dudas o para ejercer otros derechos previstos en la legislación de protección de datos aplicable (como la LGPD o el RGPD), escríbenos al correo indicado abajo.
-
-### Niños
-
-CueMirror no está dirigida a niños menores de 13 años y no recopila intencionalmente datos personales de ellos.
-
-### Cambios
-
-Esta política puede actualizarse cuando la aplicación incorpore nuevas funciones. La versión vigente estará siempre disponible en esta página.
-
-### Contacto
-
-Dudas sobre esta política: murillommaciel@gmail.com
