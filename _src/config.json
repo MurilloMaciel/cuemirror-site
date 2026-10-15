@@ -1,0 +1,16 @@
+{
+  "_README": "Single place for links and contact. Edit, then run `node _tools/build-pages.mjs` from the repo root. Empty store URLs render a disabled 'Coming soon' button.",
+
+  "siteUrl": "https://cuemirror.com",
+
+  "_TODO_supportEmail": "TODO: provisional address. Create the mailbox (or alias) before publishing.",
+  "supportEmail": "support@cuemirror.com",
+
+  "_TODO_legal": "TODO: confirm. These are the Jekyll pages that already exist in this repo (privacy*.md, terms*.md). Root-relative, so they follow the custom domain.",
+  "privacyUrl": { "en": "/privacy.html?lang=en", "pt": "/privacy-pt.html", "es": "/privacy-es.html" },
+  "termsUrl": { "en": "/terms.html?lang=en", "pt": "/terms-pt.html", "es": "/terms-es.html" },
+
+  "_TODO_stores": "TODO: paste the real listing URLs when the app is live. Empty = disabled 'Coming soon' button.",
+  "appStoreUrl": "",
+  "googlePlayUrl": ""
+}

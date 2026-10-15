@@ -1,0 +1,82 @@
+{
+  "lang": "pt",
+  "htmlLang": "pt-BR",
+  "ogLocale": "pt_BR",
+  "path": "/pt/",
+  "languageName": "Português",
+  "title": "CueMirror — teleprompter simples e rápido para iPhone e Android",
+  "description": "Um teleprompter simples e rápido para vídeos, lives e apresentações. Escreva ou cole o roteiro, dê play e olhe para a câmera. Sem conta, sem nuvem, sem marca d'água.",
+  "ogImageAlt": "Logo do CueMirror com a frase: Fale com confiança.",
+
+  "skip": "Pular para o conteúdo",
+  "homeLabel": "CueMirror, início",
+  "languageLabel": "Idioma",
+
+  "eyebrow": "Teleprompter para iPhone e Android",
+  "h1": "Fale com confiança.",
+  "subtitle": "Um teleprompter simples e rápido para vídeos, lives e apresentações. Olhe para a câmera, não para as anotações.",
+  "badge": "Sem conta. Sem nuvem. Sem marca d'água.",
+  "storesSoon": "Em breve na App Store e no Google Play",
+  "soon": "Em breve",
+  "demoLabel": "Demonstração: um roteiro rolando no teleprompter do CueMirror, com a linha de leitura fixa no meio da tela.",
+  "demoScript": [
+    "Oi, pessoal. Obrigado por estarem aqui.",
+    "Hoje eu quero mostrar uma coisa simples.",
+    "Escreva o roteiro, dê play e mantenha os olhos na câmera.",
+    "As palavras vêm até você, no seu ritmo.",
+    "Se precisar de um tempo, pause. Depois continue de onde parou.",
+    "Uma ideia de cada vez. Uma gravação tranquila."
+  ],
+
+  "howEyebrow": "Como funciona",
+  "howTitle": "Três passos e você já está gravando.",
+  "steps": [
+    { "title": "Escreva ou cole", "text": "Digite o roteiro no app, cole de qualquer lugar ou dite pelo microfone do teclado." },
+    { "title": "Ajuste ao seu jeito", "text": "Defina velocidade, tamanho do texto, margens e cores do jeito que você lê melhor." },
+    { "title": "Leia olhando para a câmera", "text": "Dê play, espere a contagem regressiva e leia com os olhos perto da lente. Ajuste durante a leitura." }
+  ],
+
+  "plansEyebrow": "O que vem no app",
+  "plansTitle": "Tudo o que você precisa é grátis.",
+  "freeName": "Grátis",
+  "freeNote": "Sem limite de tempo, sem marca d'água.",
+  "freeList": [
+    "Biblioteca de roteiros com editor e salvamento automático",
+    "Ditar o roteiro pelo microfone do teclado",
+    "Velocidade, tamanho do texto e margens ajustáveis",
+    "Cores do texto e do fundo, tema claro e escuro",
+    "Alinhamento, entrelinha e linha de leitura",
+    "Contagem regressiva antes de começar",
+    "Ajustes rápidos durante a leitura"
+  ],
+  "premiumName": "Premium",
+  "premiumNote": "Assinatura mensal ou anual.",
+  "premiumList": [
+    "Modos Espelhado e Invertido para vidro de teleprompter",
+    "Velocidade precisa em palavras por minuto e duração-alvo por roteiro",
+    "Importação de arquivos .txt e .docx"
+  ],
+
+  "screensEyebrow": "Telas",
+  "screensTitle": "Feito para a hora de gravar.",
+  "screensScrollLabel": "Telas do app, role para o lado para ver as cinco",
+  "screens": [
+    { "file": "01-reader", "caption": "Leitura", "alt": "O teleprompter: texto grande do roteiro, uma linha de leitura laranja fina e controles de play, reinício e velocidade embaixo." },
+    { "file": "02-editor", "caption": "Editor", "alt": "O editor de roteiro com título e texto, um botão Ler e, embaixo, a contagem de palavras e a duração estimada." },
+    { "file": "03-library", "caption": "Biblioteca", "alt": "A biblioteca de roteiros: campo de busca e quatro roteiros, cada um com prévia, contagem de palavras e duração estimada, e um botão para criar um novo." },
+    { "file": "04-settings", "caption": "Configurações", "alt": "Configurações: tema do app, velocidade de leitura, tamanho do texto, margem lateral, modo de espelho e cores do texto e do fundo." },
+    { "file": "05-quick", "caption": "Ajustes rápidos", "alt": "A folha de ajustes rápidos aberta sobre o teleprompter, com velocidade, tamanho do texto, margem lateral, modo de espelho e cores." }
+  ],
+
+  "privacyEyebrow": "Privacidade em uma frase",
+  "privacyText": "Sem conta e sem nuvem: o app não envia seus roteiros a lugar nenhum.",
+  "privacyLink": "Leia a política de privacidade",
+
+  "supportEyebrow": "Suporte",
+  "supportTitle": "Dúvidas ou algo não está funcionando?",
+  "supportText": "Escreva para a gente. Se algo não estiver funcionando, informe o modelo do aparelho e a versão do app.",
+  "supportCta": "Enviar e-mail ao suporte",
+
+  "footerTerms": "Termos de uso",
+  "footerPrivacy": "Política de privacidade"
+}

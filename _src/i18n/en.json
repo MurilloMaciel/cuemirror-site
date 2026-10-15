@@ -1,0 +1,82 @@
+{
+  "lang": "en",
+  "htmlLang": "en",
+  "ogLocale": "en_US",
+  "path": "/",
+  "languageName": "English",
+  "title": "CueMirror — a simple, fast teleprompter for iPhone and Android",
+  "description": "A simple, fast teleprompter for video, live streams and presentations. Write or paste your script, press play and look at the camera. No account, no cloud, no watermark.",
+  "ogImageAlt": "CueMirror logo with the line: Speak with confidence.",
+
+  "skip": "Skip to content",
+  "homeLabel": "CueMirror, home",
+  "languageLabel": "Language",
+
+  "eyebrow": "Teleprompter for iPhone and Android",
+  "h1": "Speak with confidence.",
+  "subtitle": "A simple, fast teleprompter for video, live streams and presentations. Look at the camera, not at your notes.",
+  "badge": "No account. No cloud. No watermark.",
+  "storesSoon": "Coming soon to the App Store and Google Play",
+  "soon": "Coming soon",
+  "demoLabel": "Demo: a script scrolling on the CueMirror teleprompter, with the reading line fixed in the middle of the screen.",
+  "demoScript": [
+    "Hi, everyone. Thanks for being here.",
+    "Today I want to show you something simple.",
+    "Write your script, press play and keep your eyes on the camera.",
+    "The words come to you, at your own pace.",
+    "If you need a second, pause. Then pick up where you left off.",
+    "One thought at a time. One clear take."
+  ],
+
+  "howEyebrow": "How it works",
+  "howTitle": "Three steps, then you're recording.",
+  "steps": [
+    { "title": "Write or paste", "text": "Type your script in the app, paste it from anywhere, or dictate it with your keyboard's microphone." },
+    { "title": "Make it yours", "text": "Set the speed, text size, margins and colours to match the way you read." },
+    { "title": "Read to the camera", "text": "Press play, wait for the countdown and read with your eyes near the lens. Adjust as you go." }
+  ],
+
+  "plansEyebrow": "What's included",
+  "plansTitle": "Everything you need is free.",
+  "freeName": "Free",
+  "freeNote": "No time limit, no watermark.",
+  "freeList": [
+    "Script library with an editor and autosave",
+    "Dictate scripts with your keyboard's microphone",
+    "Adjustable speed, text size and margins",
+    "Text and background colours, light and dark theme",
+    "Alignment, line spacing and a reading line",
+    "Countdown before you start",
+    "Quick adjustments while you read"
+  ],
+  "premiumName": "Premium",
+  "premiumNote": "Monthly or annual subscription.",
+  "premiumList": [
+    "Mirrored and Flipped modes for teleprompter glass",
+    "Precise speed in words per minute and a target duration for each script",
+    "Import .txt and .docx files"
+  ],
+
+  "screensEyebrow": "Screenshots",
+  "screensTitle": "Made for the moment you hit record.",
+  "screensScrollLabel": "Screenshots, scroll sideways to see all five",
+  "screens": [
+    { "file": "01-reader", "caption": "Reading", "alt": "The teleprompter: large script text, a thin orange reading line, and play, restart and speed controls at the bottom." },
+    { "file": "02-editor", "caption": "Editor", "alt": "The script editor with a title and the script text, a Read button, and the word count and estimated duration at the bottom." },
+    { "file": "03-library", "caption": "Library", "alt": "The script library: a search field and four scripts, each with a preview, word count and estimated duration, plus a button to add a new one." },
+    { "file": "04-settings", "caption": "Settings", "alt": "Settings: app theme, reading speed, text size, side margin, mirror mode and text and background colours." },
+    { "file": "05-quick", "caption": "Quick adjustments", "alt": "The quick adjustments sheet open over the teleprompter, with speed, text size, side margin, mirror mode and colours." }
+  ],
+
+  "privacyEyebrow": "Privacy in one sentence",
+  "privacyText": "No account and no cloud: the app never sends your scripts anywhere.",
+  "privacyLink": "Read the privacy policy",
+
+  "supportEyebrow": "Support",
+  "supportTitle": "Questions or something not working?",
+  "supportText": "Write to us. If something isn't working, tell us your device model and the app version.",
+  "supportCta": "Email support",
+
+  "footerTerms": "Terms of use",
+  "footerPrivacy": "Privacy policy"
+}

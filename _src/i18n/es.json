@@ -1,0 +1,82 @@
+{
+  "lang": "es",
+  "htmlLang": "es-ES",
+  "ogLocale": "es_ES",
+  "path": "/es/",
+  "languageName": "Español",
+  "title": "CueMirror — teleprompter sencillo y rápido para iPhone y Android",
+  "description": "Un teleprompter sencillo y rápido para vídeos, directos y presentaciones. Escribe o pega tu guion, dale al play y mira a la cámara. Sin cuenta, sin nube, sin marca de agua.",
+  "ogImageAlt": "Logotipo de CueMirror con la frase: Habla con confianza.",
+
+  "skip": "Saltar al contenido",
+  "homeLabel": "CueMirror, inicio",
+  "languageLabel": "Idioma",
+
+  "eyebrow": "Teleprompter para iPhone y Android",
+  "h1": "Habla con confianza.",
+  "subtitle": "Un teleprompter sencillo y rápido para vídeos, directos y presentaciones. Mira a la cámara, no a tus notas.",
+  "badge": "Sin cuenta. Sin nube. Sin marca de agua.",
+  "storesSoon": "Próximamente en App Store y Google Play",
+  "soon": "Próximamente",
+  "demoLabel": "Demostración: un guion desplazándose en el teleprompter de CueMirror, con la línea de lectura fija en el centro de la pantalla.",
+  "demoScript": [
+    "Hola a todos. Gracias por estar aquí.",
+    "Hoy quiero enseñaros algo sencillo.",
+    "Escribe tu guion, dale al play y mantén la mirada en la cámara.",
+    "Las palabras llegan a ti, a tu ritmo.",
+    "Si necesitas un momento, haz una pausa. Luego sigue donde lo dejaste.",
+    "Una idea cada vez. Una toma tranquila."
+  ],
+
+  "howEyebrow": "Cómo funciona",
+  "howTitle": "Tres pasos y ya estás grabando.",
+  "steps": [
+    { "title": "Escribe o pega", "text": "Escribe tu guion en la app, pégalo desde cualquier sitio o díctalo con el micrófono del teclado." },
+    { "title": "Ajústalo a tu manera", "text": "Elige la velocidad, el tamaño del texto, los márgenes y los colores que mejor te vayan para leer." },
+    { "title": "Lee mirando a la cámara", "text": "Dale al play, espera la cuenta atrás y lee con la mirada cerca del objetivo. Ajusta sobre la marcha." }
+  ],
+
+  "plansEyebrow": "Qué incluye",
+  "plansTitle": "Todo lo que necesitas es gratis.",
+  "freeName": "Gratis",
+  "freeNote": "Sin límite de tiempo, sin marca de agua.",
+  "freeList": [
+    "Biblioteca de guiones con editor y guardado automático",
+    "Dictar el guion con el micrófono del teclado",
+    "Velocidad, tamaño del texto y márgenes ajustables",
+    "Colores del texto y del fondo, tema claro y oscuro",
+    "Alineación, interlineado y línea de lectura",
+    "Cuenta atrás antes de empezar",
+    "Ajustes rápidos durante la lectura"
+  ],
+  "premiumName": "Premium",
+  "premiumNote": "Suscripción mensual o anual.",
+  "premiumList": [
+    "Modos Espejado e Invertido para el cristal del teleprompter",
+    "Velocidad precisa en palabras por minuto y duración objetivo por guion",
+    "Importación de archivos .txt y .docx"
+  ],
+
+  "screensEyebrow": "Capturas",
+  "screensTitle": "Pensado para el momento de grabar.",
+  "screensScrollLabel": "Capturas de la app, desplázate hacia el lado para ver las cinco",
+  "screens": [
+    { "file": "01-reader", "caption": "Lectura", "alt": "El teleprompter: texto grande del guion, una línea de lectura naranja fina y controles de reproducción, reinicio y velocidad abajo." },
+    { "file": "02-editor", "caption": "Editor", "alt": "El editor de guiones con título y texto, un botón Leer y, abajo, el recuento de palabras y la duración estimada." },
+    { "file": "03-library", "caption": "Biblioteca", "alt": "La biblioteca de guiones: un campo de búsqueda y cuatro guiones, cada uno con vista previa, recuento de palabras y duración estimada, y un botón para crear uno nuevo." },
+    { "file": "04-settings", "caption": "Ajustes", "alt": "Ajustes: tema de la app, velocidad de lectura, tamaño del texto, margen lateral, modo espejo y colores del texto y del fondo." },
+    { "file": "05-quick", "caption": "Ajustes rápidos", "alt": "El panel de ajustes rápidos abierto sobre el teleprompter, con velocidad, tamaño del texto, margen lateral, modo espejo y colores." }
+  ],
+
+  "privacyEyebrow": "Privacidad en una frase",
+  "privacyText": "Sin cuenta y sin nube: la app no envía tus guiones a ningún sitio.",
+  "privacyLink": "Lee la política de privacidad",
+
+  "supportEyebrow": "Soporte",
+  "supportTitle": "¿Dudas o algo no funciona?",
+  "supportText": "Escríbenos. Si algo no funciona, dinos el modelo de tu dispositivo y la versión de la app.",
+  "supportCta": "Escribir a soporte",
+
+  "footerTerms": "Términos de uso",
+  "footerPrivacy": "Política de privacidad"
+}
