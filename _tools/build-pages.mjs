@@ -68,7 +68,7 @@ const jsonLd = t => JSON.stringify({
   inLanguage: t.htmlLang,
   url: `${SITE}${t.path}`,
   image: `${SITE}/assets/og/og-${t.lang}.png`,
-  publisher: { "@type": "Organization", name: "M3 Studio", email: config.supportEmail },
+  publisher: { "@type": "Organization", name: "M3RGE", email: config.supportEmail },
 }).replace(/</g, "\\u003c");
 
 const head = (t, { title, description, canonical, robots }) => `<meta charset="utf-8">
@@ -117,7 +117,7 @@ ${langNav(t, "lang-nav", false)}
 
 const footer = t => `<footer class="site-footer">
 <div class="wrap footer-grid">
-<p class="brand brand--small">${logo()}<span>© ${YEAR} M3 Studio</span></p>
+<p class="brand brand--small">${logo()}<span>© ${YEAR} M3RGE</span></p>
 <ul class="footer-links">
 <li><a href="${esc(config.termsUrl[t.lang])}">${esc(t.footerTerms)}</a></li>
 <li><a href="${esc(config.privacyUrl[t.lang])}">${esc(t.footerPrivacy)}</a></li>
