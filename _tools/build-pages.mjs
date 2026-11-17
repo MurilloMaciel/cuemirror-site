@@ -49,11 +49,16 @@ const alternates = () => [
   `<link rel="alternate" hreflang="x-default" href="${SITE}/">`,
 ].join("\n");
 
-const langNav = (t, cls, full) => `<${full ? 'div role="group"' : "nav"} class="${cls}" aria-label="${esc(t.languageLabel)}"><ul>${LANGS.map(l => {
+// Language menu: a <details> disclosure, so it opens without JavaScript and stays one button however many languages.
+const globe = `<svg class="ico" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Zm0-82q26-36 45-75t31-83H404q12 44 31 83t45 75Zm-104-16q-18-33-31.5-68.5T322-320H204q29 50 72.5 87t99.5 55Zm208 0q56-18 99.5-55t72.5-87H638q-9 38-22.5 73.5T584-178ZM170-400h136q-3-20-4.5-39.5T300-480q0-21 1.5-40.5T306-560H170q-5 20-7.5 39.5T160-480q0 21 2.5 40.5T170-400Zm216 0h188q3-20 4.5-39.5T580-480q0-21-1.5-40.5T574-560H386q-3 20-4.5 39.5T380-480q0 21 1.5 40.5T386-400Zm268 0h136q5-20 7.5-39.5T800-480q0-21-2.5-40.5T790-560H654q3 20 4.5 39.5T660-480q0 21-1.5 40.5T654-400Zm-16-240h118q-29-50-72.5-87T584-782q18 33 31.5 68.5T638-640Zm-234 0h152q-12-44-31-83t-45-75q-26 36-45 75t-31 83Zm-200 0h118q9-38 22.5-73.5T376-782q-56 18-99.5 55T204-640Z"/></svg>`;
+const chevron = `<svg class="ico lang-menu__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 15.4 6 9.4 7.4 8l4.6 4.6L16.6 8 18 9.4z"/></svg>`;
+const langNav = t => `<nav class="lang-menu" aria-label="${esc(t.languageLabel)}"><details>
+<summary>${globe}<span class="vh">${esc(t.languageLabel)}: </span><span class="lang-menu__name" lang="${t.htmlLang}">${esc(t.languageName)}</span><span class="lang-menu__code mono" aria-hidden="true">${t.lang.toUpperCase()}</span>${chevron}</summary>
+<ul>${LANGS.map(l => {
   const o = T[l], cur = l === t.lang;
-  const label = full ? esc(o.languageName) : `<span aria-hidden="true">${l.toUpperCase()}</span><span class="vh">${esc(o.languageName)}</span>`;
-  return `<li><a href="${o.path}" hreflang="${o.htmlLang}" lang="${o.htmlLang}" data-lang-switch${cur ? ' aria-current="page"' : ""}>${label}</a></li>`;
-}).join("")}</ul></${full ? "div" : "nav"}>`;
+  return `<li><a href="${o.path}" hreflang="${o.htmlLang}" lang="${o.htmlLang}" data-lang-switch${cur ? ' aria-current="page"' : ""}>${esc(o.languageName)}${cur ? icon.check : ""}</a></li>`;
+}).join("")}</ul>
+</details></nav>`;
 
 const store = (name, url, t) => url
   ? `<a class="store" href="${esc(url)}" rel="noopener">${name}</a>`
@@ -126,12 +131,14 @@ ${LANGS.filter(l => l !== t.lang).map(l => `<meta property="og:locale:alternate"
 // Keeps the reader on the equivalent section when switching language (works without it too).
 const switchScript = `<script>
 document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[data-lang-switch]");if(!a)return;var s=document.querySelectorAll("main section[id]"),id="";for(var i=0;i<s.length;i++){if(s[i].getBoundingClientRect().top<innerHeight*.4)id=s[i].id}if(id&&id!=="top")a.href=a.pathname+"#"+id});
+document.addEventListener("click",function(e){var d=document.querySelector(".lang-menu details[open]");if(d&&!d.contains(e.target))d.open=false});
+document.addEventListener("keydown",function(e){var d=document.querySelector(".lang-menu details[open]");if(e.key==="Escape"&&d){d.open=false;d.querySelector("summary").focus()}});
 </script>`;
 
 const header = t => `<a class="skip" href="#main">${esc(t.skip)}</a>
 <header class="site-header wrap">
 <a class="brand" href="${t.path}" aria-label="${esc(t.homeLabel)}">${logo()}<span aria-hidden="true">CueMirror</span></a>
-${langNav(t, "lang-nav", false)}
+${langNav(t)}
 </header>`;
 
 const footer = t => `<footer class="site-footer">
@@ -140,9 +147,7 @@ const footer = t => `<footer class="site-footer">
 <ul class="footer-links">
 <li><a href="${esc(config.termsUrl[t.lang])}">${esc(t.footerTerms)}</a></li>
 <li><a href="${esc(config.privacyUrl[t.lang])}">${esc(t.footerPrivacy)}</a></li>
-</ul>
-${langNav(t, "lang-nav lang-nav--footer", true)}
-</div>
+</ul></div>
 </footer>`;
 
 const page = t => {
