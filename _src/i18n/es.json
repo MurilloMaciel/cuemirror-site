@@ -86,6 +86,19 @@
   "privacyText": "Sin cuenta y sin nube: la app no envía tus guiones ni tus vídeos a ningún sitio.",
   "privacyLink": "Lee la política de privacidad",
 
+  "faqEyebrow": "Preguntas frecuentes",
+  "faqTitle": "Lo que la gente pregunta.",
+  "faq": [
+    { "q": "¿CueMirror es gratis?", "a": "Sí. La versión gratuita no tiene límite de tiempo ni marca de agua. Premium es opcional, con suscripción mensual o anual; la tienda muestra el precio en tu moneda." },
+    { "q": "¿Necesito una cuenta o conexión a internet?", "a": "No necesitas cuenta y no hay nube: tus guiones se guardan en tu dispositivo, y escribir y leer funcionan sin internet. Solo suscribirte o restaurar tu suscripción necesita conexión." },
+    { "q": "¿Puedo grabar vídeo?", "a": "Sí, con Premium. Grábate con la cámara frontal mientras el guion se desplaza en la parte superior de la pantalla, y después guarda la toma en la galería o compártela." },
+    { "q": "¿Funciona con un pedal o teclado Bluetooth?", "a": "Sí, con Premium: pulsa para reproducir o pausar, mantén pulsado para volver al principio." },
+    { "q": "¿Sirve para el cristal del teleprompter?", "a": "Sí. Premium tiene los modos Espejado e Invertido, para que el texto se lea al derecho en el reflejo." },
+    { "q": "¿Puedo importar mi guion?", "a": "Con Premium puedes importar archivos .txt, .docx y .pdf y exportar guiones en .txt. En la versión gratuita puedes pegar tu guion o dictarlo con el micrófono del teclado." },
+    { "q": "¿Funciona encima de otras apps?", "a": "Solo en Android: Premium incluye una ventana flotante que se queda encima de otras apps." },
+    { "q": "¿Mis guiones salen de mi dispositivo?", "a": "La app nunca envía tus guiones ni tus vídeos a nosotros ni a ningún servidor. La copia de seguridad del propio sistema (Google o iCloud) puede incluir tus guiones, en tu cuenta.", "linkToPrivacy": true }
+  ],
+
   "supportEyebrow": "Soporte",
   "supportTitle": "¿Dudas, sugerencias o algo no funciona?",
   "supportText": "Escríbenos. Las sugerencias también son bienvenidas. Si algo no funciona, cuéntanos el modelo de tu dispositivo y la versión de la app.",

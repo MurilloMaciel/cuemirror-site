@@ -87,6 +87,19 @@
   "privacyText": "Kein Konto und keine Cloud: Die App sendet deine Skripte und Videos nirgendwohin.",
   "privacyLink": "Datenschutzerklärung lesen",
 
+  "faqEyebrow": "Häufige Fragen",
+  "faqTitle": "Was oft gefragt wird.",
+  "faq": [
+    { "q": "Ist CueMirror kostenlos?", "a": "Ja. Die kostenlose Version hat kein Zeitlimit und kein Wasserzeichen. Premium ist optional, als Monats- oder Jahresabo; der Store zeigt den Preis in deiner Währung." },
+    { "q": "Brauche ich ein Konto oder eine Internetverbindung?", "a": "Du brauchst kein Konto, und es gibt keine Cloud: Deine Skripte bleiben auf deinem Gerät, Schreiben und Lesen funktionieren ohne Internet. Nur zum Abonnieren oder Wiederherstellen des Abos brauchst du eine Verbindung." },
+    { "q": "Kann ich Videos aufnehmen?", "a": "Ja, mit Premium. Nimm dich mit der Frontkamera auf, während das Skript oben am Bildschirm läuft, und speichere die Aufnahme danach in der Galerie oder teile sie." },
+    { "q": "Funktioniert es mit einem Bluetooth-Pedal oder einer Tastatur?", "a": "Ja, mit Premium: drücken zum Starten oder Pausieren, gedrückt halten, um zum Anfang zurückzuspringen." },
+    { "q": "Eignet es sich für Teleprompter-Glas?", "a": "Ja. Premium hat die Modi Gespiegelt und Umgedreht, damit der Text in der Spiegelung richtig herum steht." },
+    { "q": "Kann ich mein Skript importieren?", "a": "Mit Premium importierst du .txt-, .docx- und .pdf-Dateien und exportierst Skripte als .txt. In der kostenlosen Version kannst du dein Skript einfügen oder mit dem Mikrofon der Tastatur diktieren." },
+    { "q": "Funktioniert es über anderen Apps?", "a": "Nur auf Android: Premium enthält ein schwebendes Fenster, das über anderen Apps bleibt." },
+    { "q": "Verlassen meine Skripte mein Gerät?", "a": "Die App sendet deine Skripte und Videos nie an uns oder an einen Server. Das Backup deines Systems (Google oder iCloud) kann deine Skripte in deinem Konto enthalten.", "linkToPrivacy": true }
+  ],
+
   "supportEyebrow": "Support",
   "supportTitle": "Fragen, Ideen oder funktioniert etwas nicht?",
   "supportText": "Schreib uns. Vorschläge sind auch willkommen. Wenn etwas nicht funktioniert, nenn uns dein Gerätemodell und die App-Version.",

@@ -87,6 +87,19 @@
   "privacyText": "Senza account e senza cloud: l'app non invia i tuoi script né i tuoi video da nessuna parte.",
   "privacyLink": "Leggi l'informativa sulla privacy",
 
+  "faqEyebrow": "Domande frequenti",
+  "faqTitle": "Le domande più comuni.",
+  "faq": [
+    { "q": "CueMirror è gratis?", "a": "Sì. La versione gratuita non ha limiti di tempo né filigrana. Premium è facoltativo, con abbonamento mensile o annuale; lo store mostra il prezzo nella tua valuta." },
+    { "q": "Serve un account o una connessione a internet?", "a": "Non serve un account e non c'è cloud: i tuoi script restano sul dispositivo, e scrivere e leggere funzionano senza internet. Solo abbonarsi o ripristinare l'abbonamento richiede una connessione." },
+    { "q": "Posso registrare video?", "a": "Sì, con Premium. Registrati con la fotocamera frontale mentre lo script scorre in alto sullo schermo, poi salva la ripresa nella galleria o condividila." },
+    { "q": "Funziona con un pedale o una tastiera Bluetooth?", "a": "Sì, con Premium: premi per avviare o mettere in pausa, tieni premuto per tornare all'inizio." },
+    { "q": "Va bene per il vetro del teleprompter?", "a": "Sì. Premium ha le modalità Specchiato e Capovolto, così il testo si legge dritto nel riflesso." },
+    { "q": "Posso importare il mio script?", "a": "Con Premium importi file .txt, .docx e .pdf ed esporti gli script in .txt. Nella versione gratuita puoi incollare lo script o dettarlo con il microfono della tastiera." },
+    { "q": "Funziona sopra le altre app?", "a": "Solo su Android: Premium include una finestra mobile che resta sopra le altre app." },
+    { "q": "I miei script lasciano il dispositivo?", "a": "L'app non invia mai i tuoi script né i tuoi video a noi o a qualsiasi server. Il backup del sistema stesso (Google o iCloud) può includere i tuoi script, nel tuo account.", "linkToPrivacy": true }
+  ],
+
   "supportEyebrow": "Assistenza",
   "supportTitle": "Domande, idee o qualcosa non funziona?",
   "supportText": "Scrivici. Anche i suggerimenti sono benvenuti. Se qualcosa non funziona, indicaci il modello del dispositivo e la versione dell'app.",

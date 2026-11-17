@@ -87,6 +87,19 @@
   "privacyText": "Sans compte et sans cloud : l'appli n'envoie jamais vos scripts ni vos vidéos nulle part.",
   "privacyLink": "Lire la politique de confidentialité",
 
+  "faqEyebrow": "Questions fréquentes",
+  "faqTitle": "Les questions qu'on nous pose.",
+  "faq": [
+    { "q": "CueMirror est-il gratuit ?", "a": "Oui. La version gratuite n'a ni limite de temps ni filigrane. Premium est facultatif, avec un abonnement mensuel ou annuel ; la boutique affiche le prix dans votre devise." },
+    { "q": "Faut-il un compte ou une connexion Internet ?", "a": "Aucun compte n'est nécessaire et il n'y a pas de cloud : vos scripts restent sur votre appareil, et l'écriture et la lecture fonctionnent sans Internet. Seuls l'abonnement et la restauration de l'abonnement nécessitent une connexion." },
+    { "q": "Puis-je filmer une vidéo ?", "a": "Oui, avec Premium. Filmez-vous avec la caméra frontale pendant que le script défile en haut de l'écran, puis enregistrez la prise dans la galerie ou partagez-la." },
+    { "q": "Fonctionne-t-il avec une pédale ou un clavier Bluetooth ?", "a": "Oui, avec Premium : appuyez pour lancer ou mettre en pause, maintenez pour revenir au début." },
+    { "q": "Est-il adapté à une vitre de prompteur ?", "a": "Oui. Premium propose les modes Miroir et Inversé, pour que le texte se lise à l'endroit dans le reflet." },
+    { "q": "Puis-je importer mon script ?", "a": "Avec Premium, vous importez des fichiers .txt, .docx et .pdf et exportez vos scripts en .txt. Dans la version gratuite, vous pouvez coller votre script ou le dicter avec le micro du clavier." },
+    { "q": "Fonctionne-t-il par-dessus d'autres applis ?", "a": "Seulement sur Android : Premium inclut une fenêtre flottante qui reste au-dessus des autres applis." },
+    { "q": "Mes scripts quittent-ils mon appareil ?", "a": "L'appli n'envoie jamais vos scripts ni vos vidéos, ni à nous ni à aucun serveur. La sauvegarde du système lui-même (Google ou iCloud) peut inclure vos scripts, dans votre compte.", "linkToPrivacy": true }
+  ],
+
   "supportEyebrow": "Assistance",
   "supportTitle": "Une question, une idée ou un problème ?",
   "supportText": "Écrivez-nous. Vos suggestions sont aussi les bienvenues. Si quelque chose ne fonctionne pas, indiquez le modèle de votre appareil et la version de l'appli.",

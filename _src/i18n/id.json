@@ -87,6 +87,19 @@
   "privacyText": "Tanpa akun dan tanpa cloud: aplikasi tidak pernah mengirim naskah maupun video Anda ke mana pun.",
   "privacyLink": "Baca kebijakan privasi",
 
+  "faqEyebrow": "Pertanyaan umum",
+  "faqTitle": "Yang sering ditanyakan.",
+  "faq": [
+    { "q": "Apakah CueMirror gratis?", "a": "Ya. Versi gratis tidak punya batas waktu dan tanpa watermark. Premium bersifat opsional, dengan langganan bulanan atau tahunan; toko menampilkan harga dalam mata uang Anda." },
+    { "q": "Apakah perlu akun atau koneksi internet?", "a": "Tidak perlu akun, dan tidak ada cloud: naskah Anda tersimpan di perangkat, dan menulis serta membaca bisa dilakukan tanpa internet. Hanya berlangganan atau memulihkan langganan yang memerlukan koneksi." },
+    { "q": "Bisakah saya merekam video?", "a": "Bisa, dengan Premium. Rekam diri Anda dengan kamera depan sementara naskah bergulir di bagian atas layar, lalu simpan hasilnya ke galeri atau bagikan." },
+    { "q": "Apakah bisa dipakai dengan pedal atau keyboard Bluetooth?", "a": "Bisa, dengan Premium: tekan untuk memutar atau menjeda, tahan untuk kembali ke awal." },
+    { "q": "Apakah cocok untuk kaca teleprompter?", "a": "Ya. Premium punya mode Dicerminkan dan Dibalik, agar teks terbaca benar di pantulan." },
+    { "q": "Bisakah saya mengimpor naskah?", "a": "Dengan Premium Anda bisa mengimpor file .txt, .docx, dan .pdf serta mengekspor naskah sebagai .txt. Di versi gratis Anda bisa menempelkan naskah atau mendiktekannya dengan mikrofon keyboard." },
+    { "q": "Apakah bisa dipakai di atas aplikasi lain?", "a": "Hanya di Android: Premium menyertakan jendela mengambang yang tetap di atas aplikasi lain." },
+    { "q": "Apakah naskah saya keluar dari perangkat?", "a": "Aplikasi tidak pernah mengirim naskah maupun video Anda kepada kami atau ke server mana pun. Cadangan sistem itu sendiri (Google atau iCloud) dapat menyertakan naskah Anda, di akun Anda.", "linkToPrivacy": true }
+  ],
+
   "supportEyebrow": "Dukungan",
   "supportTitle": "Ada pertanyaan, saran, atau ada yang tidak berfungsi?",
   "supportText": "Kirim email kepada kami. Saran juga sangat kami terima. Jika ada yang tidak berfungsi, sebutkan model perangkat dan versi aplikasi Anda.",

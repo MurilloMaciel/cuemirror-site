@@ -1,0 +1,52 @@
+# CueMirror
+
+> A simple, fast teleprompter for video, live streams and presentations. Look at the camera, not at your notes, and record the take right in the app.
+
+CueMirror is a teleprompter app for iPhone and Android by EmQube. No account. No cloud. No watermark.
+
+## Free
+
+- Script library with an editor and autosave
+- Dictate scripts with your keyboard's microphone
+- Adjustable speed, text size and margins
+- Text and background colors, light and dark theme
+- Alignment, line spacing and a reading line
+- Countdown before you start
+- Quick adjustments while you read
+
+No time limit, no watermark.
+
+## Premium
+
+Monthly or annual subscription.
+
+- Record yourself with the front camera while you read
+- Mirrored and Flipped modes for teleprompter glass
+- Precise speed in words per minute and a target duration for each script
+- Import .txt, .docx and .pdf files, and export scripts as .txt
+- Bluetooth keyboard or pedal as a remote control
+- Floating window over other apps (Android)
+
+## Download
+
+- [App Store](https://apps.apple.com/app/id6822885852)
+- [Google Play](https://play.google.com/store/apps/details?id=com.cuemirror)
+
+## Website
+
+- [English](https://cuemirror.com/)
+- [Português](https://cuemirror.com/pt/)
+- [Español](https://cuemirror.com/es/)
+- [Français](https://cuemirror.com/fr/)
+- [Deutsch](https://cuemirror.com/de/)
+- [Italiano](https://cuemirror.com/it/)
+- [Bahasa Indonesia](https://cuemirror.com/id/)
+
+## Policies
+
+- [Privacy policy](https://cuemirror.com/privacy.html?lang=en)
+- [Terms of use](https://cuemirror.com/terms.html?lang=en)
+
+## Contact
+
+- Support: support@cuemirror.com

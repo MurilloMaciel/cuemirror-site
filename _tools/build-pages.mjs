@@ -1,4 +1,4 @@
-// Generates index.html, one <lang>/index.html per other language, 404.html, sitemap.xml and robots.txt from
+// Generates index.html, one <lang>/index.html per other language, 404.html, sitemap.xml, robots.txt and llms.txt from
 // _src/config.json and _src/i18n/*.json. Node built-ins only, no npm install needed.
 // Run from the repo root: `node _tools/build-pages.mjs`. The generated files are committed, so the
 // site itself needs no build step.
@@ -14,6 +14,7 @@ const STUDIO = "EmQube";
 const T = Object.fromEntries(await Promise.all(LANGS.map(async l => [l, await read(`_src/i18n/${l}.json`)])));
 const SITE = config.siteUrl.replace(/\/$/, "");
 const YEAR = 2026;
+const BUILD_DATE = new Date().toISOString().slice(0, 10);
 // Languages without their own screenshots or share image use another language's ("assetLang").
 const assetLang = t => t.assetLang || t.lang;
 
@@ -44,8 +45,11 @@ const feature = f => {
 </li>`;
 };
 
+// hreflang uses the bare language (pt, es…), so /pt/ also serves Portugal and /es/ Latin America; <html lang> and
+// og:locale stay regional.
+const hreflang = t => t.lang;
 const alternates = () => [
-  ...LANGS.map(l => `<link rel="alternate" hreflang="${T[l].htmlLang}" href="${SITE}${T[l].path}">`),
+  ...LANGS.map(l => `<link rel="alternate" hreflang="${hreflang(T[l])}" href="${SITE}${T[l].path}">`),
   `<link rel="alternate" hreflang="x-default" href="${SITE}/">`,
 ].join("\n");
 
@@ -56,7 +60,7 @@ const langNav = t => `<nav class="lang-menu" aria-label="${esc(t.languageLabel)}
 <summary>${globe}<span class="vh">${esc(t.languageLabel)}: </span><span class="lang-menu__name" lang="${t.htmlLang}">${esc(t.languageName)}</span><span class="lang-menu__code mono" aria-hidden="true">${t.lang.toUpperCase()}</span>${chevron}</summary>
 <ul>${LANGS.map(l => {
   const o = T[l], cur = l === t.lang;
-  return `<li><a href="${o.path}" hreflang="${o.htmlLang}" lang="${o.htmlLang}" data-lang-switch${cur ? ' aria-current="page"' : ""}>${esc(o.languageName)}${cur ? icon.check : ""}</a></li>`;
+  return `<li><a href="${o.path}" hreflang="${hreflang(o)}" lang="${o.htmlLang}" data-lang-switch${cur ? ' aria-current="page"' : ""}>${esc(o.languageName)}${cur ? icon.check : ""}</a></li>`;
 }).join("")}</ul>
 </details></nav>`;
 
@@ -111,18 +115,47 @@ const shot = (t, s, i) => {
 </li>`;
 };
 
-const jsonLd = t => JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  name: "CueMirror",
-  operatingSystem: "iOS, Android",
-  applicationCategory: "MultimediaApplication",
-  description: t.description,
-  inLanguage: t.htmlLang,
-  url: `${SITE}${t.path}`,
-  image: `${SITE}/assets/og/og-${assetLang(t)}.png`,
-  publisher: { "@type": "Organization", name: STUDIO, email: config.supportEmail },
-}).replace(/</g, "\\u003c");
+// FAQ answers: the last one ends with a link to the privacy policy. The same text (HTML link included) goes into the
+// visible page and into the FAQPage JSON-LD, so both always match.
+const faqAnswerHtml = (t, f, href) => `${esc(f.a)}${f.linkToPrivacy ? ` <a href="${esc(href)}">${esc(t.privacyLink)}</a>.` : ""}`;
+
+const jsonLd = t => {
+  const url = `${SITE}${t.path}`;
+  const org = { "@type": "Organization", "@id": `${SITE}/#organization`, name: STUDIO, url: `${SITE}/` };
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MobileApplication",
+        "@id": `${url}#app`,
+        name: "CueMirror",
+        description: t.description,
+        inLanguage: t.htmlLang,
+        url,
+        operatingSystem: "iOS, Android",
+        applicationCategory: "MultimediaApplication",
+        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+        image: `${SITE}/assets/og/og-${assetLang(t)}.png`,
+        screenshot: t.screens.map(s => `${SITE}/assets/img/${assetLang(t)}/dark/${s.file}-720.webp`),
+        featureList: [...t.freeList, ...t.premiumList],
+        sameAs: [config.storeListings.appStore, config.storeListings.googlePlay],
+        publisher: { "@id": org["@id"] },
+      },
+      org,
+      { "@type": "WebSite", "@id": `${SITE}/#website`, name: "CueMirror", url: `${SITE}/`, publisher: { "@id": org["@id"] } },
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        inLanguage: t.htmlLang,
+        mainEntity: t.faq.map(f => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: faqAnswerHtml(t, f, `${SITE}${config.privacyUrl[t.lang]}`).replace(/&amp;/g, "&") },
+        })),
+      },
+    ],
+  }).replace(/</g, "\\u003c");
+};
 
 const head = (t, { title, description, canonical, robots }) => `<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -197,8 +230,7 @@ ${header(t)}
 <main id="main">
 <section class="hero wrap" id="top" aria-labelledby="hero-title">
 <div class="hero__copy">
-<p class="eyebrow">${esc(t.eyebrow)}</p>
-<h1 id="hero-title">${esc(t.h1)}</h1>
+<h1 id="hero-title"><span class="eyebrow">${esc(t.eyebrow)}</span> ${esc(t.h1)}</h1>
 <p class="lead">${esc(t.subtitle)}</p>
 <p class="badge">${esc(t.badge)}</p>
 <div class="stores">
@@ -264,6 +296,17 @@ ${t.screens.map((s, i) => shot(t, s, i)).join("\n")}
 </div>
 </section>
 
+<section class="section wrap" id="faq" aria-labelledby="faq-title">
+<p class="eyebrow">${esc(t.faqEyebrow)}</p>
+<h2 id="faq-title">${esc(t.faqTitle)}</h2>
+<div class="faq">
+${t.faq.map(f => `<details class="faq__item">
+<summary><h3>${esc(f.q)}</h3>${chevron}</summary>
+<p>${faqAnswerHtml(t, f, config.privacyUrl[t.lang])}</p>
+</details>`).join("\n")}
+</div>
+</section>
+
 <section class="section wrap split" id="support" aria-labelledby="support-title">
 <div>
 <p class="eyebrow">${esc(t.supportEyebrow)}</p>
@@ -322,13 +365,14 @@ ${footer(t)}
 };
 
 const sitemap = () => {
-  const alt = LANGS.map(l => `    <xhtml:link rel="alternate" hreflang="${T[l].htmlLang}" href="${SITE}${T[l].path}"/>`).join("\n")
+  const alt = LANGS.map(l => `    <xhtml:link rel="alternate" hreflang="${hreflang(T[l])}" href="${SITE}${T[l].path}"/>`).join("\n")
     + `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE}/"/>`;
   const legal = ["privacy", "terms"].flatMap(b => ["", ...LANGS.filter(l => l !== "en").map(l => `-${l}`)].map(s => `${SITE}/${b}${s}.html`));
+  const lastmod = `    <lastmod>${BUILD_DATE}</lastmod>`;
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${LANGS.map(l => `  <url>\n    <loc>${SITE}${T[l].path}</loc>\n${alt}\n  </url>`).join("\n")}
-${legal.map(u => `  <url>\n    <loc>${u}</loc>\n  </url>`).join("\n")}
+${LANGS.map(l => `  <url>\n    <loc>${SITE}${T[l].path}</loc>\n${lastmod}\n${alt}\n  </url>`).join("\n")}
+${legal.map(u => `  <url>\n    <loc>${u}</loc>\n${lastmod}\n  </url>`).join("\n")}
 </urlset>
 `;
 };
@@ -340,5 +384,51 @@ for (const l of LANGS) {
 }
 await writeFile(join(ROOT, "404.html"), notFound());
 await writeFile(join(ROOT, "sitemap.xml"), sitemap());
-await writeFile(join(ROOT, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
+// Everything is open to every crawler; search and AI crawlers are also named so a future rule can't block them by accident.
+const NAMED_CRAWLERS = ["OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "Claude-SearchBot", "Claude-User", "GPTBot", "ClaudeBot", "Google-Extended", "Applebot-Extended", "Bingbot"];
+const robots = () => `User-agent: *\nAllow: /\n\n${NAMED_CRAWLERS.map(c => `User-agent: ${c}\nAllow: /\n`).join("\n")}\nSitemap: ${SITE}/sitemap.xml\n`;
+
+// llms.txt (llmstxt.org): a plain summary for AI tools, from the English page copy.
+const llms = () => {
+  const t = T.en;
+  return `# CueMirror
+
+> ${t.subtitle}
+
+CueMirror is a teleprompter app for iPhone and Android by ${STUDIO}. ${t.badge}
+
+## Free
+
+${t.freeList.map(x => `- ${x}`).join("\n")}
+
+${t.freeNote}
+
+## Premium
+
+${t.premiumNote}
+
+${t.premiumList.map(x => `- ${x}`).join("\n")}
+
+## Download
+
+- [App Store](${config.storeListings.appStore})
+- [Google Play](${config.storeListings.googlePlay})
+
+## Website
+
+${LANGS.map(l => `- [${T[l].languageName}](${SITE}${T[l].path})`).join("\n")}
+
+## Policies
+
+- [Privacy policy](${SITE}${config.privacyUrl.en})
+- [Terms of use](${SITE}${config.termsUrl.en})
+
+## Contact
+
+- Support: ${config.supportEmail}
+`;
+};
+
+await writeFile(join(ROOT, "robots.txt"), robots());
+await writeFile(join(ROOT, "llms.txt"), llms());
 console.log("pages ok");

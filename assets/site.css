@@ -105,6 +105,9 @@ a:hover { color: var(--accent-text); }
 /* Shared type */
 .eyebrow { max-width: none; font: 500 .8125rem/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent-text); margin-bottom: 1rem; }
 h1 { hyphens: auto; overflow-wrap: anywhere; font-weight: 600; font-size: clamp(2.75rem, 1.5rem + 5.6vw, 5.75rem); line-height: 1.02; letter-spacing: -.035em; text-wrap: balance; }
+/* The hero eyebrow lives inside the h1 (it names what the app is), but must look exactly like a standalone .eyebrow:
+   block, and none of the h1's wrapping rules. */
+h1 > .eyebrow { display: block; hyphens: manual; overflow-wrap: break-word; text-wrap: wrap; }
 h2 { hyphens: auto; font-weight: 600; font-size: clamp(1.875rem, 1.2rem + 2.6vw, 3.25rem); line-height: 1.08; letter-spacing: -.03em; text-wrap: balance; max-width: 20ch; }
 h3 { font-weight: 600; font-size: 1.25rem; line-height: 1.3; letter-spacing: -.01em; }
 
@@ -204,6 +207,18 @@ h3 { font-weight: 600; font-size: 1.25rem; line-height: 1.3; letter-spacing: -.0
 .plan, .feature, .link-arrow { overflow-wrap: anywhere; hyphens: auto; }
 .link-arrow .ico { width: 1.15rem; height: 1.15rem; fill: currentColor; transition: transform .15s; }
 .link-arrow:hover .ico { transform: translateX(3px); }
+
+/* FAQ: one <details> per question, separated by the same dividers as the steps. */
+.faq { margin-top: 3rem; max-width: 52rem; border-top: 1px solid var(--divider); }
+.faq__item { border-bottom: 1px solid var(--divider); }
+.faq__item summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 3.5rem; padding-block: 1rem; cursor: pointer; list-style: none; }
+.faq__item summary::-webkit-details-marker { display: none; }
+.faq__item h3 { font-size: 1.125rem; line-height: 1.35; font-weight: 600; overflow-wrap: anywhere; hyphens: auto; }
+.faq__item summary .ico { width: 1.5rem; height: 1.5rem; flex: none; fill: var(--accent-text); transition: transform .15s; }
+.faq__item[open] summary .ico { transform: rotate(180deg); }
+.faq__item summary:hover h3 { color: var(--accent-text); }
+.faq__item p { padding-bottom: 1.25rem; max-width: 62ch; color: var(--muted); }
+.faq__item p a { color: var(--accent-text); }
 
 #support .muted { margin-top: 1.25rem; max-width: 44ch; }
 

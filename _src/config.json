@@ -12,5 +12,11 @@
   "_stores": "Same links on every page, with the site_badge campaign (App Store Connect > App Analytics > Campaigns; Play Console > Store performance). appStoreId feeds the iOS Smart App Banner.",
   "appStoreId": "6822885852",
   "appStoreUrl": "https://apps.apple.com/app/apple-store/id6822885852?pt=129566417&ct=site_badge&mt=8",
-  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.cuemirror&referrer=utm_source%3Dcuemirror_site%26utm_medium%3Dwebsite%26utm_campaign%3Dsite_badge"
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.cuemirror&referrer=utm_source%3Dcuemirror_site%26utm_medium%3Dwebsite%26utm_campaign%3Dsite_badge",
+
+  "_storeListings": "Clean store URLs, no campaign: for the JSON-LD sameAs and llms.txt.",
+  "storeListings": {
+    "appStore": "https://apps.apple.com/app/id6822885852",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.cuemirror"
+  }
 }

@@ -86,6 +86,19 @@
   "privacyText": "No account and no cloud: the app never sends your scripts or videos anywhere.",
   "privacyLink": "Read the privacy policy",
 
+  "faqEyebrow": "FAQ",
+  "faqTitle": "Questions people ask.",
+  "faq": [
+    { "q": "Is CueMirror free?", "a": "Yes. The free version has no time limit and no watermark. Premium is optional, with a monthly or annual subscription; the store shows the price in your local currency." },
+    { "q": "Do I need an account or an internet connection?", "a": "No account is needed, and there is no cloud: your scripts are stored on your device, and writing and reading work without an internet connection. Only subscribing or restoring your subscription needs a connection." },
+    { "q": "Can I record video?", "a": "Yes, with Premium. Film yourself with the front camera while the script scrolls at the top of the screen, then save the take to your gallery or share it." },
+    { "q": "Does it work with a Bluetooth pedal or keyboard?", "a": "Yes, with Premium: press to play or pause, hold to go back to the start." },
+    { "q": "Does it work with teleprompter glass?", "a": "Yes. Premium has Mirrored and Flipped modes, so the text reads the right way in the reflection." },
+    { "q": "Can I import my script?", "a": "With Premium you can import .txt, .docx and .pdf files and export scripts as .txt. In the free version you can paste your script or dictate it with your keyboard's microphone." },
+    { "q": "Can I use it over other apps?", "a": "Only on Android: Premium includes a floating window that stays over other apps." },
+    { "q": "Do my scripts leave my device?", "a": "The app never sends your scripts or videos to us or to any server. Your system's own backup (Google or iCloud) may include your scripts, in your account.", "linkToPrivacy": true }
+  ],
+
   "supportEyebrow": "Support",
   "supportTitle": "Questions, ideas or something not working?",
   "supportText": "Write to us. Suggestions are welcome too. If something isn't working, tell us your device model and the app version.",

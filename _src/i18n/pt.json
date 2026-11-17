@@ -86,6 +86,19 @@
   "privacyText": "Sem conta e sem nuvem: o app não envia seus roteiros nem seus vídeos a lugar nenhum.",
   "privacyLink": "Leia a política de privacidade",
 
+  "faqEyebrow": "Perguntas frequentes",
+  "faqTitle": "O que as pessoas perguntam.",
+  "faq": [
+    { "q": "O CueMirror é grátis?", "a": "Sim. A versão grátis não tem limite de tempo nem marca d'água. O Premium é opcional, com assinatura mensal ou anual; a loja mostra o preço na sua moeda." },
+    { "q": "Preciso de conta ou de internet?", "a": "Não precisa de conta, e não há nuvem: seus roteiros ficam no aparelho, e escrever e ler funcionam sem internet. Só assinar ou restaurar a assinatura precisa de conexão." },
+    { "q": "Dá para gravar vídeo?", "a": "Sim, no Premium. Grave você mesmo com a câmera frontal enquanto o roteiro rola no alto da tela, depois salve o take na galeria ou compartilhe." },
+    { "q": "Funciona com pedal ou teclado Bluetooth?", "a": "Sim, no Premium: aperte para iniciar ou pausar, segure para voltar ao início." },
+    { "q": "Serve para vidro de teleprompter?", "a": "Sim. O Premium tem os modos Espelhado e Invertido, para o texto aparecer do jeito certo no reflexo." },
+    { "q": "Posso importar meu roteiro?", "a": "No Premium você importa arquivos .txt, .docx e .pdf e exporta roteiros em .txt. Na versão grátis você pode colar o roteiro ou ditá-lo com o microfone do teclado." },
+    { "q": "Funciona sobre outros apps?", "a": "Só no Android: o Premium tem uma janela flutuante que fica sobre outros apps." },
+    { "q": "Meus roteiros saem do aparelho?", "a": "O app nunca envia seus roteiros nem seus vídeos para nós nem para nenhum servidor. O backup do próprio sistema (Google ou iCloud) pode incluir seus roteiros, na sua conta.", "linkToPrivacy": true }
+  ],
+
   "supportEyebrow": "Suporte",
   "supportTitle": "Dúvidas, sugestões ou algo não funciona?",
   "supportText": "Escreva para a gente. Sugestões também são bem-vindas. Se algo não funcionar, conte o modelo do aparelho e a versão do app.",
