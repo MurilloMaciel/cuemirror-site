@@ -79,3 +79,7 @@ Checklist de DNS no registrador de `cuemirror.com`:
 As URLs sem sufixo estão em inglês e redirecionam navegadores em português, espanhol, francês, alemão, italiano ou indonésio para a tradução (`?lang=en` força o inglês).
 
 Idioma novo: um `privacy-xx.md` e um `terms-xx.md`, o link no seletor do topo de todos eles, a entrada em `_includes/head-custom.html`, `_src/i18n/xx.json`, `LANGS` em `_tools/build-pages.mjs` e as URLs em `_src/config.json`. Até o DNS estar no ar, continuam valendo os endereços em `murillomaciel.github.io/cuemirror-site/`.
+
+## Pendências
+
+- [ ] Remover a frase de transição (comentário TRANSIÇÃO) dos terms*.md e atualizar a data quando as contas do Google Play e da App Store forem convertidas para a EmQube. Depois, atualizar o EULA próprio no App Store Connect.

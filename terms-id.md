@@ -8,9 +8,9 @@ locale: id_ID
 
 [English](terms.html?lang=en) · [Português](terms-pt.html) · [Español](terms-es.html) · [Français](terms-fr.html) · [Deutsch](terms-de.html) · [Italiano](terms-it.html) · **Bahasa Indonesia**
 
-**Terakhir diperbarui:** 16 November 2026
+**Terakhir diperbarui:** 17 November 2026
 
-Ketentuan ini mengatur penggunaan CueMirror ("aplikasi"), aplikasi teleprompter yang dikembangkan oleh EmQube (EMQUBE TECNOLOGIA E SERVICOS LTDA, CNPJ 47.035.256/0001-06), São Leopoldo, RS, Brasil ("kami"). Dengan memasang atau menggunakan aplikasi, Anda menyetujui ketentuan ini. Jika Anda tidak setuju, jangan gunakan aplikasi.
+Ketentuan ini mengatur penggunaan CueMirror ("aplikasi"), aplikasi teleprompter yang dikembangkan oleh EmQube (EMQUBE TECNOLOGIA E SERVICOS LTDA, CNPJ 47.035.256/0001-06), São Leopoldo, RS, Brasil ("kami"). Hingga pengalihan selesai, aplikasi didistribusikan di Google Play dan App Store melalui akun developer milik Murillo Maciel, pemilik EmQube. <!-- TRANSIÇÃO: remover após a conversão das contas das lojas (Google Play e App Store) para a EmQube --> Dengan memasang atau menggunakan aplikasi, Anda menyetujui ketentuan ini. Jika Anda tidak setuju, jangan gunakan aplikasi.
 
 ### 1. Lisensi
 Kami memberi Anda lisensi pribadi, non-eksklusif, tidak dapat dialihkan, dan dapat dicabut untuk menggunakan aplikasi di perangkat Anda. Anda tidak boleh menyalin, memodifikasi, merekayasa balik, menjual kembali, atau mendistribusikan ulang aplikasi, kecuali jika diizinkan secara tegas oleh hukum. Aplikasi ini berisi komponen open source yang didistribusikan dengan lisensinya masing-masing, yang tercantum di aplikasi pada Tentang → Lisensi open source; tidak ada bagian ketentuan ini yang membatasi hak Anda berdasarkan lisensi tersebut.

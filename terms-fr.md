@@ -8,9 +8,9 @@ locale: fr_FR
 
 [English](terms.html?lang=en) · [Português](terms-pt.html) · [Español](terms-es.html) · **Français** · [Deutsch](terms-de.html) · [Italiano](terms-it.html) · [Bahasa Indonesia](terms-id.html)
 
-**Dernière mise à jour :** 16 novembre 2026
+**Dernière mise à jour :** 17 novembre 2026
 
-Les présentes conditions régissent votre utilisation de CueMirror (« l'application »), une application de prompteur développée par EmQube (EMQUBE TECNOLOGIA E SERVICOS LTDA, CNPJ 47.035.256/0001-06), São Leopoldo, RS, Brésil (« nous »). En installant ou en utilisant l'application, vous les acceptez. Si vous ne les acceptez pas, n'utilisez pas l'application.
+Les présentes conditions régissent votre utilisation de CueMirror (« l'application »), une application de prompteur développée par EmQube (EMQUBE TECNOLOGIA E SERVICOS LTDA, CNPJ 47.035.256/0001-06), São Leopoldo, RS, Brésil (« nous »). Jusqu'à la finalisation du transfert, l'application est distribuée sur Google Play et l'App Store via le compte développeur de Murillo Maciel, propriétaire d'EmQube. <!-- TRANSIÇÃO: remover após a conversão das contas das lojas (Google Play e App Store) para a EmQube --> En installant ou en utilisant l'application, vous acceptez les présentes conditions. Si vous ne les acceptez pas, n'utilisez pas l'application.
 
 ### 1. Licence
 Nous vous accordons une licence personnelle, non exclusive, non transférable et révocable pour utiliser l'application sur vos appareils. Vous ne pouvez pas copier, modifier, faire de l'ingénierie inverse, revendre ou redistribuer l'application, sauf lorsque la loi l'autorise expressément. L'application contient des composants open source distribués sous leurs propres licences, répertoriés dans l'application sous À propos → Licences open source ; rien dans les présentes conditions ne limite vos droits au titre de ces licences.

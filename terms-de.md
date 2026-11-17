@@ -8,9 +8,9 @@ locale: de_DE
 
 [English](terms.html?lang=en) · [Português](terms-pt.html) · [Español](terms-es.html) · [Français](terms-fr.html) · **Deutsch** · [Italiano](terms-it.html) · [Bahasa Indonesia](terms-id.html)
 
-**Zuletzt aktualisiert:** 16. November 2026
+**Zuletzt aktualisiert:** 17. November 2026
 
-Diese Bedingungen regeln deine Nutzung von CueMirror („die App“), einer Teleprompter-App, die von EmQube (EMQUBE TECNOLOGIA E SERVICOS LTDA, CNPJ 47.035.256/0001-06), São Leopoldo, RS, Brasilien („wir“) entwickelt wird. Mit der Installation oder Nutzung der App stimmst du ihnen zu. Wenn du nicht zustimmst, nutze die App nicht.
+Diese Bedingungen regeln deine Nutzung von CueMirror („die App“), einer Teleprompter-App, die von EmQube (EMQUBE TECNOLOGIA E SERVICOS LTDA, CNPJ 47.035.256/0001-06), São Leopoldo, RS, Brasilien („wir“) entwickelt wird. Bis zum Abschluss der Übertragung wird die App bei Google Play und im App Store über das Entwicklerkonto von Murillo Maciel, Inhaber von EmQube, vertrieben. <!-- TRANSIÇÃO: remover após a conversão das contas das lojas (Google Play e App Store) para a EmQube --> Mit der Installation oder Nutzung der App stimmst du diesen Bedingungen zu. Wenn du nicht zustimmst, nutze die App nicht.
 
 ### 1. Lizenz
 Wir gewähren dir eine persönliche, nicht ausschließliche, nicht übertragbare und widerrufliche Lizenz zur Nutzung der App auf deinen Geräten. Du darfst die App nicht kopieren, verändern, zurückentwickeln, weiterverkaufen oder weiterverbreiten, außer soweit das Gesetz es ausdrücklich erlaubt. Die App enthält Open-Source-Komponenten, die unter ihren eigenen Lizenzen verbreitet werden und in der App unter Info → Open-Source-Lizenzen aufgeführt sind; diese Bedingungen schränken deine Rechte aus diesen Lizenzen nicht ein.
