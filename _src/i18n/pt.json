@@ -87,11 +87,15 @@
   "privacyLink": "Leia a política de privacidade",
 
   "supportEyebrow": "Suporte",
-  "supportTitle": "Dúvidas ou algo não está funcionando?",
-  "supportText": "Escreva para a gente. Se algo não estiver funcionando, informe o modelo do aparelho e a versão do app.",
+  "supportTitle": "Dúvidas, sugestões ou algo não funciona?",
+  "supportText": "Escreva para a gente. Sugestões também são bem-vindas. Se algo não funcionar, conte o modelo do aparelho e a versão do app.",
   "supportCta": "Enviar e-mail ao suporte",
 
   "trademarks": "Apple e o logotipo da Apple são marcas comerciais da Apple Inc. Google Play e o logotipo do Google Play são marcas comerciais da Google LLC.",
+  "ctaEyebrow": "Baixe o CueMirror",
+  "ctaTitle": "Pronto para olhar para a câmera?",
+  "ctaText": "Download gratuito, sem precisar de conta.",
+
   "footerTerms": "Termos de uso",
   "footerPrivacy": "Política de privacidade"
 }

@@ -88,11 +88,15 @@
   "privacyLink": "Baca kebijakan privasi",
 
   "supportEyebrow": "Dukungan",
-  "supportTitle": "Ada pertanyaan atau ada yang tidak berfungsi?",
-  "supportText": "Kirim email kepada kami. Jika ada yang tidak berfungsi, sebutkan model perangkat dan versi aplikasi Anda.",
+  "supportTitle": "Ada pertanyaan, saran, atau ada yang tidak berfungsi?",
+  "supportText": "Kirim email kepada kami. Saran juga sangat kami terima. Jika ada yang tidak berfungsi, sebutkan model perangkat dan versi aplikasi Anda.",
   "supportCta": "Email dukungan",
 
   "trademarks": "Apple dan logo Apple adalah merek dagang Apple Inc. Google Play dan logo Google Play adalah merek dagang Google LLC.",
+  "ctaEyebrow": "Unduh CueMirror",
+  "ctaTitle": "Siap melihat ke kamera?",
+  "ctaText": "Gratis diunduh, tanpa perlu akun.",
+
   "footerTerms": "Ketentuan penggunaan",
   "footerPrivacy": "Kebijakan privasi"
 }

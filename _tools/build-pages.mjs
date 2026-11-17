@@ -273,6 +273,15 @@ ${t.screens.map((s, i) => shot(t, s, i)).join("\n")}
 <p><a class="button" href="${mail}">${icon.mail}${esc(t.supportCta)}</a></p>
 </div>
 </section>
+
+<section class="section wrap cta" id="get" aria-labelledby="cta-title">
+<p class="eyebrow">${esc(t.ctaEyebrow)}</p>
+<h2 id="cta-title">${esc(t.ctaTitle)}</h2>
+<p class="muted cta__text">${esc(t.ctaText)}</p>
+<div class="stores">
+${bothStores ? "" : `<p class="stores__note">${esc(t.storesSoon)}</p>\n`}<div class="stores__row">${appStoreBadge(t)}${googlePlayBadge(t)}</div>
+</div>
+</section>
 </main>
 ${footer(t)}
 ${switchScript}
