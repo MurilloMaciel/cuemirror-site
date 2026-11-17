@@ -5,7 +5,7 @@
   "path": "/pt/",
   "languageName": "Português",
   "title": "CueMirror — teleprompter simples e rápido para iPhone e Android",
-  "description": "Um teleprompter simples e rápido para vídeos, lives e apresentações. Escreva ou cole o roteiro, dê play e olhe para a câmera. Sem conta, sem nuvem, sem marca d'água.",
+  "description": "Um teleprompter simples e rápido para vídeos, lives e apresentações. Escreva ou cole o roteiro, dê play e olhe para a câmera, ou grave você mesmo no app. Sem conta, sem nuvem, sem marca d'água.",
   "ogImageAlt": "Logo do CueMirror com a frase: Fale com confiança.",
 
   "skip": "Pular para o conteúdo",
@@ -14,7 +14,7 @@
 
   "eyebrow": "Teleprompter para iPhone e Android",
   "h1": "Fale com confiança.",
-  "subtitle": "Um teleprompter simples e rápido para vídeos, lives e apresentações. Olhe para a câmera, não para as anotações.",
+  "subtitle": "Um teleprompter simples e rápido para vídeos, lives e apresentações. Olhe para a câmera, não para as anotações, e grave o take direto no app.",
   "badge": "Sem conta. Sem nuvem. Sem marca d'água.",
   "storesSoon": "Em breve na App Store e no Google Play",
   "soon": "Em breve",
@@ -33,7 +33,16 @@
   "steps": [
     { "title": "Escreva ou cole", "text": "Digite o roteiro no app, cole de qualquer lugar ou dite pelo microfone do teclado." },
     { "title": "Ajuste ao seu jeito", "text": "Defina velocidade, tamanho do texto, margens e cores do jeito que você lê melhor." },
-    { "title": "Leia olhando para a câmera", "text": "Dê play, espere a contagem regressiva e leia com os olhos perto da lente. Ajuste durante a leitura." }
+    { "title": "Leia olhando para a câmera", "text": "Dê play, espere a contagem regressiva e leia com os olhos perto da lente. Ajuste durante a leitura, ou grave o take direto no app." }
+  ],
+
+  "featuresEyebrow": "Destaques",
+  "featuresTitle": "Muito mais que um texto rolando.",
+  "features": [
+    { "icon": "record", "premium": true, "title": "Grave enquanto lê", "text": "Grave você mesmo com a câmera frontal enquanto o roteiro rola no alto da tela, perto da lente. Assista ao take e salve na galeria ou compartilhe." },
+    { "icon": "remote", "premium": true, "title": "Mãos livres com Bluetooth", "text": "Com um teclado ou pedal Bluetooth: aperte para iniciar ou pausar, segure para voltar ao início." },
+    { "icon": "mirror", "premium": true, "title": "Pronto para o vidro do teleprompter", "text": "Modos Espelhado e Invertido para teleprompters com vidro, para o texto aparecer do jeito certo no reflexo." },
+    { "icon": "files", "premium": true, "title": "Traga seu roteiro", "text": "Importe arquivos .txt, .docx e .pdf, inclusive do Google Docs, e exporte qualquer roteiro em .txt." }
   ],
 
   "plansEyebrow": "O que vem no app",
@@ -52,14 +61,17 @@
   "premiumName": "Premium",
   "premiumNote": "Assinatura mensal ou anual.",
   "premiumList": [
+    "Grave você mesmo com a câmera frontal enquanto lê",
     "Modos Espelhado e Invertido para vidro de teleprompter",
     "Velocidade precisa em palavras por minuto e duração-alvo por roteiro",
-    "Importação de arquivos .txt e .docx"
+    "Importação de arquivos .txt, .docx e .pdf e exportação de roteiros em .txt",
+    "Teclado ou pedal Bluetooth como controle remoto",
+    "Janela flutuante sobre outros apps (Android)"
   ],
 
   "screensEyebrow": "Telas",
   "screensTitle": "Feito para a hora de gravar.",
-  "screensScrollLabel": "Telas do app, role para o lado para ver as cinco",
+  "screensScrollLabel": "Telas do app, role para o lado para ver todas",
   "screens": [
     { "file": "01-reader", "caption": "Leitura", "alt": "O teleprompter: texto grande do roteiro, uma linha de leitura laranja fina e controles de play, reinício e velocidade embaixo." },
     { "file": "02-editor", "caption": "Editor", "alt": "O editor de roteiro com título e texto, um botão Ler e, embaixo, a contagem de palavras e a duração estimada." },
@@ -69,7 +81,7 @@
   ],
 
   "privacyEyebrow": "Privacidade em uma frase",
-  "privacyText": "Sem conta e sem nuvem: o app não envia seus roteiros a lugar nenhum.",
+  "privacyText": "Sem conta e sem nuvem: o app não envia seus roteiros nem seus vídeos a lugar nenhum.",
   "privacyLink": "Leia a política de privacidade",
 
   "supportEyebrow": "Suporte",

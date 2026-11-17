@@ -5,7 +5,7 @@
   "path": "/",
   "languageName": "English",
   "title": "CueMirror — a simple, fast teleprompter for iPhone and Android",
-  "description": "A simple, fast teleprompter for video, live streams and presentations. Write or paste your script, press play and look at the camera. No account, no cloud, no watermark.",
+  "description": "A simple, fast teleprompter for video, live streams and presentations. Write or paste your script, press play and look at the camera, or record yourself in the app. No account, no cloud, no watermark.",
   "ogImageAlt": "CueMirror logo with the line: Speak with confidence.",
 
   "skip": "Skip to content",
@@ -14,7 +14,7 @@
 
   "eyebrow": "Teleprompter for iPhone and Android",
   "h1": "Speak with confidence.",
-  "subtitle": "A simple, fast teleprompter for video, live streams and presentations. Look at the camera, not at your notes.",
+  "subtitle": "A simple, fast teleprompter for video, live streams and presentations. Look at the camera, not at your notes, and record the take right in the app.",
   "badge": "No account. No cloud. No watermark.",
   "storesSoon": "Coming soon to the App Store and Google Play",
   "soon": "Coming soon",
@@ -32,8 +32,17 @@
   "howTitle": "Three steps, then you're recording.",
   "steps": [
     { "title": "Write or paste", "text": "Type your script in the app, paste it from anywhere, or dictate it with your keyboard's microphone." },
-    { "title": "Make it yours", "text": "Set the speed, text size, margins and colours to match the way you read." },
-    { "title": "Read to the camera", "text": "Press play, wait for the countdown and read with your eyes near the lens. Adjust as you go." }
+    { "title": "Make it yours", "text": "Set the speed, text size, margins and colors to match the way you read." },
+    { "title": "Read to the camera", "text": "Press play, wait for the countdown and read with your eyes near the lens. Adjust as you go, or record the take right in the app." }
+  ],
+
+  "featuresEyebrow": "Highlights",
+  "featuresTitle": "More than scrolling text.",
+  "features": [
+    { "icon": "record", "premium": true, "title": "Record while you read", "text": "Film yourself with the front camera while the script scrolls at the top of the screen, close to the lens. Watch the take, then save it to your gallery or share it." },
+    { "icon": "remote", "premium": true, "title": "Hands-free with Bluetooth", "text": "With a Bluetooth keyboard or pedal: press to play or pause, hold to go back to the start." },
+    { "icon": "mirror", "premium": true, "title": "Ready for teleprompter glass", "text": "Mirrored and Flipped modes for rigs with a glass, so the text reads the right way in the reflection." },
+    { "icon": "files", "premium": true, "title": "Bring your script", "text": "Import .txt, .docx and .pdf files, including from Google Docs, and export any script as .txt." }
   ],
 
   "plansEyebrow": "What's included",
@@ -44,7 +53,7 @@
     "Script library with an editor and autosave",
     "Dictate scripts with your keyboard's microphone",
     "Adjustable speed, text size and margins",
-    "Text and background colours, light and dark theme",
+    "Text and background colors, light and dark theme",
     "Alignment, line spacing and a reading line",
     "Countdown before you start",
     "Quick adjustments while you read"
@@ -52,24 +61,27 @@
   "premiumName": "Premium",
   "premiumNote": "Monthly or annual subscription.",
   "premiumList": [
+    "Record yourself with the front camera while you read",
     "Mirrored and Flipped modes for teleprompter glass",
     "Precise speed in words per minute and a target duration for each script",
-    "Import .txt and .docx files"
+    "Import .txt, .docx and .pdf files, and export scripts as .txt",
+    "Bluetooth keyboard or pedal as a remote control",
+    "Floating window over other apps (Android)"
   ],
 
   "screensEyebrow": "Screenshots",
   "screensTitle": "Made for the moment you hit record.",
-  "screensScrollLabel": "Screenshots, scroll sideways to see all five",
+  "screensScrollLabel": "Screenshots, scroll sideways to see them all",
   "screens": [
     { "file": "01-reader", "caption": "Reading", "alt": "The teleprompter: large script text, a thin orange reading line, and play, restart and speed controls at the bottom." },
     { "file": "02-editor", "caption": "Editor", "alt": "The script editor with a title and the script text, a Read button, and the word count and estimated duration at the bottom." },
     { "file": "03-library", "caption": "Library", "alt": "The script library: a search field and four scripts, each with a preview, word count and estimated duration, plus a button to add a new one." },
-    { "file": "04-settings", "caption": "Settings", "alt": "Settings: app theme, reading speed, text size, side margin, mirror mode and text and background colours." },
-    { "file": "05-quick", "caption": "Quick adjustments", "alt": "The quick adjustments sheet open over the teleprompter, with speed, text size, side margin, mirror mode and colours." }
+    { "file": "04-settings", "caption": "Settings", "alt": "Settings: app theme, reading speed, text size, side margin, mirror mode and text and background colors." },
+    { "file": "05-quick", "caption": "Quick adjustments", "alt": "The quick adjustments sheet open over the teleprompter, with speed, text size, side margin, mirror mode and colors." }
   ],
 
   "privacyEyebrow": "Privacy in one sentence",
-  "privacyText": "No account and no cloud: the app never sends your scripts anywhere.",
+  "privacyText": "No account and no cloud: the app never sends your scripts or videos anywhere.",
   "privacyLink": "Read the privacy policy",
 
   "supportEyebrow": "Support",

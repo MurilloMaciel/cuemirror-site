@@ -1,0 +1,95 @@
+{
+  "lang": "fr",
+  "htmlLang": "fr",
+  "ogLocale": "fr_FR",
+  "path": "/fr/",
+  "assetLang": "en",
+  "languageName": "Français",
+  "title": "CueMirror — un prompteur simple et rapide pour iPhone et Android",
+  "description": "Un prompteur simple et rapide pour vos vidéos, lives et présentations. Écrivez ou collez votre script, lancez la lecture et regardez la caméra, ou filmez-vous dans l'appli. Sans compte, sans cloud, sans filigrane.",
+  "ogImageAlt": "Logo de CueMirror avec la phrase : Speak with confidence.",
+
+  "skip": "Aller au contenu",
+  "homeLabel": "CueMirror, accueil",
+  "languageLabel": "Langue",
+
+  "eyebrow": "Prompteur pour iPhone et Android",
+  "h1": "Parlez avec assurance.",
+  "subtitle": "Un prompteur simple et rapide pour vos vidéos, lives et présentations. Regardez la caméra, pas vos notes, et filmez la prise directement dans l'appli.",
+  "badge": "Sans compte. Sans cloud. Sans filigrane.",
+  "storesSoon": "Bientôt sur l'App Store et Google Play",
+  "soon": "Bientôt",
+  "demoLabel": "Démonstration : un script qui défile dans le prompteur CueMirror, avec la ligne de lecture fixe au milieu de l'écran.",
+  "demoScript": [
+    "Bonjour à tous. Merci d'être là.",
+    "Aujourd'hui, je veux vous montrer quelque chose de simple.",
+    "Écrivez votre script, lancez la lecture et gardez les yeux sur la caméra.",
+    "Les mots viennent à vous, à votre rythme.",
+    "Besoin d'une seconde ? Faites une pause, puis reprenez où vous en étiez.",
+    "Une idée à la fois. Une prise réussie."
+  ],
+
+  "howEyebrow": "Comment ça marche",
+  "howTitle": "Trois étapes, et vous enregistrez.",
+  "steps": [
+    { "title": "Écrivez ou collez", "text": "Tapez votre script dans l'appli, collez-le depuis n'importe où ou dictez-le avec le micro de votre clavier." },
+    { "title": "Adaptez-le à vous", "text": "Réglez la vitesse, la taille du texte, les marges et les couleurs selon votre façon de lire." },
+    { "title": "Lisez face à la caméra", "text": "Lancez la lecture, attendez le compte à rebours et lisez les yeux près de l'objectif. Ajustez en cours de route, ou filmez la prise dans l'appli." }
+  ],
+
+  "featuresEyebrow": "Points forts",
+  "featuresTitle": "Bien plus qu'un texte qui défile.",
+  "features": [
+    { "icon": "record", "premium": true, "title": "Filmez-vous en lisant", "text": "Filmez-vous avec la caméra frontale pendant que le script défile en haut de l'écran, près de l'objectif. Revoyez la prise, puis enregistrez-la dans la galerie ou partagez-la." },
+    { "icon": "remote", "premium": true, "title": "Mains libres en Bluetooth", "text": "Avec un clavier ou une pédale Bluetooth : appuyez pour lancer ou mettre en pause, maintenez pour revenir au début." },
+    { "icon": "mirror", "premium": true, "title": "Prêt pour la vitre de prompteur", "text": "Modes Miroir et Inversé pour les prompteurs à vitre, pour que le texte se lise à l'endroit dans le reflet." },
+    { "icon": "files", "premium": true, "title": "Apportez votre script", "text": "Importez des fichiers .txt, .docx et .pdf, y compris depuis Google Docs, et exportez n'importe quel script en .txt." }
+  ],
+
+  "plansEyebrow": "Ce qui est inclus",
+  "plansTitle": "L'essentiel est gratuit.",
+  "freeName": "Gratuit",
+  "freeNote": "Sans limite de temps, sans filigrane.",
+  "freeList": [
+    "Bibliothèque de scripts avec éditeur et enregistrement automatique",
+    "Dictée des scripts avec le micro du clavier",
+    "Vitesse, taille du texte et marges réglables",
+    "Couleurs du texte et du fond, thème clair et sombre",
+    "Alignement, interligne et ligne de lecture",
+    "Compte à rebours avant de commencer",
+    "Réglages rapides pendant la lecture"
+  ],
+  "premiumName": "Premium",
+  "premiumNote": "Abonnement mensuel ou annuel.",
+  "premiumList": [
+    "Filmez-vous avec la caméra frontale pendant que vous lisez",
+    "Modes Miroir et Inversé pour la vitre de prompteur",
+    "Vitesse précise en mots par minute et durée cible pour chaque script",
+    "Import de fichiers .txt, .docx et .pdf, et export des scripts en .txt",
+    "Clavier ou pédale Bluetooth comme télécommande",
+    "Fenêtre flottante au-dessus des autres applis (Android)"
+  ],
+
+  "screensEyebrow": "Captures d'écran",
+  "screensTitle": "Conçu pour le moment où vous appuyez sur Enregistrer.",
+  "screensScrollLabel": "Captures d'écran, faites défiler sur le côté pour toutes les voir",
+  "screens": [
+    { "file": "01-reader", "caption": "Lecture", "alt": "Le prompteur : grand texte du script, une fine ligne de lecture orange et, en bas, les commandes de lecture, de redémarrage et de vitesse." },
+    { "file": "02-editor", "caption": "Éditeur", "alt": "L'éditeur de script avec un titre et le texte, un bouton Lire et, en bas, le nombre de mots et la durée estimée." },
+    { "file": "03-library", "caption": "Bibliothèque", "alt": "La bibliothèque de scripts : un champ de recherche et quatre scripts, chacun avec un aperçu, le nombre de mots et la durée estimée, ainsi qu'un bouton pour en créer un." },
+    { "file": "04-settings", "caption": "Paramètres", "alt": "Paramètres : thème de l'appli, vitesse de lecture, taille du texte, marge latérale, mode miroir et couleurs du texte et du fond." },
+    { "file": "05-quick", "caption": "Réglages rapides", "alt": "Le panneau de réglages rapides ouvert sur le prompteur, avec la vitesse, la taille du texte, la marge latérale, le mode miroir et les couleurs." }
+  ],
+
+  "privacyEyebrow": "La confidentialité en une phrase",
+  "privacyText": "Sans compte et sans cloud : l'appli n'envoie jamais vos scripts ni vos vidéos nulle part.",
+  "privacyLink": "Lire la politique de confidentialité",
+
+  "supportEyebrow": "Assistance",
+  "supportTitle": "Une question ou un problème ?",
+  "supportText": "Écrivez-nous. Si quelque chose ne fonctionne pas, indiquez le modèle de votre appareil et la version de l'appli.",
+  "supportCta": "Écrire à l'assistance",
+
+  "footerTerms": "Conditions d'utilisation",
+  "footerPrivacy": "Politique de confidentialité"
+}

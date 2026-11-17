@@ -82,6 +82,8 @@ a:hover { color: var(--accent-text); }
 .logo__water { fill: var(--divider); }
 
 .lang-nav ul { display: flex; flex-wrap: wrap; gap: .25rem; }
+/* Seven 44px codes fit in one row at 360px only without the gap between them. */
+.site-header .lang-nav ul { gap: 0; }
 .lang-nav a { display: inline-flex; align-items: center; min-height: 2.75rem; min-width: 2.75rem; justify-content: center; padding: 0 .5rem; font: 500 .8125rem/1 var(--mono); letter-spacing: .08em; color: var(--muted); text-decoration: none; border-radius: .375rem; }
 .lang-nav a:hover { color: var(--text); }
 .lang-nav a[aria-current="page"] { color: var(--text); box-shadow: inset 0 -2px 0 var(--accent); }
@@ -135,6 +137,17 @@ h3 { font-weight: 600; font-size: 1.25rem; line-height: 1.3; letter-spacing: -.0
 .step__n { display: block; color: var(--accent-text); font-size: .875rem; letter-spacing: .1em; margin-bottom: 1rem; }
 .step p { margin-top: .5rem; color: var(--muted); max-width: 32ch; }
 
+.features { display: grid; gap: 1.25rem; margin-top: 3rem; }
+@media (min-width: 760px) { .features { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; } }
+.feature { padding: clamp(1.5rem, 1rem + 1.5vw, 2rem); border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.feature__top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem; margin-bottom: 1.25rem; }
+.feature__icon { display: grid; place-items: center; width: 3rem; height: 3rem; border-radius: .5rem; background: color-mix(in srgb, var(--accent) 14%, transparent); }
+.feature__icon svg { width: 1.5rem; height: 1.5rem; fill: var(--accent-text); }
+.feature h3 { font-size: 1.25rem; line-height: 1.3; }
+.feature p { margin-top: .5rem; color: var(--muted); }
+.tag--small { padding: .3rem .5rem; font-size: .6875rem; }
+.tag--small .ico { width: .75rem; height: .75rem; }
+
 .plans { display: grid; gap: 1.25rem; margin-top: 3rem; }
 @media (min-width: 760px) { .plans { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; } }
 .plan { padding: clamp(1.5rem, 1rem + 2vw, 2.5rem); border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
@@ -160,6 +173,9 @@ h3 { font-weight: 600; font-size: 1.25rem; line-height: 1.3; letter-spacing: -.0
 .statement { font-size: clamp(1.625rem, 1.1rem + 2.4vw, 2.75rem); font-weight: 500; line-height: 1.2; letter-spacing: -.02em; max-width: 26ch; text-wrap: balance; }
 .statement + p { margin-top: 1.75rem; }
 .link-arrow { display: inline-flex; align-items: center; gap: .5rem; min-height: 2.75rem; font-weight: 500; color: var(--accent-text); }
+/* Long compound words (German "Datenschutzerklärung", "Hintergrundfarben") must not widen a grid or flex item
+   past the screen at 200% text: break them, with a hyphen where the browser knows the language. */
+.plan, .feature, .link-arrow { overflow-wrap: anywhere; hyphens: auto; }
 .link-arrow .ico { width: 1.15rem; height: 1.15rem; fill: currentColor; transition: transform .15s; }
 .link-arrow:hover .ico { transform: translateX(3px); }
 

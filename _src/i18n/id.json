@@ -1,0 +1,95 @@
+{
+  "lang": "id",
+  "htmlLang": "id",
+  "ogLocale": "id_ID",
+  "path": "/id/",
+  "assetLang": "en",
+  "languageName": "Bahasa Indonesia",
+  "title": "CueMirror — teleprompter sederhana dan cepat untuk iPhone dan Android",
+  "description": "Teleprompter sederhana dan cepat untuk video, siaran langsung, dan presentasi. Tulis atau tempel naskah Anda, tekan putar, dan lihat ke kamera, atau rekam diri Anda di aplikasi. Tanpa akun, tanpa cloud, tanpa watermark.",
+  "ogImageAlt": "Logo CueMirror dengan kalimat: Speak with confidence.",
+
+  "skip": "Langsung ke konten",
+  "homeLabel": "CueMirror, beranda",
+  "languageLabel": "Bahasa",
+
+  "eyebrow": "Teleprompter untuk iPhone dan Android",
+  "h1": "Bicara dengan percaya diri.",
+  "subtitle": "Teleprompter sederhana dan cepat untuk video, siaran langsung, dan presentasi. Lihat ke kamera, bukan ke catatan, dan rekam langsung di aplikasi.",
+  "badge": "Tanpa akun. Tanpa cloud. Tanpa watermark.",
+  "storesSoon": "Segera hadir di App Store dan Google Play",
+  "soon": "Segera hadir",
+  "demoLabel": "Demo: naskah bergulir di teleprompter CueMirror, dengan garis baca tetap di tengah layar.",
+  "demoScript": [
+    "Halo semuanya. Terima kasih sudah hadir.",
+    "Hari ini saya ingin menunjukkan sesuatu yang sederhana.",
+    "Tulis naskah Anda, tekan putar, dan tetap tatap kamera.",
+    "Kata-kata datang kepada Anda, sesuai tempo Anda.",
+    "Kalau butuh waktu sebentar, jeda dulu. Lalu lanjutkan dari bagian terakhir.",
+    "Satu gagasan setiap kali. Satu rekaman yang rapi."
+  ],
+
+  "howEyebrow": "Cara kerjanya",
+  "howTitle": "Tiga langkah, lalu Anda siap merekam.",
+  "steps": [
+    { "title": "Tulis atau tempel", "text": "Ketik naskah di aplikasi, tempel dari mana saja, atau diktekan dengan mikrofon keyboard." },
+    { "title": "Sesuaikan", "text": "Atur kecepatan, ukuran teks, margin, dan warna sesuai cara Anda membaca." },
+    { "title": "Baca ke arah kamera", "text": "Tekan putar, tunggu hitung mundur, dan baca dengan mata dekat lensa. Sesuaikan sambil berjalan, atau rekam langsung di aplikasi." }
+  ],
+
+  "featuresEyebrow": "Sorotan",
+  "featuresTitle": "Lebih dari sekadar teks bergulir.",
+  "features": [
+    { "icon": "record", "premium": true, "title": "Rekam sambil membaca", "text": "Rekam diri Anda dengan kamera depan sementara naskah bergulir di bagian atas layar, dekat lensa. Tonton hasilnya, lalu simpan ke galeri atau bagikan." },
+    { "icon": "remote", "premium": true, "title": "Tanpa tangan dengan Bluetooth", "text": "Dengan keyboard atau pedal Bluetooth: tekan untuk memutar atau menjeda, tahan untuk kembali ke awal." },
+    { "icon": "mirror", "premium": true, "title": "Siap untuk kaca teleprompter", "text": "Mode Dicerminkan dan Dibalik untuk teleprompter berkaca, agar teks terbaca benar di pantulan." },
+    { "icon": "files", "premium": true, "title": "Bawa naskah Anda", "text": "Impor file .txt, .docx, dan .pdf, termasuk dari Google Docs, dan ekspor naskah apa pun sebagai .txt." }
+  ],
+
+  "plansEyebrow": "Yang Anda dapatkan",
+  "plansTitle": "Semua yang Anda butuhkan gratis.",
+  "freeName": "Gratis",
+  "freeNote": "Tanpa batas waktu, tanpa watermark.",
+  "freeList": [
+    "Perpustakaan naskah dengan editor dan simpan otomatis",
+    "Dikte naskah dengan mikrofon keyboard",
+    "Kecepatan, ukuran teks, dan margin yang bisa diatur",
+    "Warna teks dan latar belakang, tema terang dan gelap",
+    "Perataan, spasi baris, dan garis baca",
+    "Hitung mundur sebelum mulai",
+    "Penyesuaian cepat saat membaca"
+  ],
+  "premiumName": "Premium",
+  "premiumNote": "Langganan bulanan atau tahunan.",
+  "premiumList": [
+    "Rekam diri Anda dengan kamera depan sambil membaca",
+    "Mode Dicerminkan dan Dibalik untuk kaca teleprompter",
+    "Kecepatan presisi dalam kata per menit dan durasi target untuk setiap naskah",
+    "Impor file .txt, .docx, dan .pdf, serta ekspor naskah sebagai .txt",
+    "Keyboard atau pedal Bluetooth sebagai kontrol jarak jauh",
+    "Jendela mengambang di atas aplikasi lain (Android)"
+  ],
+
+  "screensEyebrow": "Tangkapan layar",
+  "screensTitle": "Dibuat untuk saat Anda menekan rekam.",
+  "screensScrollLabel": "Tangkapan layar, geser ke samping untuk melihat semuanya",
+  "screens": [
+    { "file": "01-reader", "caption": "Membaca", "alt": "Teleprompter: teks naskah berukuran besar, garis baca oranye tipis, dan kontrol putar, ulang, dan kecepatan di bagian bawah." },
+    { "file": "02-editor", "caption": "Editor", "alt": "Editor naskah dengan judul dan teks naskah, tombol untuk membaca, serta jumlah kata dan perkiraan durasi di bagian bawah." },
+    { "file": "03-library", "caption": "Perpustakaan", "alt": "Perpustakaan naskah: kolom pencarian dan empat naskah, masing-masing dengan pratinjau, jumlah kata, dan perkiraan durasi, serta tombol untuk membuat naskah baru." },
+    { "file": "04-settings", "caption": "Setelan", "alt": "Setelan: tema aplikasi, kecepatan baca, ukuran teks, margin samping, mode cermin, serta warna teks dan latar belakang." },
+    { "file": "05-quick", "caption": "Penyesuaian cepat", "alt": "Panel penyesuaian cepat terbuka di atas teleprompter, berisi kecepatan, ukuran teks, margin samping, mode cermin, dan warna." }
+  ],
+
+  "privacyEyebrow": "Privasi dalam satu kalimat",
+  "privacyText": "Tanpa akun dan tanpa cloud: aplikasi tidak pernah mengirim naskah maupun video Anda ke mana pun.",
+  "privacyLink": "Baca kebijakan privasi",
+
+  "supportEyebrow": "Dukungan",
+  "supportTitle": "Ada pertanyaan atau ada yang tidak berfungsi?",
+  "supportText": "Kirim email kepada kami. Jika ada yang tidak berfungsi, sebutkan model perangkat dan versi aplikasi Anda.",
+  "supportCta": "Email dukungan",
+
+  "footerTerms": "Ketentuan penggunaan",
+  "footerPrivacy": "Kebijakan privasi"
+}

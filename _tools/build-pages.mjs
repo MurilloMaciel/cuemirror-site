@@ -1,4 +1,4 @@
-// Generates index.html, pt/index.html, es/index.html, 404.html, sitemap.xml and robots.txt from
+// Generates index.html, one <lang>/index.html per other language, 404.html, sitemap.xml and robots.txt from
 // _src/config.json and _src/i18n/*.json. Node built-ins only, no npm install needed.
 // Run from the repo root: `node _tools/build-pages.mjs`. The generated files are committed, so the
 // site itself needs no build step.
@@ -9,10 +9,13 @@ import { dirname, join } from "node:path";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = async p => JSON.parse(await readFile(join(ROOT, p), "utf8"));
 const config = await read("_src/config.json");
-const LANGS = ["en", "pt", "es"];
+const LANGS = ["en", "pt", "es", "fr", "de", "it", "id"];
+const STUDIO = "EmQube";
 const T = Object.fromEntries(await Promise.all(LANGS.map(async l => [l, await read(`_src/i18n/${l}.json`)])));
 const SITE = config.siteUrl.replace(/\/$/, "");
 const YEAR = 2026;
+// Languages without their own screenshots or share image use another language's ("assetLang").
+const assetLang = t => t.assetLang || t.lang;
 
 const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
@@ -23,6 +26,22 @@ const icon = {
   lock: `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 22q-.8 0-1.4-.6Q4 20.8 4 20V10q0-.8.6-1.4Q5.2 8 6 8h1V6q0-2.1 1.5-3.5Q9.9 1 12 1t3.5 1.5Q17 3.9 17 6v2h1q.8 0 1.4.6.6.6.6 1.4v10q0 .8-.6 1.4-.6.6-1.4.6Zm0-2h12V10H6Zm6-3q.8 0 1.4-.6.6-.6.6-1.4t-.6-1.4Q12.8 13 12 13t-1.4.6Q10 14.2 10 15t.6 1.4q.6.6 1.4.6ZM9 8h6V6q0-1.3-.9-2.1Q13.3 3 12 3t-2.1.9Q9 4.7 9 6Z"/></svg>`,
   mail: `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 20q-.8 0-1.4-.6Q2 18.8 2 18V6q0-.8.6-1.4Q3.2 4 4 4h16q.8 0 1.4.6.6.6.6 1.4v12q0 .8-.6 1.4-.6.6-1.4.6Zm8-7L4 8v10h16V8Zm0-2 8-5H4ZM4 8V6v12Z"/></svg>`,
   arrow: `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.2 13H4v-2h12.2l-5.6-5.6L12 4l8 8-8 8-1.4-1.4z"/></svg>`,
+};
+
+// Feature icons: the app's own pathData (shared/.../drawable ic_videocam, ic_settings_remote, ic_flip, ic_upload_file).
+const featureIcon = {
+  record: ["0 -960 960 960", "M160,-160q-33,0 -56.5,-23.5T80,-240v-480q0,-33 23.5,-56.5T160,-800h480q33,0 56.5,23.5T720,-720v180l160,-160v440L720,-420v180q0,33 -23.5,56.5T640,-160H160ZM160,-240h480v-480H160v480ZM160,-240v-480,480Z"],
+  remote: ["0 -960 960 960", "M360,-40q-17,0 -28.5,-11.5T320,-80v-480q0,-17 11.5,-28.5T360,-600h240q17,0 28.5,11.5T640,-560v480q0,17 -11.5,28.5T600,-40H360ZM480,-390q21,0 35.5,-14.5T530,-440q0,-21 -14.5,-35.5T480,-490q-21,0 -35.5,14.5T430,-440q0,21 14.5,35.5T480,-390ZM480,-720q-30,0 -58,8t-53,25q-14,9 -31,8.5T310,-690q-12,-12 -11.5,-28t13.5,-26q36,-27 79,-41.5t89,-14.5q46,0 89,14.5t79,41.5q13,10 13.5,26T650,-690q-11,11 -27,12t-30,-8q-25,-17 -54,-25.5t-59,-8.5ZM480,-880q-62,0 -119,19.5T257,-803q-14,11 -31,11.5T197,-803q-12,-12 -12,-29t14,-28q60,-48 131.5,-74T480,-960q78,0 150,25.5T760,-859q13,11 13.5,28T762,-802q-11,11 -27.5,11.5T705,-801q-48,-39 -105,-59t-120,-20ZM400,-120h160v-400H400v400ZM400,-120h160,-160Z"],
+  mirror: ["0 0 24 24", "M15,21h2v-2h-2v2zM19,9h2L21,7h-2v2zM3,5v14c0,1.1 0.9,2 2,2h4v-2L5,19L5,5h4L9,3L5,3c-1.1,0 -2,0.9 -2,2zM19,3v2h2c0,-1.1 -0.9,-2 -2,-2zM11,23h2L13,1h-2v22zM19,17h2v-2h-2v2zM15,5h2L17,3h-2v2zM19,13h2v-2h-2v2zM19,21c1.1,0 2,-0.9 2,-2h-2v2z"],
+  files: ["0 0 24 24", "M14,2H6C4.9,2 4.01,2.9 4.01,4L4,20c0,1.1 0.89,2 1.99,2H18c1.1,0 2,-0.9 2,-2V8L14,2zM16,15.01l-1.41,1.41L13,14.84V19h-2v-4.16l-1.59,1.59L8,15.01 12,11L16,15.01zM13,9V3.5L18.5,9H13z"],
+};
+const feature = f => {
+  const [box, d] = featureIcon[f.icon];
+  return `<li class="feature">
+<div class="feature__top"><span class="feature__icon"><svg viewBox="${box}" aria-hidden="true" focusable="false"><path d="${d}"/></svg></span>${f.premium ? `<span class="tag tag--small mono">${icon.lock}PREMIUM</span>` : ""}</div>
+<h3>${esc(f.title)}</h3>
+<p>${esc(f.text)}</p>
+</li>`;
 };
 
 const alternates = () => [
@@ -41,7 +60,7 @@ const store = (name, url, t) => url
   : `<span class="store store--soon" aria-disabled="true">${name}<small>${esc(t.soon)}</small></span>`;
 
 const shot = (t, s, i) => {
-  const base = `/assets/img/${t.lang}`;
+  const base = `/assets/img/${assetLang(t)}`;
   const set = (theme, ext) => `${base}/${theme}/${s.file}-480.${ext} 480w, ${base}/${theme}/${s.file}-720.${ext} 720w`;
   const sizes = "(min-width: 1120px) 200px, (min-width: 760px) 30vw, 62vw";
   return `<li class="shot">
@@ -67,8 +86,8 @@ const jsonLd = t => JSON.stringify({
   description: t.description,
   inLanguage: t.htmlLang,
   url: `${SITE}${t.path}`,
-  image: `${SITE}/assets/og/og-${t.lang}.png`,
-  publisher: { "@type": "Organization", name: "M3RGE", email: config.supportEmail },
+  image: `${SITE}/assets/og/og-${assetLang(t)}.png`,
+  publisher: { "@type": "Organization", name: STUDIO, email: config.supportEmail },
 }).replace(/</g, "\\u003c");
 
 const head = (t, { title, description, canonical, robots }) => `<meta charset="utf-8">
@@ -93,14 +112,14 @@ const social = t => `<meta property="og:type" content="website">
 <meta property="og:url" content="${SITE}${t.path}">
 <meta property="og:locale" content="${t.ogLocale}">
 ${LANGS.filter(l => l !== t.lang).map(l => `<meta property="og:locale:alternate" content="${T[l].ogLocale}">`).join("\n")}
-<meta property="og:image" content="${SITE}/assets/og/og-${t.lang}.png">
+<meta property="og:image" content="${SITE}/assets/og/og-${assetLang(t)}.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="${esc(t.ogImageAlt)}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(t.title)}">
 <meta name="twitter:description" content="${esc(t.description)}">
-<meta name="twitter:image" content="${SITE}/assets/og/og-${t.lang}.png">
+<meta name="twitter:image" content="${SITE}/assets/og/og-${assetLang(t)}.png">
 <meta name="twitter:image:alt" content="${esc(t.ogImageAlt)}">
 <script type="application/ld+json">${jsonLd(t)}</script>`;
 
@@ -117,7 +136,7 @@ ${langNav(t, "lang-nav", false)}
 
 const footer = t => `<footer class="site-footer">
 <div class="wrap footer-grid">
-<p class="brand brand--small">${logo()}<span>© ${YEAR} M3RGE</span></p>
+<p class="brand brand--small">${logo()}<span>© ${YEAR} ${STUDIO}</span></p>
 <ul class="footer-links">
 <li><a href="${esc(config.termsUrl[t.lang])}">${esc(t.footerTerms)}</a></li>
 <li><a href="${esc(config.privacyUrl[t.lang])}">${esc(t.footerPrivacy)}</a></li>
@@ -128,7 +147,8 @@ ${langNav(t, "lang-nav lang-nav--footer", true)}
 
 const page = t => {
   const script = t.demoScript.map(p => `<p>${esc(p)}</p>`).join("");
-  const bothStores = config.appStoreUrl && config.googlePlayUrl;
+  const playUrl = typeof config.googlePlayUrl === "object" ? config.googlePlayUrl[t.lang] : config.googlePlayUrl;
+  const bothStores = config.appStoreUrl && playUrl;
   const mail = `mailto:${config.supportEmail}`;
   return `<!doctype html>
 <html lang="${t.htmlLang}">
@@ -146,7 +166,7 @@ ${header(t)}
 <p class="lead">${esc(t.subtitle)}</p>
 <p class="badge">${esc(t.badge)}</p>
 <div class="stores">
-${bothStores ? "" : `<p class="stores__note">${esc(t.storesSoon)}</p>\n`}<div class="stores__row">${store("App Store", config.appStoreUrl, t)}${store("Google Play", config.googlePlayUrl, t)}</div>
+${bothStores ? "" : `<p class="stores__note">${esc(t.storesSoon)}</p>\n`}<div class="stores__row">${store("App Store", config.appStoreUrl, t)}${store("Google Play", playUrl, t)}</div>
 </div>
 </div>
 <div class="hero__demo">
@@ -165,6 +185,14 @@ ${bothStores ? "" : `<p class="stores__note">${esc(t.storesSoon)}</p>\n`}<div cl
 <ol class="steps">
 ${t.steps.map((s, i) => `<li class="step"><span class="step__n mono" aria-hidden="true">0${i + 1}</span><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p></li>`).join("\n")}
 </ol>
+</section>
+
+<section class="section wrap" id="features" aria-labelledby="features-title">
+<p class="eyebrow">${esc(t.featuresEyebrow)}</p>
+<h2 id="features-title">${esc(t.featuresTitle)}</h2>
+<ul class="features">
+${t.features.map(feature).join("\n")}
+</ul>
 </section>
 
 <section class="section wrap" id="plans" aria-labelledby="plans-title">
@@ -223,6 +251,10 @@ const notFound = () => {
     ["en", "Page not found.", "Go to the home page"],
     ["pt", "Página não encontrada.", "Ir para a página inicial"],
     ["es", "Página no encontrada.", "Ir a la página de inicio"],
+    ["fr", "Page introuvable.", "Aller à la page d'accueil"],
+    ["de", "Seite nicht gefunden.", "Zur Startseite"],
+    ["it", "Pagina non trovata.", "Vai alla pagina iniziale"],
+    ["id", "Halaman tidak ditemukan.", "Ke halaman beranda"],
   ];
   return `<!doctype html>
 <html lang="en">
@@ -247,7 +279,7 @@ ${footer(t)}
 const sitemap = () => {
   const alt = LANGS.map(l => `    <xhtml:link rel="alternate" hreflang="${T[l].htmlLang}" href="${SITE}${T[l].path}"/>`).join("\n")
     + `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE}/"/>`;
-  const legal = ["privacy", "terms"].flatMap(b => ["", "-pt", "-es"].map(s => `${SITE}/${b}${s}.html`));
+  const legal = ["privacy", "terms"].flatMap(b => ["", ...LANGS.filter(l => l !== "en").map(l => `-${l}`)].map(s => `${SITE}/${b}${s}.html`));
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${LANGS.map(l => `  <url>\n    <loc>${SITE}${T[l].path}</loc>\n${alt}\n  </url>`).join("\n")}

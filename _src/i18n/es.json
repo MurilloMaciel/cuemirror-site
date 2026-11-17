@@ -5,7 +5,7 @@
   "path": "/es/",
   "languageName": "Español",
   "title": "CueMirror — teleprompter sencillo y rápido para iPhone y Android",
-  "description": "Un teleprompter sencillo y rápido para vídeos, directos y presentaciones. Escribe o pega tu guion, dale al play y mira a la cámara. Sin cuenta, sin nube, sin marca de agua.",
+  "description": "Un teleprompter sencillo y rápido para vídeos, directos y presentaciones. Escribe o pega tu guion, dale al play y mira a la cámara, o grábate en la app. Sin cuenta, sin nube, sin marca de agua.",
   "ogImageAlt": "Logotipo de CueMirror con la frase: Habla con confianza.",
 
   "skip": "Saltar al contenido",
@@ -14,7 +14,7 @@
 
   "eyebrow": "Teleprompter para iPhone y Android",
   "h1": "Habla con confianza.",
-  "subtitle": "Un teleprompter sencillo y rápido para vídeos, directos y presentaciones. Mira a la cámara, no a tus notas.",
+  "subtitle": "Un teleprompter sencillo y rápido para vídeos, directos y presentaciones. Mira a la cámara, no a tus notas, y graba la toma en la propia app.",
   "badge": "Sin cuenta. Sin nube. Sin marca de agua.",
   "storesSoon": "Próximamente en App Store y Google Play",
   "soon": "Próximamente",
@@ -33,7 +33,16 @@
   "steps": [
     { "title": "Escribe o pega", "text": "Escribe tu guion en la app, pégalo desde cualquier sitio o díctalo con el micrófono del teclado." },
     { "title": "Ajústalo a tu manera", "text": "Elige la velocidad, el tamaño del texto, los márgenes y los colores que mejor te vayan para leer." },
-    { "title": "Lee mirando a la cámara", "text": "Dale al play, espera la cuenta atrás y lee con la mirada cerca del objetivo. Ajusta sobre la marcha." }
+    { "title": "Lee mirando a la cámara", "text": "Dale al play, espera la cuenta atrás y lee con la mirada cerca del objetivo. Ajusta sobre la marcha, o graba la toma en la propia app." }
+  ],
+
+  "featuresEyebrow": "Destacados",
+  "featuresTitle": "Mucho más que un texto que se desplaza.",
+  "features": [
+    { "icon": "record", "premium": true, "title": "Grábate mientras lees", "text": "Grábate con la cámara frontal mientras el guion se desplaza en la parte superior de la pantalla, cerca del objetivo. Revisa la toma y guárdala en la galería o compártela." },
+    { "icon": "remote", "premium": true, "title": "Manos libres con Bluetooth", "text": "Con un teclado o pedal Bluetooth: pulsa para reproducir o pausar, mantén pulsado para volver al principio." },
+    { "icon": "mirror", "premium": true, "title": "Listo para el cristal del teleprompter", "text": "Modos Espejado e Invertido para teleprompters con cristal, para que el texto se lea al derecho en el reflejo." },
+    { "icon": "files", "premium": true, "title": "Trae tu guion", "text": "Importa archivos .txt, .docx y .pdf, también desde Google Docs, y exporta cualquier guion en .txt." }
   ],
 
   "plansEyebrow": "Qué incluye",
@@ -52,14 +61,17 @@
   "premiumName": "Premium",
   "premiumNote": "Suscripción mensual o anual.",
   "premiumList": [
+    "Grábate con la cámara frontal mientras lees",
     "Modos Espejado e Invertido para el cristal del teleprompter",
     "Velocidad precisa en palabras por minuto y duración objetivo por guion",
-    "Importación de archivos .txt y .docx"
+    "Importación de archivos .txt, .docx y .pdf y exportación de guiones en .txt",
+    "Teclado o pedal Bluetooth como control remoto",
+    "Ventana flotante sobre otras apps (Android)"
   ],
 
   "screensEyebrow": "Capturas",
   "screensTitle": "Pensado para el momento de grabar.",
-  "screensScrollLabel": "Capturas de la app, desplázate hacia el lado para ver las cinco",
+  "screensScrollLabel": "Capturas de la app, desplázate hacia el lado para verlas todas",
   "screens": [
     { "file": "01-reader", "caption": "Lectura", "alt": "El teleprompter: texto grande del guion, una línea de lectura naranja fina y controles de reproducción, reinicio y velocidad abajo." },
     { "file": "02-editor", "caption": "Editor", "alt": "El editor de guiones con título y texto, un botón Leer y, abajo, el recuento de palabras y la duración estimada." },
@@ -69,7 +81,7 @@
   ],
 
   "privacyEyebrow": "Privacidad en una frase",
-  "privacyText": "Sin cuenta y sin nube: la app no envía tus guiones a ningún sitio.",
+  "privacyText": "Sin cuenta y sin nube: la app no envía tus guiones ni tus vídeos a ningún sitio.",
   "privacyLink": "Lee la política de privacidad",
 
   "supportEyebrow": "Soporte",

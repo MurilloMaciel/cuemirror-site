@@ -5,6 +5,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://cuemirror.com/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cuemirror.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="es-ES" href="https://cuemirror.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cuemirror.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cuemirror.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cuemirror.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cuemirror.com/id/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cuemirror.com/"/>
   </url>
   <url>
@@ -12,6 +16,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://cuemirror.com/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cuemirror.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="es-ES" href="https://cuemirror.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cuemirror.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cuemirror.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cuemirror.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cuemirror.com/id/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cuemirror.com/"/>
   </url>
   <url>
@@ -19,6 +27,54 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://cuemirror.com/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cuemirror.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="es-ES" href="https://cuemirror.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cuemirror.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cuemirror.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cuemirror.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cuemirror.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cuemirror.com/"/>
+  </url>
+  <url>
+    <loc>https://cuemirror.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cuemirror.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cuemirror.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://cuemirror.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cuemirror.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cuemirror.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cuemirror.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cuemirror.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cuemirror.com/"/>
+  </url>
+  <url>
+    <loc>https://cuemirror.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cuemirror.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cuemirror.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://cuemirror.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cuemirror.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cuemirror.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cuemirror.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cuemirror.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cuemirror.com/"/>
+  </url>
+  <url>
+    <loc>https://cuemirror.com/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cuemirror.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cuemirror.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://cuemirror.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cuemirror.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cuemirror.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cuemirror.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cuemirror.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cuemirror.com/"/>
+  </url>
+  <url>
+    <loc>https://cuemirror.com/id/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cuemirror.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cuemirror.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://cuemirror.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cuemirror.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cuemirror.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cuemirror.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cuemirror.com/id/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cuemirror.com/"/>
   </url>
   <url>
@@ -31,6 +87,18 @@
     <loc>https://cuemirror.com/privacy-es.html</loc>
   </url>
   <url>
+    <loc>https://cuemirror.com/privacy-fr.html</loc>
+  </url>
+  <url>
+    <loc>https://cuemirror.com/privacy-de.html</loc>
+  </url>
+  <url>
+    <loc>https://cuemirror.com/privacy-it.html</loc>
+  </url>
+  <url>
+    <loc>https://cuemirror.com/privacy-id.html</loc>
+  </url>
+  <url>
     <loc>https://cuemirror.com/terms.html</loc>
   </url>
   <url>
@@ -38,5 +106,17 @@
   </url>
   <url>
     <loc>https://cuemirror.com/terms-es.html</loc>
+  </url>
+  <url>
+    <loc>https://cuemirror.com/terms-fr.html</loc>
+  </url>
+  <url>
+    <loc>https://cuemirror.com/terms-de.html</loc>
+  </url>
+  <url>
+    <loc>https://cuemirror.com/terms-it.html</loc>
+  </url>
+  <url>
+    <loc>https://cuemirror.com/terms-id.html</loc>
   </url>
 </urlset>

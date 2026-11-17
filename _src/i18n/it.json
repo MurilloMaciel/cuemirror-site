@@ -1,0 +1,95 @@
+{
+  "lang": "it",
+  "htmlLang": "it",
+  "ogLocale": "it_IT",
+  "path": "/it/",
+  "assetLang": "en",
+  "languageName": "Italiano",
+  "title": "CueMirror — un teleprompter semplice e veloce per iPhone e Android",
+  "description": "Un teleprompter semplice e veloce per video, dirette e presentazioni. Scrivi o incolla il tuo script, premi play e guarda la fotocamera, oppure registrati nell'app. Senza account, senza cloud, senza filigrana.",
+  "ogImageAlt": "Logo di CueMirror con la frase: Speak with confidence.",
+
+  "skip": "Vai al contenuto",
+  "homeLabel": "CueMirror, home",
+  "languageLabel": "Lingua",
+
+  "eyebrow": "Teleprompter per iPhone e Android",
+  "h1": "Parla con sicurezza.",
+  "subtitle": "Un teleprompter semplice e veloce per video, dirette e presentazioni. Guarda la fotocamera, non i tuoi appunti, e registra la ripresa direttamente nell'app.",
+  "badge": "Senza account. Senza cloud. Senza filigrana.",
+  "storesSoon": "Presto su App Store e Google Play",
+  "soon": "Presto disponibile",
+  "demoLabel": "Demo: uno script che scorre nel teleprompter di CueMirror, con la linea di lettura fissa al centro dello schermo.",
+  "demoScript": [
+    "Ciao a tutti. Grazie di essere qui.",
+    "Oggi voglio mostrarvi una cosa semplice.",
+    "Scrivi il tuo script, premi play e tieni gli occhi sulla fotocamera.",
+    "Le parole arrivano a te, al tuo ritmo.",
+    "Se ti serve un attimo, metti in pausa. Poi riprendi da dove eri rimasto.",
+    "Un pensiero alla volta. Una ripresa pulita."
+  ],
+
+  "howEyebrow": "Come funziona",
+  "howTitle": "Tre passi e stai già registrando.",
+  "steps": [
+    { "title": "Scrivi o incolla", "text": "Scrivi lo script nell'app, incollalo da qualsiasi posto o dettalo con il microfono della tastiera." },
+    { "title": "Adattalo a te", "text": "Imposta velocità, dimensione del testo, margini e colori secondo il tuo modo di leggere." },
+    { "title": "Leggi verso la fotocamera", "text": "Premi play, aspetta il conto alla rovescia e leggi con lo sguardo vicino all'obiettivo. Regola mentre leggi, oppure registra la ripresa nell'app." }
+  ],
+
+  "featuresEyebrow": "In evidenza",
+  "featuresTitle": "Molto più di un testo che scorre.",
+  "features": [
+    { "icon": "record", "premium": true, "title": "Registrati mentre leggi", "text": "Registrati con la fotocamera frontale mentre lo script scorre in alto sullo schermo, vicino all'obiettivo. Rivedi la ripresa, poi salvala nella galleria o condividila." },
+    { "icon": "remote", "premium": true, "title": "Mani libere con il Bluetooth", "text": "Con una tastiera o un pedale Bluetooth: premi per avviare o mettere in pausa, tieni premuto per tornare all'inizio." },
+    { "icon": "mirror", "premium": true, "title": "Pronto per il vetro del teleprompter", "text": "Modalità Specchiato e Capovolto per i teleprompter con vetro, così il testo si legge dritto nel riflesso." },
+    { "icon": "files", "premium": true, "title": "Porta il tuo script", "text": "Importa file .txt, .docx e .pdf, anche da Google Docs, ed esporta qualsiasi script in .txt." }
+  ],
+
+  "plansEyebrow": "Cosa include",
+  "plansTitle": "Tutto ciò che ti serve è gratis.",
+  "freeName": "Gratis",
+  "freeNote": "Senza limiti di tempo, senza filigrana.",
+  "freeList": [
+    "Libreria di script con editor e salvataggio automatico",
+    "Detta gli script con il microfono della tastiera",
+    "Velocità, dimensione del testo e margini regolabili",
+    "Colori del testo e dello sfondo, tema chiaro e scuro",
+    "Allineamento, interlinea e linea di lettura",
+    "Conto alla rovescia prima di iniziare",
+    "Regolazioni rapide durante la lettura"
+  ],
+  "premiumName": "Premium",
+  "premiumNote": "Abbonamento mensile o annuale.",
+  "premiumList": [
+    "Registrati con la fotocamera frontale mentre leggi",
+    "Modalità Specchiato e Capovolto per il vetro del teleprompter",
+    "Velocità precisa in parole al minuto e durata obiettivo per ogni script",
+    "Importa file .txt, .docx e .pdf ed esporta gli script in .txt",
+    "Tastiera o pedale Bluetooth come telecomando",
+    "Finestra mobile sopra le altre app (Android)"
+  ],
+
+  "screensEyebrow": "Screenshot",
+  "screensTitle": "Pensato per il momento in cui premi registra.",
+  "screensScrollLabel": "Screenshot, scorri di lato per vederli tutti",
+  "screens": [
+    { "file": "01-reader", "caption": "Lettura", "alt": "Il teleprompter: testo grande dello script, una sottile linea di lettura arancione e, in basso, i comandi di riproduzione, riavvio e velocità." },
+    { "file": "02-editor", "caption": "Editor", "alt": "L'editor dello script con titolo e testo, un pulsante per leggere e, in basso, il conteggio delle parole e la durata stimata." },
+    { "file": "03-library", "caption": "Libreria", "alt": "La libreria di script: un campo di ricerca e quattro script, ciascuno con anteprima, conteggio delle parole e durata stimata, più un pulsante per crearne uno nuovo." },
+    { "file": "04-settings", "caption": "Impostazioni", "alt": "Impostazioni: tema dell'app, velocità di lettura, dimensione del testo, margine laterale, modalità specchio e colori del testo e dello sfondo." },
+    { "file": "05-quick", "caption": "Regolazioni rapide", "alt": "Il pannello delle regolazioni rapide aperto sul teleprompter, con velocità, dimensione del testo, margine laterale, modalità specchio e colori." }
+  ],
+
+  "privacyEyebrow": "La privacy in una frase",
+  "privacyText": "Senza account e senza cloud: l'app non invia i tuoi script né i tuoi video da nessuna parte.",
+  "privacyLink": "Leggi l'informativa sulla privacy",
+
+  "supportEyebrow": "Assistenza",
+  "supportTitle": "Domande o qualcosa non funziona?",
+  "supportText": "Scrivici. Se qualcosa non funziona, indicaci il modello del dispositivo e la versione dell'app.",
+  "supportCta": "Scrivi all'assistenza",
+
+  "footerTerms": "Termini di utilizzo",
+  "footerPrivacy": "Informativa sulla privacy"
+}

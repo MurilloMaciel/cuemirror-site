@@ -8,7 +8,7 @@ import { join } from "node:path";
 const BASE = process.env.BASE || "http://127.0.0.1:8765";
 const CHROME = process.env.CHROME_PATH || "C:/Program Files/Google/Chrome/Application/chrome.exe";
 const OUT = process.argv[2];
-const PAGES = ["/", "/pt/", "/es/", "/404.html"];
+const PAGES = ["/", "/pt/", "/es/", "/fr/", "/de/", "/it/", "/id/", "/404.html"];
 const WIDTHS = [360, 768, 1024, 1440];
 
 if (OUT) await mkdir(OUT, { recursive: true });

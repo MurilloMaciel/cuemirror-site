@@ -1,15 +1,24 @@
-{% if page.language_redirect %}
-{% assign base = page.name | remove: ".md" %}
+{% if page.name contains "privacy" or page.name contains "terms" %}
+{% assign base = page.name | remove: ".md" | split: "-" | first %}
 <link rel="alternate" hreflang="en" href="{{ base | append: '.html' | absolute_url }}">
 <link rel="alternate" hreflang="pt" href="{{ base | append: '-pt.html' | absolute_url }}">
 <link rel="alternate" hreflang="es" href="{{ base | append: '-es.html' | absolute_url }}">
+<link rel="alternate" hreflang="fr" href="{{ base | append: '-fr.html' | absolute_url }}">
+<link rel="alternate" hreflang="de" href="{{ base | append: '-de.html' | absolute_url }}">
+<link rel="alternate" hreflang="it" href="{{ base | append: '-it.html' | absolute_url }}">
+<link rel="alternate" hreflang="id" href="{{ base | append: '-id.html' | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ base | append: '.html' | absolute_url }}">
+{% endif %}
+{% if page.language_redirect %}
 <script>
-  // The app and the store listings link to the English URL; send Portuguese and Spanish
-  // browsers to their translation unless the reader picked English explicitly (?lang=en).
+  // The app and the store listings link to the English URL; send browsers in one of the other
+  // languages to their translation unless the reader picked English explicitly (?lang=en).
+  // Older Android versions report Indonesian as "in" instead of "id".
   (function () {
     if (/[?&]lang=/.test(window.location.search)) return;
-    var language = ((navigator.languages && navigator.languages[0]) || navigator.language || "").toLowerCase();
-    var suffix = language.indexOf("pt") === 0 ? "-pt" : language.indexOf("es") === 0 ? "-es" : "";
+    var language = ((navigator.languages && navigator.languages[0]) || navigator.language || "").toLowerCase().slice(0, 2);
+    var suffixes = { pt: "-pt", es: "-es", fr: "-fr", de: "-de", it: "-it", id: "-id", "in": "-id" };
+    var suffix = suffixes[language];
     if (suffix) window.location.replace("{{ base }}" + suffix + ".html");
   })();
 </script>

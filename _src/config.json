@@ -3,14 +3,21 @@
 
   "siteUrl": "https://cuemirror.com",
 
-  "_TODO_supportEmail": "TODO: provisional address. Create the mailbox (or alias) before publishing.",
   "supportEmail": "support@cuemirror.com",
 
-  "_TODO_legal": "TODO: confirm. These are the Jekyll pages that already exist in this repo (privacy*.md, terms*.md). Root-relative, so they follow the custom domain.",
-  "privacyUrl": { "en": "/privacy.html?lang=en", "pt": "/privacy-pt.html", "es": "/privacy-es.html" },
-  "termsUrl": { "en": "/terms.html?lang=en", "pt": "/terms-pt.html", "es": "/terms-es.html" },
+  "_legal": "Jekyll pages in this repo (privacy*.md, terms*.md). Root-relative, so they follow the custom domain.",
+  "privacyUrl": { "en": "/privacy.html?lang=en", "pt": "/privacy-pt.html", "es": "/privacy-es.html", "fr": "/privacy-fr.html", "de": "/privacy-de.html", "it": "/privacy-it.html", "id": "/privacy-id.html" },
+  "termsUrl": { "en": "/terms.html?lang=en", "pt": "/terms-pt.html", "es": "/terms-es.html", "fr": "/terms-fr.html", "de": "/terms-de.html", "it": "/terms-it.html", "id": "/terms-id.html" },
 
-  "_TODO_stores": "TODO: paste the real listing URLs when the app is live. Empty = disabled 'Coming soon' button.",
-  "appStoreUrl": "",
-  "googlePlayUrl": ""
+  "appStoreUrl": "https://apps.apple.com/app/apple-store/id6822885852?pt=129566417&ct=site_badge&mt=8",
+  "_googlePlayUrl": "One link per language. The referrer (utm_source=cuemirror_site, utm_medium=website, utm_campaign=site_badge) shows up in Play Console > Store performance and in the install referrer; hl opens the listing in that language.",
+  "googlePlayUrl": {
+    "en": "https://play.google.com/store/apps/details?id=com.cuemirror&referrer=utm_source%3Dcuemirror_site%26utm_medium%3Dwebsite%26utm_campaign%3Dsite_badge",
+    "pt": "https://play.google.com/store/apps/details?id=com.cuemirror&hl=pt_BR&referrer=utm_source%3Dcuemirror_site%26utm_medium%3Dwebsite%26utm_campaign%3Dsite_badge",
+    "es": "https://play.google.com/store/apps/details?id=com.cuemirror&hl=es&referrer=utm_source%3Dcuemirror_site%26utm_medium%3Dwebsite%26utm_campaign%3Dsite_badge",
+    "fr": "https://play.google.com/store/apps/details?id=com.cuemirror&hl=fr&referrer=utm_source%3Dcuemirror_site%26utm_medium%3Dwebsite%26utm_campaign%3Dsite_badge",
+    "de": "https://play.google.com/store/apps/details?id=com.cuemirror&hl=de&referrer=utm_source%3Dcuemirror_site%26utm_medium%3Dwebsite%26utm_campaign%3Dsite_badge",
+    "it": "https://play.google.com/store/apps/details?id=com.cuemirror&hl=it&referrer=utm_source%3Dcuemirror_site%26utm_medium%3Dwebsite%26utm_campaign%3Dsite_badge",
+    "id": "https://play.google.com/store/apps/details?id=com.cuemirror&hl=id&referrer=utm_source%3Dcuemirror_site%26utm_medium%3Dwebsite%26utm_campaign%3Dsite_badge"
+  }
 }

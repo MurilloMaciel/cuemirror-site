@@ -1,0 +1,95 @@
+{
+  "lang": "de",
+  "htmlLang": "de",
+  "ogLocale": "de_DE",
+  "path": "/de/",
+  "assetLang": "en",
+  "languageName": "Deutsch",
+  "title": "CueMirror — ein einfacher, schneller Teleprompter für iPhone und Android",
+  "description": "Ein einfacher, schneller Teleprompter für Videos, Livestreams und Präsentationen. Schreib oder füge dein Skript ein, tipp auf Play und schau in die Kamera, oder nimm dich direkt in der App auf. Kein Konto, keine Cloud, kein Wasserzeichen.",
+  "ogImageAlt": "CueMirror-Logo mit dem Satz: Speak with confidence.",
+
+  "skip": "Zum Inhalt springen",
+  "homeLabel": "CueMirror, Startseite",
+  "languageLabel": "Sprache",
+
+  "eyebrow": "Teleprompter für iPhone und Android",
+  "h1": "Sprich mit Selbstvertrauen.",
+  "subtitle": "Ein einfacher, schneller Teleprompter für Videos, Livestreams und Präsentationen. Schau in die Kamera, nicht auf deine Notizen, und nimm dich direkt in der App auf.",
+  "badge": "Kein Konto. Keine Cloud. Kein Wasserzeichen.",
+  "storesSoon": "Bald im App Store und bei Google Play",
+  "soon": "Bald verfügbar",
+  "demoLabel": "Demo: Ein Skript läuft im CueMirror-Teleprompter, die Leselinie steht fest in der Bildschirmmitte.",
+  "demoScript": [
+    "Hallo zusammen. Schön, dass ihr da seid.",
+    "Heute möchte ich euch etwas Einfaches zeigen.",
+    "Schreib dein Skript, tipp auf Play und behalte die Kamera im Blick.",
+    "Die Worte kommen zu dir, in deinem Tempo.",
+    "Brauchst du kurz Zeit, mach eine Pause. Dann geht es weiter, wo du warst.",
+    "Ein Gedanke nach dem anderen. Eine saubere Aufnahme."
+  ],
+
+  "howEyebrow": "So funktioniert's",
+  "howTitle": "Drei Schritte, dann nimmst du schon auf.",
+  "steps": [
+    { "title": "Schreiben oder einfügen", "text": "Tipp dein Skript in der App, füge es von überall ein oder diktiere es mit dem Mikrofon deiner Tastatur." },
+    { "title": "Passend einstellen", "text": "Stell Geschwindigkeit, Textgröße, Ränder und Farben so ein, wie du am besten liest." },
+    { "title": "In die Kamera lesen", "text": "Tipp auf Play, warte den Countdown ab und lies mit dem Blick nah am Objektiv. Pass unterwegs an, was du brauchst, oder nimm dich direkt in der App auf." }
+  ],
+
+  "featuresEyebrow": "Highlights",
+  "featuresTitle": "Mehr als nur laufender Text.",
+  "features": [
+    { "icon": "record", "premium": true, "title": "Aufnehmen beim Lesen", "text": "Nimm dich mit der Frontkamera auf, während das Skript oben am Bildschirm nah am Objektiv läuft. Sieh dir die Aufnahme an und speichere sie in der Galerie oder teile sie." },
+    { "icon": "remote", "premium": true, "title": "Freihändig per Bluetooth", "text": "Mit einer Bluetooth-Tastatur oder einem Pedal: drücken zum Starten oder Pausieren, gedrückt halten, um zum Anfang zurückzuspringen." },
+    { "icon": "mirror", "premium": true, "title": "Bereit für Teleprompter-Glas", "text": "Die Modi Gespiegelt und Umgedreht für Teleprompter mit Glasscheibe, damit der Text in der Spiegelung richtig herum steht." },
+    { "icon": "files", "premium": true, "title": "Bring dein Skript mit", "text": "Importiere .txt-, .docx- und .pdf-Dateien, auch aus Google Docs, und exportiere jedes Skript als .txt." }
+  ],
+
+  "plansEyebrow": "Was enthalten ist",
+  "plansTitle": "Alles, was du brauchst, ist kostenlos.",
+  "freeName": "Kostenlos",
+  "freeNote": "Ohne Zeitlimit, ohne Wasserzeichen.",
+  "freeList": [
+    "Skriptbibliothek mit Editor und automatischem Speichern",
+    "Skripte mit dem Mikrofon der Tastatur diktieren",
+    "Einstellbare Geschwindigkeit, Textgröße und Ränder",
+    "Text- und Hintergrundfarben, helles und dunkles Design",
+    "Ausrichtung, Zeilenabstand und Leselinie",
+    "Countdown vor dem Start",
+    "Schnelleinstellungen während des Lesens"
+  ],
+  "premiumName": "Premium",
+  "premiumNote": "Monats- oder Jahresabo.",
+  "premiumList": [
+    "Nimm dich mit der Frontkamera auf, während du liest",
+    "Modi Gespiegelt und Umgedreht für Teleprompter-Glas",
+    "Genaue Geschwindigkeit in Wörtern pro Minute und Zieldauer für jedes Skript",
+    "Import von .txt-, .docx- und .pdf-Dateien und Export von Skripten als .txt",
+    "Bluetooth-Tastatur oder -Pedal als Fernbedienung",
+    "Schwebendes Fenster über anderen Apps (Android)"
+  ],
+
+  "screensEyebrow": "Screenshots",
+  "screensTitle": "Gemacht für den Moment, in dem du auf Aufnahme tippst.",
+  "screensScrollLabel": "Screenshots, seitlich scrollen, um alle zu sehen",
+  "screens": [
+    { "file": "01-reader", "caption": "Lesen", "alt": "Der Teleprompter: großer Skripttext, eine dünne orange Leselinie und unten die Steuerung für Wiedergabe, Neustart und Geschwindigkeit." },
+    { "file": "02-editor", "caption": "Editor", "alt": "Der Skript-Editor mit Titel und Skripttext, einer Schaltfläche zum Lesen und unten Wortanzahl und geschätzter Dauer." },
+    { "file": "03-library", "caption": "Bibliothek", "alt": "Die Skriptbibliothek: ein Suchfeld und vier Skripte, jeweils mit Vorschau, Wortanzahl und geschätzter Dauer, dazu eine Schaltfläche für ein neues Skript." },
+    { "file": "04-settings", "caption": "Einstellungen", "alt": "Einstellungen: App-Design, Lesegeschwindigkeit, Textgröße, Seitenrand, Spiegelmodus sowie Text- und Hintergrundfarben." },
+    { "file": "05-quick", "caption": "Schnelleinstellungen", "alt": "Die Schnelleinstellungen über dem Teleprompter geöffnet, mit Geschwindigkeit, Textgröße, Seitenrand, Spiegelmodus und Farben." }
+  ],
+
+  "privacyEyebrow": "Datenschutz in einem Satz",
+  "privacyText": "Kein Konto und keine Cloud: Die App sendet deine Skripte und Videos nirgendwohin.",
+  "privacyLink": "Datenschutzerklärung lesen",
+
+  "supportEyebrow": "Support",
+  "supportTitle": "Fragen oder funktioniert etwas nicht?",
+  "supportText": "Schreib uns. Wenn etwas nicht funktioniert, nenn uns dein Gerätemodell und die App-Version.",
+  "supportCta": "E-Mail an den Support",
+
+  "footerTerms": "Nutzungsbedingungen",
+  "footerPrivacy": "Datenschutzerklärung"
+}
