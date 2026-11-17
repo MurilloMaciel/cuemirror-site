@@ -17,6 +17,8 @@
   "h1": "Parlez avec assurance.",
   "subtitle": "Un prompteur simple et rapide pour vos vidéos, lives et présentations. Regardez la caméra, pas vos notes, et filmez la prise directement dans l'appli.",
   "badge": "Sans compte. Sans cloud. Sans filigrane.",
+  "appStoreBadgeAlt": "Télécharger dans l’App Store",
+  "googlePlayBadgeAlt": "Disponible sur Google Play",
   "storesSoon": "Bientôt sur l'App Store et Google Play",
   "soon": "Bientôt",
   "demoLabel": "Démonstration : un script qui défile dans le prompteur CueMirror, avec la ligne de lecture fixe au milieu de l'écran.",
@@ -90,6 +92,7 @@
   "supportText": "Écrivez-nous. Si quelque chose ne fonctionne pas, indiquez le modèle de votre appareil et la version de l'appli.",
   "supportCta": "Écrire à l'assistance",
 
+  "trademarks": "Apple et le logo Apple sont des marques commerciales d’Apple Inc. Google Play et le logo Google Play sont des marques de Google LLC.",
   "footerTerms": "Conditions d'utilisation",
   "footerPrivacy": "Politique de confidentialité"
 }

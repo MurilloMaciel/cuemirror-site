@@ -16,6 +16,8 @@
   "h1": "Fale com confiança.",
   "subtitle": "Um teleprompter simples e rápido para vídeos, lives e apresentações. Olhe para a câmera, não para as anotações, e grave o take direto no app.",
   "badge": "Sem conta. Sem nuvem. Sem marca d'água.",
+  "appStoreBadgeAlt": "Baixar na App Store",
+  "googlePlayBadgeAlt": "Disponível no Google Play",
   "storesSoon": "Em breve na App Store e no Google Play",
   "soon": "Em breve",
   "demoLabel": "Demonstração: um roteiro rolando no teleprompter do CueMirror, com a linha de leitura fixa no meio da tela.",
@@ -89,6 +91,7 @@
   "supportText": "Escreva para a gente. Se algo não estiver funcionando, informe o modelo do aparelho e a versão do app.",
   "supportCta": "Enviar e-mail ao suporte",
 
+  "trademarks": "Apple e o logotipo da Apple são marcas comerciais da Apple Inc. Google Play e o logotipo do Google Play são marcas comerciais da Google LLC.",
   "footerTerms": "Termos de uso",
   "footerPrivacy": "Política de privacidade"
 }

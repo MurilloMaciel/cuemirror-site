@@ -17,6 +17,8 @@
   "h1": "Sprich mit Zuversicht.",
   "subtitle": "Ein einfacher, schneller Teleprompter für Videos, Livestreams und Präsentationen. Schau in die Kamera, nicht auf deine Notizen, und nimm dich direkt in der App auf.",
   "badge": "Kein Konto. Keine Cloud. Kein Wasserzeichen.",
+  "appStoreBadgeAlt": "Laden im App Store",
+  "googlePlayBadgeAlt": "Jetzt bei Google Play",
   "storesSoon": "Bald im App Store und bei Google Play",
   "soon": "Bald verfügbar",
   "demoLabel": "Demo: Ein Skript läuft im CueMirror-Teleprompter, die Leselinie steht fest in der Bildschirmmitte.",
@@ -90,6 +92,7 @@
   "supportText": "Schreib uns. Wenn etwas nicht funktioniert, nenn uns dein Gerätemodell und die App-Version.",
   "supportCta": "E-Mail an den Support",
 
+  "trademarks": "Apple und das Apple-Logo sind Marken der Apple Inc. Google Play und das Google Play-Logo sind Marken von Google LLC.",
   "footerTerms": "Nutzungsbedingungen",
   "footerPrivacy": "Datenschutzerklärung"
 }

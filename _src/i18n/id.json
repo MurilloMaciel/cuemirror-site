@@ -17,6 +17,8 @@
   "h1": "Bicara dengan percaya diri.",
   "subtitle": "Teleprompter sederhana dan cepat untuk video, siaran langsung, dan presentasi. Lihat ke kamera, bukan ke catatan, dan rekam langsung di aplikasi.",
   "badge": "Tanpa akun. Tanpa cloud. Tanpa watermark.",
+  "appStoreBadgeAlt": "Download di App Store",
+  "googlePlayBadgeAlt": "Dapatkan di Google Play",
   "storesSoon": "Segera hadir di App Store dan Google Play",
   "soon": "Segera hadir",
   "demoLabel": "Demo: naskah bergulir di teleprompter CueMirror, dengan garis baca tetap di tengah layar.",
@@ -90,6 +92,7 @@
   "supportText": "Kirim email kepada kami. Jika ada yang tidak berfungsi, sebutkan model perangkat dan versi aplikasi Anda.",
   "supportCta": "Email dukungan",
 
+  "trademarks": "Apple dan logo Apple adalah merek dagang Apple Inc. Google Play dan logo Google Play adalah merek dagang Google LLC.",
   "footerTerms": "Ketentuan penggunaan",
   "footerPrivacy": "Kebijakan privasi"
 }

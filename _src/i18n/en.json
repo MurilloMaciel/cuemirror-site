@@ -16,6 +16,8 @@
   "h1": "Speak with confidence.",
   "subtitle": "A simple, fast teleprompter for video, live streams and presentations. Look at the camera, not at your notes, and record the take right in the app.",
   "badge": "No account. No cloud. No watermark.",
+  "appStoreBadgeAlt": "Download on the App Store",
+  "googlePlayBadgeAlt": "Get it on Google Play",
   "storesSoon": "Coming soon to the App Store and Google Play",
   "soon": "Coming soon",
   "demoLabel": "Demo: a script scrolling on the CueMirror teleprompter, with the reading line fixed in the middle of the screen.",
@@ -89,6 +91,7 @@
   "supportText": "Write to us. If something isn't working, tell us your device model and the app version.",
   "supportCta": "Email support",
 
+  "trademarks": "Apple and the Apple logo are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.",
   "footerTerms": "Terms of use",
   "footerPrivacy": "Privacy policy"
 }

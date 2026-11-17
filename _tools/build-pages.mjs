@@ -64,6 +64,35 @@ const store = (name, url, t) => url
   ? `<a class="store" href="${esc(url)}" rel="noopener">${name}</a>`
   : `<span class="store store--soon" aria-disabled="true">${name}<small>${esc(t.soon)}</small></span>`;
 
+// Official store badges, downloaded to assets/badges/ (Apple Marketing Tools SVG, Google Play badge PNG), never
+// redrawn. Without a URL the store falls back to the "Coming soon" placeholder above.
+// Apple SVGs are 40 high; French is wider. width/height give the aspect ratio, CSS sets the height (--badge-h).
+const APPLE_BADGE_WIDTH = { fr: 127 };
+const appStoreBadge = t => {
+  if (!config.appStoreUrl) return store("App Store", "", t);
+  const l = assetBadgeLang(t);
+  return `<a class="store-badge" href="${esc(config.appStoreUrl)}" rel="noopener"><img class="store-badge__apple" src="/assets/badges/app-store-${l}.svg" width="${APPLE_BADGE_WIDTH[l] || 120}" height="40" alt="${esc(t.appStoreBadgeAlt)}"></a>`;
+};
+// Google PNG size and transparent margin (top, right, bottom, left), measured in px. The pt/es/fr/de/it/id files come
+// from play.google.com/intl/en_us/badges/static/images/badges/{lang}_badge_web_generic.png (646x250, margin above and
+// below). That URL still serves the old artwork for EN, so EN comes from the official "Google Play Badge guidelines.zip"
+// on the same badges page (GetItOnGooglePlay_Badge_Web_color_English.png): same current artwork, no margin.
+// The margin is cancelled in CSS so the black part is --badge-h high, like Apple's.
+const PLAY_BADGE = { en: { w: 478, h: 142, margin: [0, 0, 0, 0] } };
+const PLAY_BADGE_DEFAULT = { w: 646, h: 250, margin: [29, 0, 29, 0] };
+const googlePlayBadge = t => {
+  if (!config.googlePlayUrl) return store("Google Play", "", t);
+  const l = assetBadgeLang(t);
+  const { w, h, margin } = PLAY_BADGE[l] || PLAY_BADGE_DEFAULT;
+  const [top, right, bottom, left] = margin;
+  const visible = h - top - bottom;
+  const r = n => +(n / visible).toFixed(4);
+  const style = `--k:${r(h)};--t:${r(top)};--r:${r(right)};--b:${r(bottom)};--l:${r(left)}`;
+  return `<a class="store-badge" href="${esc(config.googlePlayUrl)}" rel="noopener"><img class="store-badge__play" src="/assets/badges/google-play-${l}.png" width="${w}" height="${h}" style="${style}" alt="${esc(t.googlePlayBadgeAlt)}"></a>`;
+};
+const BADGE_LANGS = ["en", "pt", "es", "fr", "de", "it", "id"];
+const assetBadgeLang = t => (BADGE_LANGS.includes(t.lang) ? t.lang : "en");
+
 const shot = (t, s, i) => {
   const base = `/assets/img/${assetLang(t)}`;
   const set = (theme, ext) => `${base}/${theme}/${s.file}-480.${ext} 480w, ${base}/${theme}/${s.file}-720.${ext} 720w`;
@@ -147,19 +176,21 @@ const footer = t => `<footer class="site-footer">
 <ul class="footer-links">
 <li><a href="${esc(config.termsUrl[t.lang])}">${esc(t.footerTerms)}</a></li>
 <li><a href="${esc(config.privacyUrl[t.lang])}">${esc(t.footerPrivacy)}</a></li>
-</ul></div>
+</ul>
+<p class="trademarks">${esc(t.trademarks)}</p>
+</div>
 </footer>`;
 
 const page = t => {
   const script = t.demoScript.map(p => `<p>${esc(p)}</p>`).join("");
-  const playUrl = typeof config.googlePlayUrl === "object" ? config.googlePlayUrl[t.lang] : config.googlePlayUrl;
-  const bothStores = config.appStoreUrl && playUrl;
+  const bothStores = config.appStoreUrl && config.googlePlayUrl;
   const mail = `mailto:${config.supportEmail}`;
   return `<!doctype html>
 <html lang="${t.htmlLang}">
 <head>
 ${head(t, { title: t.title, description: t.description, canonical: `${SITE}${t.path}` })}
 ${social(t)}
+<meta name="apple-itunes-app" content="app-id=${config.appStoreId}">
 </head>
 <body>
 ${header(t)}
@@ -171,7 +202,7 @@ ${header(t)}
 <p class="lead">${esc(t.subtitle)}</p>
 <p class="badge">${esc(t.badge)}</p>
 <div class="stores">
-${bothStores ? "" : `<p class="stores__note">${esc(t.storesSoon)}</p>\n`}<div class="stores__row">${store("App Store", config.appStoreUrl, t)}${store("Google Play", playUrl, t)}</div>
+${bothStores ? "" : `<p class="stores__note">${esc(t.storesSoon)}</p>\n`}<div class="stores__row">${appStoreBadge(t)}${googlePlayBadge(t)}</div>
 </div>
 </div>
 <div class="hero__demo">
